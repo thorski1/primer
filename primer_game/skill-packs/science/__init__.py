@@ -1,0 +1,46 @@
+"""
+Science skill pack — The World of Wondering
+Teaches living things, weather, the human body, and how things work.
+"""
+
+from engine.skill_pack import SkillPack
+from .story import INTRO_STORY, ZONE_INTROS, ZONE_COMPLETIONS, BOSS_INTROS
+from .zones import ZONES, ZONE_ORDER
+
+BANNER_ASCII = r"""
+  ___  ___ ___ ___ _  _  ___ ___
+ / __|/ __|_ _| __| \| |/ __| __|
+ \__ \ (__ | || _|| .` | (__| _|
+ |___/\___|___|___|_|\_|\___|___|
+"""
+
+SKILL_PACK = SkillPack(
+    id="science",
+    title="The World of Wondering",
+    subtitle="◈  With Puck's Help, Every Why Has an Answer  ◈",
+    save_file_name="science_quest",
+    intro_story=INTRO_STORY,
+    quit_message="The garden rests. Your discoveries are saved. Come back soon!",
+    name_prompt="[bold cyan]What's your name, explorer?[/bold cyan]",
+    default_player_name="Explorer",
+    zone_order=ZONE_ORDER,
+    zones=ZONES,
+    zone_intros=ZONE_INTROS,
+    zone_completions=ZONE_COMPLETIONS,
+    boss_intros=BOSS_INTROS,
+    zone_achievement_map={
+        "living_things": "life_watcher",
+        "sky_and_weather": "sky_reader",
+        "body_basics": "body_explorer",
+        "how_things_work": "wonder_worker",
+    },
+    achievements={
+        "life_watcher": ("Life Watcher", "Discovered what makes things alive!"),
+        "sky_reader": ("Sky Reader", "Learned the secrets of weather and the sky!"),
+        "body_explorer": ("Body Explorer", "Understood your own amazing body!"),
+        "wonder_worker": ("Wonder Worker", "Figured out how things work!"),
+        "no_hints": ("Standing on Your Own", "Completed a zone without any hints!"),
+        "speed_reader": ("Quick Thinker", "Answered a question in under 10 seconds!"),
+    },
+    banner_ascii=BANNER_ASCII,
+)

@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "primer"
+version = "0.1.0"
+requires-python = ">=3.10"
+dependencies = [
+    "rich>=13.0.0",
+    "quest-engine",
+]
+
+[project.scripts]
+primer          = "primer_game.main:main_primer"
+letters-quest   = "primer_game.main:main_letters"
+numbers-quest   = "primer_game.main:main_numbers"
+science-quest   = "primer_game.main:main_science"
+kindness-quest  = "primer_game.main:main_kindness"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["primer_game*"]
