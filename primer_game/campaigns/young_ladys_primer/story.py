@@ -2,6 +2,49 @@
 story.py — Campaign narrative for The Young Lady's Illustrated Primer.
 """
 
+# ── Entry Summaries ───────────────────────────────────────────────────────────
+# Shown when a player jumps into a chapter without completing prior ones.
+# Puck narrates what "happened before" so the story still makes sense.
+
+CHAPTER_ENTRY_SUMMARIES = {
+    "numbers": """
+[bold cyan]Puck flutters open the Primer to a golden page.[/bold cyan]
+
+[white]In the Letter Garden, young readers learned the twenty-six letters —
+every vowel, every consonant, every blend that makes our words.
+They crossed the Blend Bridge, built words in the Workshop,
+and read full sentences in Sentence City.[/white]
+
+[bold cyan]"You're starting here — in the Counting Kingdom,"[/bold cyan] Puck says.
+[bold cyan]"Words and numbers are the twin languages of the world.
+You're learning the second one now."[/bold cyan]
+""",
+    "science": """
+[bold cyan]Puck opens the Primer to a page full of color and light.[/bold cyan]
+
+[white]Before this chapter: a reader learned every letter and discovered
+how words are built. Then she traveled through the Counting Kingdom —
+numbers, addition, subtraction, shapes, and how to read a clock.
+
+Now the Primer turns to the world outside.[/white]
+
+[bold cyan]"Science,"[/bold cyan] Puck says, [bold cyan]"is what happens when
+someone can't stop asking why. Let's find out why."[/bold cyan]
+""",
+    "kindness": """
+[bold cyan]Puck turns to the warmest pages in the Primer.[/bold cyan]
+
+[white]Three chapters behind you — or waiting to be explored when you're ready.
+Letters and reading. Numbers and counting. Science and wondering.
+Three ways of understanding the world.[/white]
+
+[bold cyan]"But there's one more thing,"[/bold cyan] Puck says quietly.
+[bold cyan]"Knowing things makes you powerful.
+Kindness makes you someone worth knowing.
+Let's learn both."[/bold cyan]
+""",
+}
+
 CAMPAIGN_INTRO = """
 [bold yellow]THE YOUNG LADY'S ILLUSTRATED PRIMER[/bold yellow]
 
@@ -192,3 +235,51 @@ But today? Today you have what you need to start
 
 [bold cyan]Well done. — Puck[/bold cyan]
 """
+
+# ── Placement Quiz ─────────────────────────────────────────────────────────────
+# 6 questions, 2 per chapter (indices 0-2 = letters, numbers, science).
+# "chapter" field tells the engine which chapter these questions test readiness for.
+# Getting both questions for a chapter correct means the player can skip that chapter.
+# Parent tip: for pre-readers, ask a grown-up to read these questions aloud!
+
+PLACEMENT_QUESTIONS = [
+    # Letters (chapter 0) — basic phonics and alphabet
+    {
+        "question": "Which of these is a vowel? (Ask a helper to read this if you need!)",
+        "options": ["B", "E", "K", "T"],
+        "answer": "b",
+        "chapter": 0,
+    },
+    {
+        "question": "Which word rhymes with 'cat'?",
+        "options": ["dog", "hat", "run", "big"],
+        "answer": "b",
+        "chapter": 0,
+    },
+    # Numbers (chapter 1) — basic addition and subtraction
+    {
+        "question": "What is 3 + 4?",
+        "options": ["6", "7", "8", "5"],
+        "answer": "b",
+        "chapter": 1,
+    },
+    {
+        "question": "You have 9 apples and give away 3. How many are left?",
+        "options": ["12", "5", "6", "8"],
+        "answer": "c",
+        "chapter": 1,
+    },
+    # Science (chapter 2) — basic world knowledge
+    {
+        "question": "Which of these is a living thing?",
+        "options": ["Cloud", "Rock", "Flower", "Puddle"],
+        "answer": "c",
+        "chapter": 2,
+    },
+    {
+        "question": "What warms the Earth and helps plants grow?",
+        "options": ["Wind", "The Sun", "Rain", "Soil"],
+        "answer": "b",
+        "chapter": 2,
+    },
+]

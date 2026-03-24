@@ -9,6 +9,8 @@ from .story import (
     CAMPAIGN_FINAL,
     CHAPTER_INTROS,
     CHAPTER_OUTROS,
+    CHAPTER_ENTRY_SUMMARIES,
+    PLACEMENT_QUESTIONS,
 )
 
 BANNER_ASCII = r"""
@@ -31,30 +33,39 @@ CAMPAIGN = Campaign(
     banner_ascii=BANNER_ASCII,
     player_name_prompt="What's your name?",
     default_player_name="Explorer",
+    placement_questions=PLACEMENT_QUESTIONS,
     chapters=[
         ChapterDef(
             pack_name="letters",
             title="The Letter Garden",
+            recommended_age="5-7",
             intro_bridge=CHAPTER_INTROS["letters"],
             outro_bridge=CHAPTER_OUTROS["letters"],
+            # No entry_summary for the first chapter
         ),
         ChapterDef(
             pack_name="numbers",
             title="The Counting Kingdom",
+            recommended_age="6-8",
             intro_bridge=CHAPTER_INTROS["numbers"],
             outro_bridge=CHAPTER_OUTROS["numbers"],
+            entry_summary=CHAPTER_ENTRY_SUMMARIES["numbers"],
         ),
         ChapterDef(
             pack_name="science",
             title="The World of Wondering",
+            recommended_age="7-10",
             intro_bridge=CHAPTER_INTROS["science"],
             outro_bridge=CHAPTER_OUTROS["science"],
+            entry_summary=CHAPTER_ENTRY_SUMMARIES["science"],
         ),
         ChapterDef(
             pack_name="kindness",
             title="The Art of Being Kind",
+            recommended_age="6+",
             intro_bridge=CHAPTER_INTROS["kindness"],
             outro_bridge=CHAPTER_OUTROS["kindness"],
+            entry_summary=CHAPTER_ENTRY_SUMMARIES["kindness"],
         ),
     ],
 )
