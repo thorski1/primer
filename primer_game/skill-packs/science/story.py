@@ -238,4 +238,7 @@ BOSS_INTROS = {
     "sky_and_weather": "A big storm cloud gathers overhead. [bold yellow]\"This is the toughest sky question. Think carefully — you know this!\"[/bold yellow]",
     "body_basics": "A giant diagram of the body appears. [bold yellow]\"Final body question — it's a tricky one. But you've learned so much!\"[/bold yellow]",
     "how_things_work": "A tall machine with gears and levers stands before you. [bold yellow]\"The hardest 'how things work' question. All your science knowledge comes together here!\"[/bold yellow]",
+    "simple_machines": "A mysterious screw glints in the lamplight. [bold yellow]\"Every civilization used this one. It looks simple but it's hiding a brilliant secret. Think it through!\"[/bold yellow]",
+    "earth_and_space": "The night sky fills with thousands of stars. [bold yellow]\"What are all those tiny lights, really? This is the question that will change how you see the night sky forever.\"[/bold yellow]",
+    "matter_and_energy": "A puddle is slowly disappearing on a warm day. [bold yellow]\"The water is going somewhere. Where? This is the final mystery of the Matter Lab!\"[/bold yellow]",
 }

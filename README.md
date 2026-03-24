@@ -1,16 +1,16 @@
 # The Young Lady's Illustrated Primer
 
 ```
-    ✦  ·  ˚  ·  ✦  ·  ˚  ·  ✦  ·  ˚  ·  ✦  ·  ˚  ·  ✦
+    *  .  .    *  . * .    *  .    *  .  .  *  .
 
- ██████╗ ██████╗ ██╗███╗   ███╗███████╗██████╗
- ██╔══██╗██╔══██╗██║████╗ ████║██╔════╝██╔══██╗
- ██████╔╝██████╔╝██║██╔████╔██║█████╗  ██████╔╝
- ██╔═══╝ ██╔══██╗██║██║╚██╔╝██║██╔══╝  ██╔══██╗
- ██║     ██║  ██║██║██║ ╚═╝ ██║███████╗██║  ██║
- ╚═╝     ╚═╝  ╚═╝╚═╝╚═╝     ╚═╝╚══════╝╚═╝  ╚═╝
+____________ ________  ___ ___________
+| ___ \ ___ \_   _|  \/  ||  ___| ___ \
+| |_/ / |_/ / | | | .  . || |__ | |_/ /
+|  __/|    /  | | | |\/| ||  __||    /
+| |   | |\ \ _| |_| |  | || |___| |\ \
+\_|   \_| \_|\___/\_|  |_/\____/\_| \_|
 
-    ✦  ·  ˚  ·  ✦  ·  ˚  ·  ✦  ·  ˚  ·  ✦  ·  ˚  ·  ✦
+    *  .  .    *  . * .    *  .    *  .  .  *  .
 ```
 
 > *"The book would be her guardian, her teacher, and her best friend.*
@@ -32,12 +32,12 @@ A terminal adventure for girls. Four chapters. One companion. A world of things 
 
 | Chapter | World | What You Learn |
 |---------|-------|----------------|
-| 1 | **The Letter Garden** | Phonics, vowels, blends, reading sentences |
-| 2 | **The Counting Kingdom** | Counting, addition, subtraction, shapes, time |
-| 3 | **The World of Wondering** | Living things, weather, the body, how things work |
-| 4 | **The Art of Being Kind** | Feelings, kind actions, friendship, solving problems |
+| 1 | **The Letter Garden** | Phonics, vowels, blends, sight words, reading sentences |
+| 2 | **The Counting Kingdom** | Counting, addition, subtraction, skip counting, shapes, time, money |
+| 3 | **The World of Wondering** | Living things, weather, the body, simple machines, earth & space |
+| 4 | **The Art of Being Kind** | Feelings, kind actions, friendship, listening, handling emotions |
 
-**105 challenges** across 18 zones. Every challenge is multiple-choice or fill-in-the-blank, designed for short sessions. Progress saves automatically.
+**140+ challenges** across 22 zones. Every challenge is multiple-choice or fill-in-the-blank, designed for short sessions. Progress saves automatically.
 
 ---
 

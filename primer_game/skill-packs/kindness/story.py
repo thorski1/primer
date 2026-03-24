@@ -84,6 +84,46 @@ it's [italic]what you do[/italic] when they do."[/bold cyan]
 
 [bold white]What's the best way to handle this?[/bold white]
 """,
+    "listening_skills": """
+[bold cyan]"Most people think they're good listeners,"[/bold cyan] Puck said.
+[bold cyan]"But real listening is rarer than you think.
+And it might be the greatest gift you can give another person."[/bold cyan]
+
+In the Listening Garden, every flower leaned toward
+the ones that truly paid attention.
+
+[bold cyan]"When you really listen — not just waiting to talk,
+but actually [italic]hearing[/italic] — people feel seen.
+And feeling seen is one of the best feelings there is."[/bold cyan]
+
+[bold white]What does real listening look like?[/bold white]
+""",
+    "helping_community": """
+A busy square appeared — neighbors talking, kids helping,
+someone picking up something a stranger dropped.
+
+[bold cyan]"You don't live by yourself on an island,"[/bold cyan] Puck said warmly.
+[bold cyan]"You live in communities — your family, your class,
+your neighborhood. And communities only work
+when people look out for each other."[/bold cyan]
+
+[bold cyan]"Even small things add up. Even you — right now — can help."[/bold cyan]
+
+[bold white]How do we take care of each other?[/bold white]
+""",
+    "handling_hard_feelings": """
+[bold cyan]"Big feelings,"[/bold cyan] Puck said gently, [bold cyan]"are not your enemy.
+They're your body and heart trying to tell you something."[/bold cyan]
+
+Nell thought about times she'd felt so angry she couldn't speak,
+or so sad she didn't want to move.
+
+[bold cyan]"The trick isn't to make the feelings go away.
+The trick is to understand them — and to be kind to yourself
+while you're feeling them."[/bold cyan]
+
+[bold white]What do you do when feelings get really big?[/bold white]
+""",
 }
 
 ZONE_COMPLETIONS = {
@@ -135,6 +175,42 @@ Say sorry when you're wrong."[/bold cyan]
 
 [bold white]These aren't small things. They're everything.[/bold white]
 """,
+    "listening_skills": """
+[bold green]The Listening Garden is in full bloom![/bold green]
+
+[bold cyan]"You know the secret now,"[/bold cyan] Puck says.
+[bold cyan]"Eye contact. Waiting. Asking. Reflecting back.
+Checking in on someone who seems quiet."[/bold cyan]
+
+[bold cyan]"Most people never learn all of that.
+You have. And the people in your life
+are going to feel it — even if they can't say why."[/bold cyan]
+""",
+    "helping_community": """
+[bold green]The Community Square is alive with warmth![/bold green]
+
+[bold cyan]"Every community gets better,"[/bold cyan] Puck says,
+[bold cyan]"when each person in it decides to help.
+You just decided."[/bold cyan]
+
+[bold cyan]"A thank-you. A turn taken fairly. A smile.
+An act of kindness that costs nothing.
+Those things ripple out further than you know."[/bold cyan]
+""",
+    "handling_hard_feelings": """
+[bold green]The Feelings Workshop glows with gentle light.[/bold green]
+
+[bold cyan]"Pause and breathe. Notice your body.
+Let yourself cry if you need to.
+Ask for help. Be kind to yourself."[/bold cyan]
+
+Puck rests quietly beside Nell for a moment.
+
+[bold cyan]"Big feelings aren't problems to be solved.
+They're part of being alive and caring about things.
+And now you know how to move through them —
+with grace, and with kindness toward yourself."[/bold cyan]
+""",
 }
 
 BOSS_INTROS = {
@@ -142,4 +218,7 @@ BOSS_INTROS = {
     "kindness_actions": "A really tricky situation appears. [bold yellow]\"This one's harder than the others. What's the most genuinely kind thing to do here?\"[/bold yellow]",
     "being_a_good_friend": "Two friends are in a really hard situation together. [bold yellow]\"What does a truly good friend do in a moment like this?\"[/bold yellow]",
     "solving_problems": "A difficult problem appears with no easy answer. [bold yellow]\"This takes real wisdom. Think carefully — what would truly help here?\"[/bold yellow]",
+    "listening_skills": "A friend is quieter than usual and hasn't said anything is wrong. [bold yellow]\"This is the hardest listening challenge. No one told you there was a problem. What do you do?\"[/bold yellow]",
+    "helping_community": "A single warm smile is all you have to give. [bold yellow]\"Can something that costs nothing really change someone's day? Think about what kindness truly is.\"[/bold yellow]",
+    "handling_hard_feelings": "Two people are hurting each other. One of them is having a terrible day. [bold yellow]\"Does feeling bad make it okay to act mean? This is the hardest feelings question of all.\"[/bold yellow]",
 }

@@ -216,4 +216,7 @@ BOSS_INTROS = {
     "subtraction_valley": "A large pile shrinks quickly. [bold yellow]\"How much is left when you take a big number away?\"[/bold yellow]",
     "shape_forest": "A many-sided shape hovers in the air, sparkling. [bold yellow]\"Count every side — what shape is this?\"[/bold yellow]",
     "time_tower": "The clock shows a tricky time. [bold yellow]\"Read the clock — what time is it exactly?\"[/bold yellow]",
+    "skip_counting_grove": "The tallest tree in the grove glows with an even number. [bold yellow]\"Is it a multiple of 2? Think carefully!\"[/bold yellow]",
+    "measurement_meadow": "Puck holds up two containers side by side. [bold yellow]\"Which one holds more? Think about the units!\"[/bold yellow]",
+    "money_market": "A price tag flutters in the breeze. [bold yellow]\"Can you figure out the change? Subtract carefully!\"[/bold yellow]",
 }
