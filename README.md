@@ -1,40 +1,69 @@
 # The Young Lady's Illustrated Primer
 
 ```
- _____ _         ___      _
-|_   _| |_  ___ | _ \_ _(_)_ __  ___ _ _
-  | | | ' \/ -_)|  _/ '_| | '  \/ -_) '_|
-  |_| |_||_\___||_| |_| |_|_|_|_\___|_|
+    ✦  ·  ˚  ·  ✦  ·  ˚  ·  ✦  ·  ˚  ·  ✦  ·  ˚  ·  ✦
+
+ ██████╗ ██████╗ ██╗███╗   ███╗███████╗██████╗
+ ██╔══██╗██╔══██╗██║████╗ ████║██╔════╝██╔══██╗
+ ██████╔╝██████╔╝██║██╔████╔██║█████╗  ██████╔╝
+ ██╔═══╝ ██╔══██╗██║██║╚██╔╝██║██╔══╝  ██╔══██╗
+ ██║     ██║  ██║██║██║ ╚═╝ ██║███████╗██║  ██║
+ ╚═╝     ╚═╝  ╚═╝╚═╝╚═╝     ╚═╝╚══════╝╚═╝  ╚═╝
+
+    ✦  ·  ˚  ·  ✦  ·  ˚  ·  ✦  ·  ˚  ·  ✦  ·  ˚  ·  ✦
 ```
 
-> *"The book would be her guardian, her teacher, and her best friend. It would be everything she needed. Whenever she needed it."*
+> *"The book would be her guardian, her teacher, and her best friend.*
+> *It would be everything she needed. Whenever she needed it."*
 > — Neal Stephenson, *The Diamond Age*
 
-A terminal learning game for girls, inspired by Neal Stephenson's *Young Lady's Illustrated Primer*. A companion named **Puck** guides players through four essential life skills, delivered as an interactive story.
+---
+
+The cover is midnight blue, with tiny gold stars that sparkle when you tilt it.
+When you open it, a small glowing creature floats up from between the pages.
+
+**"Hello,"** it says. **"My name is Puck. And this book — *this* book — is for you."**
+
+A terminal adventure for girls. Four chapters. One companion. A world of things to know.
 
 ---
 
 ## What's Inside
 
-| Chapter | Topic | What You Learn |
+| Chapter | World | What You Learn |
 |---------|-------|----------------|
-| 1 | **Letters** | Phonics, vowels, blends, reading sentences |
-| 2 | **Numbers** | Counting, addition, subtraction, shapes, time |
-| 3 | **Science** | Living things, weather, the body, how things work |
-| 4 | **Kindness** | Feelings, kind actions, friendship, solving problems |
+| 1 | **The Letter Garden** | Phonics, vowels, blends, reading sentences |
+| 2 | **The Counting Kingdom** | Counting, addition, subtraction, shapes, time |
+| 3 | **The World of Wondering** | Living things, weather, the body, how things work |
+| 4 | **The Art of Being Kind** | Feelings, kind actions, friendship, solving problems |
 
-**105 challenges** across 18 zones. Every challenge is multiple-choice or fill-in-the-blank, designed to be completed in short sessions. Progress saves automatically.
+**105 challenges** across 18 zones. Every challenge is multiple-choice or fill-in-the-blank, designed for short sessions. Progress saves automatically.
 
 ---
 
 ## Who Is This For?
 
-The Primer is designed to grow with you. Each chapter builds on the last, but all four can be played independently. Roughly:
+The Primer grows with you. Each chapter builds on the last, but all four can be played independently:
 
-- **Letters**: Ages 5–7 (learning to read)
-- **Numbers**: Ages 6–8 (early math)
-- **Science**: Ages 7–10 (natural curiosity about the world)
-- **Kindness**: Ages 6+ (emotional skills have no age ceiling)
+| Chapter | Ages | Description |
+|---------|------|-------------|
+| Letters | 5–7 | Learning to read — letters, sounds, words, sentences |
+| Numbers | 6–8 | Early math — counting, addition, subtraction, shapes |
+| Science | 7–10 | Natural curiosity about how the world works |
+| Kindness | 6+ | Emotional skills have no age ceiling |
+
+**For very young children** (ages 4–6), a parent or helper sitting alongside is recommended for reading portions. The Primer is designed to be a shared experience.
+
+---
+
+## Finding Your Starting Place
+
+When you begin a new campaign, **Puck will ask you a few questions** to find the best place to start. There are no wrong answers — it's just a way to begin where things are interesting, not too easy and not too hard.
+
+If you prefer, you can:
+- Start at the beginning (Chapter 1: The Letter Garden)
+- Jump to any chapter from the Chapter Map
+- Play individual chapters as standalone adventures
 
 ---
 
@@ -82,10 +111,10 @@ pip install -e ~/.local/share/primer
 | Command | Description |
 |---------|-------------|
 | `primer` | Full 4-chapter story with Puck |
-| `letters-quest` | Letters chapter standalone |
-| `numbers-quest` | Numbers chapter standalone |
-| `science-quest` | Science chapter standalone |
-| `kindness-quest` | Kindness chapter standalone |
+| `letters-quest` | The Letter Garden — standalone |
+| `numbers-quest` | The Counting Kingdom — standalone |
+| `science-quest` | The World of Wondering — standalone |
+| `kindness-quest` | The Art of Being Kind — standalone |
 
 ---
 
@@ -106,9 +135,10 @@ Puck offers hints when you're stuck. No wrong answer is final — keep trying un
 
 ## For Parents
 
-- Sessions are short: each zone takes 5–15 minutes
+- Each zone takes 5–15 minutes — designed for short, focused sessions
 - Progress saves automatically between sessions
-- The game can be played independently or alongside a parent
+- The game can be played independently or with a parent reading alongside
+- The Primer starts with a short placement quiz to find the right starting point
 - All content is age-appropriate and encourages curiosity, kindness, and growth
 
 ---
@@ -118,8 +148,6 @@ Puck offers hints when you're stuck. No wrong answer is final — keep trying un
 - Python 3.10+
 - A terminal (Terminal.app, iTerm2, Windows Terminal)
 - 80+ column width recommended
-
-For very young children (ages 4–6), a parent sitting alongside is recommended for the reading portions.
 
 ---
 

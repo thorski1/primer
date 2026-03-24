@@ -84,6 +84,40 @@ The clock hands ticked. The numbers waited.
 
 [bold white]Can you read the time?[/bold white]
 """,
+    "skip_counting_grove": """
+Puck led the way into a grove of tall trees, each one a different number.
+
+[bold cyan]"We don't have to count every single number,"[/bold cyan] Puck said cheerfully.
+[bold cyan]"Sometimes we can HOP — skip right over some, and count faster!
+By 2s, by 5s, by 10s — each pattern is a shortcut."[/bold cyan]
+
+The trees waited, their numbers glowing in the dappled light.
+
+[bold white]Find the pattern. Skip your way through![/bold white]
+""",
+    "measurement_meadow": """
+The meadow stretched in all directions — tall flowers, wide ponds,
+heavy stones, and warm sunshine.
+
+[bold cyan]"Everything in the world can be measured,"[/bold cyan] Puck said,
+floating alongside a ruler that hovered in the air.
+[bold cyan]"How long, how heavy, how much, how hot.
+Measurement turns vague feelings into exact facts!"[/bold cyan]
+
+[bold white]Measure carefully. Every number tells you something real.[/bold white]
+""",
+    "money_market": """
+A cheerful market square appeared, full of little stalls with price tags.
+
+[bold cyan]"Money!"[/bold cyan] Puck announced happily. [bold cyan]"Every coin has a value — a number
+that tells you what it's worth. Once you know the coins,
+you can count how much you have and figure out if you have enough."[/bold cyan]
+
+Coins glinted in the light: copper pennies, silver nickels, tiny dimes,
+big quarters.
+
+[bold white]Learn the coins. Count your treasure![/bold white]
+""",
 }
 
 ZONE_COMPLETIONS = {
@@ -138,6 +172,41 @@ You know when things start, when they end, and how long
 you have."[/bold cyan]
 
 [bold white]That is a powerful thing to know.[/bold white]
+""",
+    "skip_counting_grove": """
+[bold green]The grove is alive with patterns![/bold green]
+
+Every other tree lights up — 2, 4, 6, 8...
+Then every fifth — 5, 10, 15, 20...
+Then every tenth — 10, 20, 30...
+
+[bold cyan]"You've got the skip in your step now,"[/bold cyan] Puck cheers.
+[bold cyan]"Counting by 2s, 5s, and 10s — those shortcuts will help you
+[italic]every single day.[/italic] The meadow is just ahead!"[/bold cyan]
+""",
+    "measurement_meadow": """
+[bold green]The meadow is measured![/bold green]
+
+Every flower has a ruler next to it. Every stone has a weight.
+Everything in this meadow is understood.
+
+[bold cyan]"Measurement,"[/bold cyan] Puck says proudly, [bold cyan]"means you never have to
+just guess. Now you can know — exactly how long, exactly how
+heavy, exactly how much. That's powerful!"[/bold cyan]
+
+The money market is just around the corner, coins shining...
+""",
+    "money_market": """
+[bold green]The market rings with coins![/bold green]
+
+Every stall is happy — Nell counted exactly right,
+and even figured out the change.
+
+[bold cyan]"Look at you!"[/bold cyan] Puck says. [bold cyan]"Pennies, nickels, dimes, quarters —
+you know them all. You can count money. You can make change.
+The whole kingdom of numbers is yours now."[/bold cyan]
+
+[bold white]Every coin, every number, every pattern — you've learned them all.[/bold white]
 """,
 }
 

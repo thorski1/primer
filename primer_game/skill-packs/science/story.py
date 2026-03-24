@@ -89,6 +89,52 @@ A wheel turned. A lever lifted. A shadow moved.
 
 [bold white]What happens when you push, pull, or spin?[/bold white]
 """,
+    "simple_machines": """
+[bold cyan]"Long before electricity,"[/bold cyan] Puck said, eyes wide,
+[bold cyan]"before engines or computers — people built
+the pyramids, the great cathedrals, whole cities.
+With their hands. And six tools."[/bold cyan]
+
+Six. That's all.
+
+[bold cyan]"The lever. The wheel and axle. The inclined plane.
+The pulley. The wedge. The screw.
+These are the six ancient tools that built every civilization
+that ever existed. And once you understand them,
+you'll see them [italic]everywhere.[/italic]"[/bold cyan]
+
+[bold white]What's the secret of each simple machine?[/bold white]
+""",
+    "earth_and_space": """
+Puck pointed straight up.
+
+[bold cyan]"We live on a giant ball,"[/bold cyan] Puck said, [bold cyan]"spinning through
+space, flying around a star, while a moon circles around us,
+and billions of other suns burn silently in every direction."[/bold cyan]
+
+Nell looked up at the blue sky.
+
+[bold cyan]"On a clear night you can see some of those other suns.
+They look like tiny dots. They're not tiny.
+They're enormous — just very, very far away."[/bold cyan]
+
+[bold white]What do you know about our place in the sky?[/bold white]
+""",
+    "matter_and_energy": """
+[bold cyan]"Everything around you,"[/bold cyan] Puck said, gesturing at the walls,
+the floor, the air, [bold cyan]"is made of matter.
+And all matter exists in one of three states:
+solid, liquid, or gas."[/bold cyan]
+
+[bold cyan]"Your pencil. The water in your glass.
+The air filling your lungs right now.
+All matter — just in different forms.
+And here's the amazing part:"[/bold cyan] Puck paused for effect.
+
+[bold cyan]"They can change from one to another."[/bold cyan]
+
+[bold white]Let's find out what's solid, what's liquid, and what's gas![/bold white]
+""",
 }
 
 ZONE_COMPLETIONS = {
@@ -141,6 +187,49 @@ A long pause.
 
 [bold cyan]"The whole world works on rules like these.
 And now you know the rules."[/bold cyan]
+""",
+    "simple_machines": """
+[bold green]The workshop rings with the sound of discovery![/bold green]
+
+[bold cyan]"Six tools,"[/bold cyan] Puck says with great satisfaction.
+[bold cyan]"Lever, wheel and axle, inclined plane,
+pulley, wedge, and screw.
+You now understand every simple machine
+that built human civilization."[/bold cyan]
+
+[bold cyan]"Next time you see a ramp, a jar lid, a bicycle —
+you'll know exactly what's happening.
+And that knowledge is yours forever."[/bold cyan]
+""",
+    "earth_and_space": """
+[bold green]The sky observatory lights up![/bold green]
+
+[bold cyan]"Earth goes around the Sun. The Moon goes around Earth.
+Day and night from spinning. A year from orbiting.
+The Moon's phases from where we stand."[/bold cyan]
+
+Puck looks at the stars beginning to appear.
+
+[bold cyan]"And every single one of those stars is a sun.
+Burning. Enormous. Some of them might have their
+own Earths going around them."[/bold cyan]
+
+A pause full of wonder.
+
+[bold cyan]"Isn't that the most AMAZING thing?"[/bold cyan]
+""",
+    "matter_and_energy": """
+[bold green]The matter lab glows with understanding![/bold green]
+
+[bold cyan]"Solid, liquid, gas,"[/bold cyan] Puck says.
+[bold cyan]"And they transform. Melt. Freeze. Evaporate.
+The water in your glass might have been a glacier once.
+Or a cloud. Or part of the ocean."[/bold cyan]
+
+[bold cyan]"Matter doesn't disappear — it just changes.
+And now you understand how."[/bold cyan]
+
+[bold white]That's the science of the world all around you![/bold white]
 """,
 }
 

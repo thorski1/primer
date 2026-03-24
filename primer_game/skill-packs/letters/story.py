@@ -99,6 +99,38 @@ to share. Can you read what they wrote?"[/bold cyan]
 
 [bold white]Read the sentences. Understand the thoughts.[/bold white]
 """,
+    "rhyming_river": """
+Puck dipped a tiny wing into a sparkling river.
+
+[bold cyan]"Listen,"[/bold cyan] Puck said. [bold cyan]"Do you hear that? The river has a sound —
+and some words sound just like it. Cat, hat, bat, mat — they all
+flow together because they share the same ending."[/bold cyan]
+
+The water rippled with words, all rhyming in soft little waves.
+
+[bold white]Find the words that sound the same at the end.[/bold white]
+""",
+    "sight_word_station": """
+Puck zipped to a little train station with words on all the signs.
+
+[bold cyan]"These,"[/bold cyan] Puck said proudly, [bold cyan]"are the magic words. Every reader
+knows them by heart — without even sounding them out! The, and,
+is, it, in, on, was, are... they show up in almost every sentence,
+like old friends."[/bold cyan]
+
+[bold white]Learn these magic words. Your eyes will recognize them forever.[/bold white]
+""",
+    "reading_full_sentences": """
+Puck opened a cozy door into a warm reading room.
+
+[bold cyan]"You've learned the letters. You've built the words."[/bold cyan] Puck settled
+onto a small cushion. [bold cyan]"Now we put it all together. A sentence
+tells you something real — who is there, what they're doing,
+and where it's all happening. Read it, and the whole picture
+comes alive in your mind."[/bold cyan]
+
+[bold white]Read carefully. Every word is a clue.[/bold white]
+""",
 }
 
 ZONE_COMPLETIONS = {
@@ -155,6 +187,40 @@ This is what it means to be a reader."[/bold cyan]
 
 A door has opened — with a bigger adventure waiting on the other side.
 """,
+    "rhyming_river": """
+[bold green]The river rings with rhymes![/bold green]
+
+Words drift by in matching pairs — cat and hat, run and fun,
+dog and log — all flowing happily together.
+
+[bold cyan]"Your ear is tuned now,"[/bold cyan] Puck says with delight.
+[bold cyan]"Once you hear rhymes, you hear them everywhere — in songs,
+in poems, in your own thoughts! The Sight Word Station is next."[/bold cyan]
+""",
+    "sight_word_station": """
+[bold green]The signs all glow![/bold green]
+
+Every word on every sign is bright and clear.
+The, and, is, it, was — you know them all by heart now.
+
+[bold cyan]"Those words live in your eyes now,"[/bold cyan] Puck says happily.
+[bold cyan]"Every time you see them on a page, your brain will
+recognize them in a blink. That's what makes reading fast!"[/bold cyan]
+
+The Reading Room door swings open just ahead...
+""",
+    "reading_full_sentences": """
+[bold green]The Reading Room fills with light![/bold green]
+
+Every sentence on the walls glows warmly.
+
+[bold cyan]"You did something wonderful today,"[/bold cyan] Puck says softly.
+[bold cyan]"You read sentences. You understood stories.
+Who was there. What they did. Where they were.
+You're a reader — truly and completely."[/bold cyan]
+
+[bold white]Every book in the world is waiting for you now.[/bold white]
+""",
 }
 
 BOSS_INTROS = {
@@ -163,4 +229,7 @@ BOSS_INTROS = {
     "blend_bridge": "A giant block with three letters stands in the middle of the bridge. [bold yellow]\"Three letters, all blending together! Listen carefully and you'll hear all three.\"[/bold yellow]",
     "word_workshop": "The letters rearrange into a long word. [bold yellow]\"This one has many pieces — but you know each piece already. Sound it out!\"[/bold yellow]",
     "sentence_city": "The tallest building in the city is covered in words. [bold yellow]\"One long sentence, all the way to the top. Read it — and the whole city celebrates!\"[/bold yellow]",
+    "rhyming_river": "Puck hovers over a ripple where two words float side by side. [bold yellow]\"Can you complete the rhyme? Think about the ending sound!\"[/bold yellow]",
+    "sight_word_station": "The last sign at the station flickers. [bold yellow]\"This sentence is full of sight words — read it and prove you know them all!\"[/bold yellow]",
+    "reading_full_sentences": "A little framed story hangs on the reading room wall. [bold yellow]\"Read every sentence. Then answer the question — the answer is in there somewhere!\"[/bold yellow]",
 }
