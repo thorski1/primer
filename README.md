@@ -24,45 +24,33 @@ When you open it, a small glowing creature floats up from between the pages.
 
 **"Hello,"** it says. **"My name is Puck. And this book — *this* book — is for you."**
 
-A terminal adventure for girls. Four chapters. One companion. A world of things to know.
+A terminal adventure for young learners. Seven chapters. One companion. A whole world to explore.
 
 ---
 
 ## What's Inside
 
-| Chapter | World | What You Learn |
-|---------|-------|----------------|
-| 1 | **The Letter Garden** | Phonics, vowels, blends, sight words, reading sentences |
-| 2 | **The Counting Kingdom** | Counting, addition, subtraction, skip counting, shapes, time, money |
-| 3 | **The World of Wondering** | Living things, weather, the body, simple machines, earth & space |
-| 4 | **The Art of Being Kind** | Feelings, kind actions, friendship, listening, handling emotions |
+| Chapter | World | What You Learn | Ages |
+|---------|-------|----------------|------|
+| 1 | **The Letter Garden** | Phonics, vowels, blends, sight words, reading sentences | 5-7 |
+| 2 | **The Counting Kingdom** | Numbers, addition, subtraction, shapes, time, money | 6-8 |
+| 3 | **The World of Wondering** | Living things, weather, the body, simple machines, earth & space | 7-10 |
+| 4 | **The Art of Being Kind** | Feelings, friendship, listening, handling hard emotions | 6+ |
+| 5 | **The Atlas of Wonders** | Continents, oceans, capitals, maps, landforms, world wonders | 7-10 |
+| 6 | **The Math Academy** | Multiplication, division, geometry, decimals, negative numbers | 8-11 |
+| 7 | **The Code Garden** | What coding is, loops, conditionals, variables, functions | 8-12 |
 
-**140+ challenges** across 22 zones. Every challenge is multiple-choice or fill-in-the-blank, designed for short sessions. Progress saves automatically.
-
----
-
-## Who Is This For?
-
-The Primer grows with you. Each chapter builds on the last, but all four can be played independently:
-
-| Chapter | Ages | Description |
-|---------|------|-------------|
-| Letters | 5–7 | Learning to read — letters, sounds, words, sentences |
-| Numbers | 6–8 | Early math — counting, addition, subtraction, shapes |
-| Science | 7–10 | Natural curiosity about how the world works |
-| Kindness | 6+ | Emotional skills have no age ceiling |
-
-**For very young children** (ages 4–6), a parent or helper sitting alongside is recommended for reading portions. The Primer is designed to be a shared experience.
+**300+ challenges** across 50+ zones. Every challenge is multiple-choice or fill-in-the-blank, designed for short focused sessions. Progress saves automatically.
 
 ---
 
 ## Finding Your Starting Place
 
-When you begin a new campaign, **Puck will ask you a few questions** to find the best place to start. There are no wrong answers — it's just a way to begin where things are interesting, not too easy and not too hard.
+When you begin a new campaign, **Puck will ask you a few short questions** to find the best place to start. There are no wrong answers — just a gentle way to begin where things are interesting, not too easy and not too hard.
 
-If you prefer, you can:
+You can also:
 - Start at the beginning (Chapter 1: The Letter Garden)
-- Jump to any chapter from the Chapter Map
+- Jump to any chapter directly from the Chapter Map
 - Play individual chapters as standalone adventures
 
 ---
@@ -110,11 +98,14 @@ pip install -e ~/.local/share/primer
 
 | Command | Description |
 |---------|-------------|
-| `primer` | Full 4-chapter story with Puck |
+| `primer` | Full 7-chapter story with Puck — start here |
 | `letters-quest` | The Letter Garden — standalone |
 | `numbers-quest` | The Counting Kingdom — standalone |
 | `science-quest` | The World of Wondering — standalone |
 | `kindness-quest` | The Art of Being Kind — standalone |
+| `geography-quest` | The Atlas of Wonders — standalone |
+| `math-advanced-quest` | The Math Academy — standalone |
+| `coding-basics-quest` | The Code Garden — standalone |
 
 ---
 
@@ -126,20 +117,33 @@ Puck introduces each topic through a short story, then presents challenges:
 - **Fill in the Blank** — type the missing word or number
 
 ```
-  [h] Hint  (-10 XP)   [s] Skip   [q] Menu
+  Puck: [h] Hint  [b] Bookmark  [?] Help  [s] Skip  [q] Menu
 ```
 
-Puck offers hints when you're stuck. No wrong answer is final — keep trying until it clicks.
+Puck offers hints when you're stuck. Every wrong answer is just a step toward the right one.
+
+### Features
+
+| Feature | Description |
+|---------|-------------|
+| **Daily Challenge** | One special challenge each day with bonus XP |
+| **Bookmarks** | Save any challenge to revisit later |
+| **Zone Preview** | See what's coming before entering a zone |
+| **Speed Records** | Personal bests tracked per challenge |
+| **Star Ratings** | Zones rated 1-3 stars based on how you did |
+| **Completion Certificate** | Printed on campaign completion |
+| **Level Titles** | Seedling -> Sprout -> Bloom -> Star -> Wonder -> Sage |
 
 ---
 
 ## For Parents
 
-- Each zone takes 5–15 minutes — designed for short, focused sessions
+- Each zone takes **5-15 minutes** — designed for short, focused sessions
 - Progress saves automatically between sessions
-- The game can be played independently or with a parent reading alongside
-- The Primer starts with a short placement quiz to find the right starting point
-- All content is age-appropriate and encourages curiosity, kindness, and growth
+- The game works independently or as a **shared reading experience** — especially for younger children
+- A placement quiz at the start finds the right chapter for each child
+- All content is age-appropriate and celebrates curiosity, kindness, and growth
+- The Primer is designed for girls but welcomes every curious reader
 
 ---
 
@@ -154,3 +158,5 @@ Puck offers hints when you're stuck. No wrong answer is final — keep trying un
 ## Built On
 
 [Quest Engine](https://github.com/thorski1/quest-engine) — a pluggable terminal RPG framework.
+
+Inspired by the Primer from Neal Stephenson's *The Diamond Age*.
