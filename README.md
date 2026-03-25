@@ -61,58 +61,52 @@ You can also:
 
 ## Install
 
-### Mac / Linux
+### The easy way (recommended)
 
+**Mac / Linux:**
+```bash
+pip install primer
+```
+
+**Windows** — open PowerShell and run:
+```powershell
+pip install primer
+```
+
+> **If `primer` is not found after install:** Open a new terminal window. If still missing, run `python -m primer_game.main` as a fallback.
+
+> **Best experience on Windows:** Use [Windows Terminal](https://aka.ms/terminal) (free, Microsoft Store). The default `cmd.exe` may display characters incorrectly.
+
+### One-liner installer (no pip? start here)
+
+**Mac / Linux:**
 ```bash
 curl -sSL https://raw.githubusercontent.com/thorski1/primer/main/install.sh | bash
 ```
 
-Then run:
-```bash
-primer
-```
-
-### Windows
-
-**Requirements:** [Python 3.10+](https://python.org/downloads) (check "Add Python to PATH" during install) and [git](https://git-scm.com/download/win)
-
-Open **PowerShell** and run:
+**Windows (PowerShell):**
 ```powershell
 powershell -ExecutionPolicy Bypass -c "irm https://raw.githubusercontent.com/thorski1/primer/main/install.ps1 | iex"
 ```
 
-Then **open a new terminal window** and run:
+Then open a new terminal and run `primer`.
+
+### Auto-updates
+
+The Primer checks for updates automatically at startup. When Puck has something new for you, you'll see:
+
 ```
-primer
-```
-
-> **Best experience:** Use [Windows Terminal](https://aka.ms/terminal) (free, Microsoft Store). The default `cmd.exe` may display characters incorrectly.
-
-> **If you see "running scripts is disabled":** The one-liner above bypasses this automatically. If it still fails, run `Set-ExecutionPolicy RemoteSigned -Scope CurrentUser` first.
-
-> **If `primer` is not found after install:** Open a new terminal window and try again. If still not found, run `python -m primer_game.main` as a fallback.
-
-### Manual Install (Mac / Linux / Windows)
-
-Requires Python 3.10+ and git.
-
-**Mac / Linux:**
-```bash
-git clone https://github.com/thorski1/quest-engine ~/.local/share/quest-engine
-git clone https://github.com/thorski1/primer ~/.local/share/primer
-
-python3 -m pip install -e ~/.local/share/quest-engine
-python3 -m pip install -e ~/.local/share/primer
+╭──────────────────────────────╮
+│      SOFTWARE UPDATE         │
+│                              │
+│  Update available!           │
+│  Installed : v1.0.0          │
+│  Latest    : v1.1.0          │
+╰──────────────────────────────╯
+  Install update now? [y/N]
 ```
 
-**Windows (PowerShell):**
-```powershell
-git clone https://github.com/thorski1/quest-engine "$env:LOCALAPPDATA\QuestEngine\quest-engine"
-git clone https://github.com/thorski1/primer "$env:LOCALAPPDATA\QuestEngine\primer"
-
-python -m pip install -e "$env:LOCALAPPDATA\QuestEngine\quest-engine"
-python -m pip install -e "$env:LOCALAPPDATA\QuestEngine\primer"
-```
+Type `y` and the game updates and restarts itself.
 
 ---
 
