@@ -65,12 +65,12 @@ You can also:
 
 **Mac / Linux:**
 ```bash
-pip install primer
+pip install primer-quest
 ```
 
 **Windows** — open PowerShell and run:
 ```powershell
-pip install primer
+pip install primer-quest
 ```
 
 > **If `primer` is not found after install:** Open a new terminal window. If still missing, run `python -m primer_game.main` as a fallback.

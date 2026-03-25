@@ -38,8 +38,8 @@ if (-not $pythonCmd) {
 }
 
 # ── Install via pip ────────────────────────────────────────────────────────────
-Write-Host "  Installing primer..." -ForegroundColor White
-& $pythonCmd -m pip install --user --quiet primer
+Write-Host "  Installing primer-quest..." -ForegroundColor White
+& $pythonCmd -m pip install --user --quiet primer-quest
 Write-Host "  OK  Installed!" -ForegroundColor Green
 
 # ── Ensure Scripts directory is in PATH ───────────────────────────────────────

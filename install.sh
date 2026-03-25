@@ -49,11 +49,11 @@ fi
 # ── Install via pipx (preferred) or pip ───────────────────────────────────────
 if command -v pipx &>/dev/null; then
     echo "  Installing with pipx..."
-    pipx install primer 2>/dev/null || pipx upgrade primer
+    pipx install primer-quest 2>/dev/null || pipx upgrade primer-quest
     echo -e "  ${GREEN}OK${NC}  Installed!"
 else
     echo "  Installing with pip..."
-    "$PYTHON" -m pip install --user --quiet primer
+    "$PYTHON" -m pip install --user --quiet primer-quest
     echo -e "  ${GREEN}OK${NC}  Installed!"
 
     # Warn if ~/.local/bin is not in PATH

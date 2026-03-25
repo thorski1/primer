@@ -3,7 +3,7 @@ requires = ["setuptools>=68"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "primer"
+name = "primer-quest"
 version = "1.0.0"
 description = "A terminal adventure for young learners — phonics, math, science, kindness, geography, history, art, and coding."
 readme = "README.md"

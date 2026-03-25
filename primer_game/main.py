@@ -22,7 +22,7 @@ os.environ.setdefault("QUEST_CAMPAIGNS_DIR", str(_HERE / "primer_game" / "campai
 from engine.main import run, run_campaign          # noqa: E402
 from engine.updater import check_and_prompt        # noqa: E402
 
-_PACKAGE = "primer"
+_PACKAGE = "primer-quest"
 
 
 def main_primer():
