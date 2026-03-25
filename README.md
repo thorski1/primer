@@ -24,7 +24,7 @@ When you open it, a small glowing creature floats up from between the pages.
 
 **"Hello,"** it says. **"My name is Puck. And this book — *this* book — is for you."**
 
-A terminal adventure for young learners. Seven chapters. One companion. A whole world to explore.
+A terminal adventure for young learners. Nine chapters. One companion. A whole world to explore.
 
 > **Tags:** educational game for kids, learning game, children's educational app, learn to read, math for kids, coding for kids, history for kids, terminal game for children, Neal Stephenson Diamond Age
 
@@ -40,9 +40,11 @@ A terminal adventure for young learners. Seven chapters. One companion. A whole 
 | 4 | **The Art of Being Kind** | Feelings, friendship, listening, handling hard emotions | 6+ |
 | 5 | **The Atlas of Wonders** | Continents, oceans, capitals, maps, landforms, world wonders | 7-10 |
 | 6 | **The Math Academy** | Multiplication, division, geometry, decimals, negative numbers | 8-11 |
-| 7 | **The Code Garden** | What coding is, loops, conditionals, variables, functions | 8-12 |
+| 7 | **The Time Traveler's Primer** | Ancient civilizations, explorers, inventors, wars, world leaders | 8-11 |
+| 8 | **The Art Studio** | Colors, shapes, famous artwork, art elements, famous artists | 7-11 |
+| 9 | **The Code Garden** | What coding is, loops, conditionals, variables, functions | 8-12 |
 
-**300+ challenges** across 50+ zones. Every challenge is multiple-choice or fill-in-the-blank, designed for short focused sessions. Progress saves automatically.
+**500+ challenges** across 75+ zones. Every challenge is multiple-choice or fill-in-the-blank, designed for short focused sessions. Progress saves automatically.
 
 ---
 

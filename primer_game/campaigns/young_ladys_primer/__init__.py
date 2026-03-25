@@ -96,6 +96,14 @@ CAMPAIGN = Campaign(
             entry_summary=CHAPTER_ENTRY_SUMMARIES.get("history", ""),
         ),
         ChapterDef(
+            pack_name="art",
+            title="The Art Studio",
+            recommended_age="7-11",
+            intro_bridge=CHAPTER_INTROS["art"],
+            outro_bridge=CHAPTER_OUTROS["art"],
+            entry_summary=CHAPTER_ENTRY_SUMMARIES.get("art", ""),
+        ),
+        ChapterDef(
             pack_name="coding_basics",
             title="The Code Garden",
             recommended_age="8-12",

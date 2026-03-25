@@ -42,6 +42,17 @@ The Primer turns to harder mathematics.[/white]
 "Now we go further: multiplication, division, fractions, geometry.
 The full toolkit of mathematical thinking."[/bold cyan]
 """,
+    "art": """
+[bold cyan]Puck opens a door covered in colorful handprints.[/bold cyan]
+
+[white]A long journey: letters, numbers, science, kindness, the world's geography,
+advanced mathematics, history across the centuries, and the basics of code.
+Now the Primer opens its most colorful chapter yet.[/white]
+
+[bold cyan]"Art is the oldest language,"[/bold cyan] Puck says.
+[bold cyan]"Before any word was written, people painted on cave walls.
+You're about to learn to SEE the way artists do."[/bold cyan]
+""",
     "coding_basics": """
 [bold cyan]Puck stands at the entrance to the Code Garden.[/bold cyan]
 
@@ -216,6 +227,19 @@ But to know where you're going — you have to know where everyone has been."[/b
 
 [bold white]The hourglass glows. History begins.[/bold white]
 """,
+    "art": """
+Puck opened a door painted in every color of the rainbow.
+
+Inside: a studio full of color and light. Paintings on every wall.
+Clay drying on wooden boards. Brushes soaking in glass jars.
+
+[bold cyan]"Art is the first language,"[/bold cyan] Puck said quietly.
+[bold cyan]"Long before letters or numbers, people painted what they loved
+on stone walls deep in caves. The pictures still exist.
+[italic]Some of them are 40,000 years old.[/italic]"[/bold cyan]
+
+[bold white]The Art Studio is open. The canvas is waiting![/bold white]
+""",
     "coding_basics": """
 The Primer's final chapter glowed with a special light —
 softer, more focused, like the glow of a screen in a quiet room.
@@ -340,6 +364,26 @@ Every person who stood up when it was hard."[/bold cyan]
 A long pause.
 
 [bold cyan]"So let me ask you something: what do YOU want to add to that story?"[/bold cyan]
+""",
+    "art": """
+The studio glows with finished work.
+
+Colors mixed and named. Shapes identified and drawn.
+Famous artworks recognized and understood. The elements of art —
+line, texture, contrast, proportion — now visible everywhere you look.
+Six artists known, from Leonardo to Basquiat.
+
+[bold cyan]"You can look at a painting now,"[/bold cyan] Puck says,
+[bold cyan]"and [italic]see[/italic] it. Not just the image — the decisions.
+The colors the artist chose. The shapes they used.
+The negative space they left. The feeling they were reaching for."[/bold cyan]
+
+A pause.
+
+[bold cyan]"That's not nothing. That's how artists think.
+And it's available to you now — [italic]forever.[/italic]"[/bold cyan]
+
+[bold white]The Code Garden is next — and coders are artists too.[/bold white]
 """,
     "coding_basics": """
 The Code Garden is fully awake.
