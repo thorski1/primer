@@ -36,6 +36,8 @@ SKILL_PACK = SkillPack(
         "simple_machines": "machine_master",
         "earth_and_space": "stargazer",
         "matter_and_energy": "matter_explorer",
+        "weather_watch": "weather_watcher",
+        "animal_world": "animal_explorer",
     },
     achievements={
         "life_watcher": ("Life Watcher", "Discovered what makes things alive!"),
@@ -45,8 +47,19 @@ SKILL_PACK = SkillPack(
         "machine_master": ("Machine Master", "Mastered the six simple machines that built civilization!"),
         "stargazer": ("Stargazer", "Learned the secrets of Earth, the Moon, and the stars!"),
         "matter_explorer": ("Matter Explorer", "Explored the three states of matter and how they transform!"),
+        "weather_watcher": ("Weather Watcher", "Read the sky and understood clouds, wind, seasons, and storms!"),
+        "animal_explorer": ("Animal Explorer", "Explored the animal kingdom and discovered what makes each creature amazing!"),
         "no_hints": ("Standing on Your Own", "Completed a zone without any hints!"),
         "speed_reader": ("Quick Thinker", "Answered a question in under 10 seconds!"),
     },
     banner_ascii=BANNER_ASCII,
+    kids_mode=True,
+    level_titles=[
+        (1, "Seedling"),
+        (6, "Sprout"),
+        (11, "Bloom"),
+        (16, "Star"),
+        (21, "Wonder"),
+        (26, "Sage"),
+    ],
 )

@@ -36,6 +36,8 @@ SKILL_PACK = SkillPack(
         "listening_skills": "deep_listener",
         "helping_community": "community_helper",
         "handling_hard_feelings": "feelings_champion",
+        "friendship_bridge": "bridge_builder",
+        "gratitude_practice": "gratitude_keeper",
     },
     achievements={
         "feeling_finder": ("Feeling Finder", "Named and understood every emotion!"),
@@ -45,8 +47,19 @@ SKILL_PACK = SkillPack(
         "deep_listener": ("Deep Listener", "Discovered the superpower of truly listening!"),
         "community_helper": ("Community Helper", "Learned how to take care of each other!"),
         "feelings_champion": ("Feelings Champion", "Handled the biggest feelings with courage and kindness!"),
+        "bridge_builder": ("Bridge Builder", "Learned the deepest skills of true friendship!"),
+        "gratitude_keeper": ("Gratitude Keeper", "Discovered the power of a thankful heart!"),
         "no_hints": ("Standing on Your Own", "Completed a zone without any hints!"),
         "speed_reader": ("Quick Thinker", "Answered a question in under 10 seconds!"),
     },
     banner_ascii=BANNER_ASCII,
+    kids_mode=True,
+    level_titles=[
+        (1, "Seedling"),
+        (6, "Sprout"),
+        (11, "Bloom"),
+        (16, "Star"),
+        (21, "Wonder"),
+        (26, "Sage"),
+    ],
 )

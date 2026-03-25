@@ -43,6 +43,8 @@ SKILL_PACK = SkillPack(
         "skip_counting_grove": "grove_hopper",
         "measurement_meadow": "master_measurer",
         "money_market": "coin_counter",
+        "shapes_and_patterns": "pattern_spotter",
+        "telling_time": "clockwork_reader",
     },
     achievements={
         "hill_counter": ("Hill Counter", "Counted all the way to 100!"),
@@ -53,8 +55,19 @@ SKILL_PACK = SkillPack(
         "grove_hopper": ("Grove Hopper", "Skipped through the counting grove by 2s, 5s, and 10s!"),
         "master_measurer": ("Master Measurer", "Measured everything in the meadow!"),
         "coin_counter": ("Coin Counter", "Counted every coin in the market!"),
+        "pattern_spotter": ("Pattern Spotter", "Spotted shapes and patterns all through the garden!"),
+        "clockwork_reader": ("Clockwork Reader", "Learned to read the Clockwork Tower!"),
         "no_hints": ("Standing on Your Own", "Completed a zone without any hints!"),
         "speed_reader": ("Quick Thinker", "Answered a question in under 10 seconds!"),
     },
     banner_ascii=BANNER_ASCII,
+    kids_mode=True,
+    level_titles=[
+        (1, "Seedling"),
+        (6, "Sprout"),
+        (11, "Bloom"),
+        (16, "Star"),
+        (21, "Wonder"),
+        (26, "Sage"),
+    ],
 )

@@ -43,6 +43,8 @@ SKILL_PACK = SkillPack(
         "rhyming_river": "rhyme_swimmer",
         "sight_word_station": "sight_word_star",
         "reading_full_sentences": "true_reader",
+        "word_building": "word_crafter",
+        "story_time": "story_keeper",
     },
     achievements={
         "alphabet_keeper": ("Alphabet Keeper", "Learned every letter in the garden!"),
@@ -53,8 +55,19 @@ SKILL_PACK = SkillPack(
         "rhyme_swimmer": ("Rhyme Swimmer", "Rode the rhyming river all the way down!"),
         "sight_word_star": ("Sight Word Star", "Learned the magic words every reader knows!"),
         "true_reader": ("True Reader", "Read full sentences and understood every one!"),
+        "word_crafter": ("Word Crafter", "Snapped letters together to build real words!"),
+        "story_keeper": ("Story Keeper", "Read stories and understood every one!"),
         "no_hints": ("Standing on Your Own", "Completed a zone without any hints!"),
         "speed_reader": ("Speed Reader", "Answered a question in under 10 seconds!"),
     },
     banner_ascii=BANNER_ASCII,
+    kids_mode=True,
+    level_titles=[
+        (1, "Seedling"),
+        (6, "Sprout"),
+        (11, "Bloom"),
+        (16, "Star"),
+        (21, "Wonder"),
+        (26, "Sage"),
+    ],
 )
