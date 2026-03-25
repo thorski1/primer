@@ -1,0 +1,233 @@
+"""
+story.py — Narrative for the Math Advanced skill pack.
+
+Puck leads the player through the golden door to the Math Academy,
+where numbers float in the air and reveal their deepest secrets.
+"""
+
+INTRO_STORY = """
+[bold yellow]THE MATH ACADEMY[/bold yellow]
+
+Puck appeared at the edge of the Primer's page, wings flickering with excitement.
+
+[bold cyan]"You've counted. You've added and subtracted."[/bold cyan] Puck hovered
+in front of a tall door made of solid gold, covered in glowing numbers.
+[bold cyan]"But numbers go [italic]much[/italic] deeper than that."[/bold cyan]
+
+[bold white]"What's through the door?"[/bold white]
+
+[bold cyan]"The Math Academy."[/bold cyan] Puck's voice dropped to an awed hush.
+[bold cyan]"Where numbers reveal their real power. Multiplication —
+one of the great shortcuts of the universe. Division —
+the art of sharing equally. Geometry — shapes with secrets.
+And things called decimals, and percentages, and even
+[italic]numbers below zero.[/italic]"[/bold cyan]
+
+The golden door swung open on its own.
+
+Inside, numbers floated in the air like glowing sparks.
+Equations drifted past like leaves on water.
+Shapes rotated slowly overhead, their angles glinting.
+
+[bold cyan]"This,"[/bold cyan] Puck said proudly, stepping inside,
+[bold cyan]"is where math stops being just counting
+and starts being [italic]thinking.[/italic]"[/bold cyan]
+
+[bold white]The Math Academy is waiting. Let's go in.[/bold white]
+"""
+
+ZONE_INTROS = {
+    "multiplication": """
+The first hall of the Academy glowed with a warm golden light.
+Numbers arranged themselves on the walls in neat rows and columns.
+
+[bold cyan]"Multiplication,"[/bold cyan] Puck announced, [bold cyan]"is the great shortcut.
+Instead of adding 7 over and over eight times, you just say:
+[italic]seven times eight.[/italic] One step, same answer."[/bold cyan]
+
+A grid of numbers lit up — the times tables, row by row.
+
+[bold cyan]"Learn these, and you'll have a superpower.
+Most calculations in the real world use multiplication
+every single day."[/bold cyan]
+
+[bold white]The times tables are waiting. Let's conquer them![/bold white]
+""",
+    "division": """
+A door opened into a workshop full of gears, scales, and sorting trays.
+
+[bold cyan]"Division,"[/bold cyan] Puck said, [bold cyan]"is multiplication's partner.
+If multiplication means putting groups together,
+division means splitting them back apart — equally."[/bold cyan]
+
+Puck picked up a small pile of glowing marbles and divided them
+into four even groups.
+
+[bold cyan]"Sharing fairly. Splitting evenly. Finding out how many
+fit inside. Division is all of those things."[/bold cyan]
+
+[bold white]Enter the workshop. Split carefully![/bold white]
+""",
+    "word_problems": """
+A cozy café appeared, with little tables and menus written in equations.
+
+[bold cyan]"Story problems,"[/bold cyan] Puck said, pulling out a chair,
+[bold cyan]"are where math meets real life. Apples in bags.
+Trains going distances. Friends sharing stickers.
+These aren't just math — they're [italic]thinking.[/italic]"[/bold cyan]
+
+Puck tapped the menu.
+
+[bold cyan]"Read carefully. Figure out what you know
+and what you need to find. Then choose your operation."[/bold cyan]
+
+[bold white]The Café is open. Order your thinking![/bold white]
+""",
+    "geometry": """
+The Shape Lab glimmered with light bouncing off every angle.
+Triangles, circles, rectangles, and squares hung in the air,
+rotating slowly so every side could be seen.
+
+[bold cyan]"Geometry,"[/bold cyan] Puck said, stepping carefully between them,
+[bold cyan]"is math you can [italic]see.[/italic] Shapes have rules —
+angles that must add up, sides that have lengths,
+areas that can be measured exactly."[/bold cyan]
+
+A ruler and protractor floated over.
+
+[bold cyan]"Architects use this to build houses. Artists use it
+to draw perspective. Engineers use it to make bridges hold."[/bold cyan]
+
+[bold white]The Lab is ready. Measure everything![/bold white]
+""",
+    "decimals_percents": """
+A beautiful garden stretched out, flowers growing in precise rows.
+But these flowers had unusual names — [bold yellow]0.25[/bold yellow], [bold yellow]0.5[/bold yellow],
+[bold yellow]75%[/bold yellow], [bold yellow]1.75[/bold yellow] — written on little tags in the soil.
+
+[bold cyan]"Decimals and percents,"[/bold cyan] Puck said, kneeling by a flower labeled [bold yellow]0.5[/bold yellow],
+[bold cyan]"are just fractions wearing different clothes.
+Half a dollar, half a pizza, half a chance —
+they're all the same idea, just written differently."[/bold cyan]
+
+Puck stood and smiled.
+
+[bold cyan]"Sales, recipes, test scores, bank accounts —
+decimals and percents are [italic]everywhere.[/italic]"[/bold cyan]
+
+[bold white]Tend the garden. Learn the language of parts![/bold white]
+""",
+    "negative_numbers": """
+A staircase led downward into a glowing underground passage.
+The number line was painted on the wall — and it stretched
+not just to the right, but far to the left, below zero.
+
+[bold cyan]"Negative numbers,"[/bold cyan] Puck said, stepping down,
+[bold cyan]"are the numbers below zero. They exist
+wherever something can be [italic]less than nothing.[/italic]
+Cold temperatures. Floors below ground. Debts."[/bold cyan]
+
+The air felt cool down here. Numbers glimmered on the walls.
+
+[bold cyan]"Once you understand negative numbers,
+you understand the [italic]full[/italic] number line —
+in both directions, forever."[/bold cyan]
+
+[bold white]Step down. Explore below zero![/bold white]
+""",
+}
+
+ZONE_COMPLETIONS = {
+    "multiplication": """
+[bold green]The Multiplication Kingdom glows with mastered facts![/bold green]
+
+Every times table lights up on the walls, row by row.
+The great multiplication grid shines like a constellation.
+
+[bold cyan]"You know them,"[/bold cyan] Puck says quietly. [bold cyan]"The times tables
+aren't just memorized facts — they're a new speed for your brain.
+Calculations that used to take minutes now take seconds."[/bold cyan]
+
+[bold white]The Division Workshop is just ahead — let's split some numbers![/bold white]
+""",
+    "division": """
+[bold green]The Division Workshop hums with satisfied gears![/bold green]
+
+Every tray is sorted. Every group is equal. Every answer is exact.
+
+[bold cyan]"Division,"[/bold cyan] Puck says, [bold cyan]"is how we make things fair.
+Equal groups, equal shares, exact fits.
+You've got it — and that means you understand
+multiplication from [italic]both directions.[/italic]"[/bold cyan]
+
+The Story Problem Café is just around the corner, warm and welcoming...
+""",
+    "word_problems": """
+[bold green]Every problem on the café menu is solved![/bold green]
+
+The little chalkboard by the door fills up with ticked-off problems.
+The café owner nods approvingly.
+
+[bold cyan]"Word problems,"[/bold cyan] Puck says, [bold cyan]"are why we learn math in the first place.
+Real life doesn't say '6 × 7'. It says 'six baskets, seven apples each.'
+You translated the story into math — and back again.
+[italic]That[/italic] is a powerful skill."[/bold cyan]
+
+The Shape Lab sparkles in the distance...
+""",
+    "geometry": """
+[bold green]The Shape Lab rings with perfectly measured shapes![/bold green]
+
+Every angle accounted for. Every area calculated. Every perimeter walked.
+
+[bold cyan]"Geometry,"[/bold cyan] Puck says proudly, [bold cyan]"is how humans build the world.
+Every building, bridge, and window began as shapes on paper,
+measured and calculated exactly the way you just did."[/bold cyan]
+
+A soft glow from the Decimal Garden floats nearby, smelling of flowers...
+""",
+    "decimals_percents": """
+[bold green]The Decimal Garden is in full bloom![/bold green]
+
+Every flower tends itself. Fractions, decimals, and percents
+stand side by side, showing they're all the same family.
+
+[bold cyan]"You'll use this,"[/bold cyan] Puck says softly, [bold cyan]"every single day.
+Prices. Recipes. Grades. Weather percentages.
+The world speaks in decimals, and now you speak it too."[/bold cyan]
+
+Below, the staircase to the Number Line Underground gleams...
+""",
+    "negative_numbers": """
+[bold green]The Number Line Underground is fully explored![/bold green]
+
+The great number line stretches in both directions now —
+left past zero into the negatives, right past zero into the positives.
+The full picture.
+
+[bold cyan]"There it is,"[/bold cyan] Puck says, looking at the whole line.
+[bold cyan]"The complete number line. You understand
+every integer — above zero, at zero, and below zero.
+Most people never truly picture it. You do."[/bold cyan]
+
+[bold white]The Math Academy is conquered. You've revealed numbers' deepest secrets.[/bold white]
+""",
+}
+
+BOSS_INTROS = {
+    "multiplication": "The Eleven Champion floats down from the ceiling, trailing sparks. [bold yellow]\"Eleven times eleven — the square of eleven! Can you find the answer?\"[/bold yellow]",
+    "division": "A massive number, 144, hangs in the air, glowing fiercely. [bold yellow]\"One hundred and forty-four, divided by twelve. The famous square — can you divide it?\"[/bold yellow]",
+    "word_problems": "The café owner sets down the hardest problem of all. [bold yellow]\"Eight classes, twenty-eight students each. What's the total? Show me you can think big!\"[/bold yellow]",
+    "geometry": "A triangle hovers in the center of the lab, rotating slowly. [bold yellow]\"You've done rectangles and squares — but what's the area of a triangle? Do you know the secret formula?\"[/bold yellow]",
+    "decimals_percents": "A price tag flutters down from the ceiling: $20, with 25% OFF. [bold yellow]\"If the toy is twenty-five percent off, what do you actually pay? Work it out!\"[/bold yellow]",
+    "negative_numbers": "The thermometer on the wall reads -4°C and the temperature is rising. [bold yellow]\"Nine degrees warmer than minus four — what temperature is that? Cross zero carefully!\"[/bold yellow]",
+}
+
+ACHIEVEMENT_DESCRIPTIONS = {
+    "multiplication_master": "You memorized the times tables and conquered the Multiplication Kingdom!",
+    "division_expert": "You mastered equal sharing and solved every puzzle in the Division Workshop!",
+    "problem_solver": "You translated real-world stories into math and back again at the Story Problem Café!",
+    "geometry_sage": "You measured shapes, calculated areas, and unlocked the secrets of the Shape Lab!",
+    "decimal_pro": "You tended every flower in the Decimal Garden and mastered fractions, decimals, and percents!",
+    "number_explorer": "You ventured below zero and mapped the full number line in the Underground!",
+}

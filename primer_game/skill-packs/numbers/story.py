@@ -34,6 +34,19 @@ Nell looked out at the numbered hills and took a deep breath.
 """
 
 ZONE_INTROS = {
+    "fractions_forest": """
+Puck led the way into a forest where every tree was split
+perfectly down the middle — two equal halves, side by side.
+
+[bold cyan]"Sometimes things come in pieces,"[/bold cyan] Puck said.
+[bold cyan]"And that's where fractions come in.
+A fraction tells you how many pieces something has
+and how many of those pieces you're talking about."[/bold cyan]
+
+A glowing [bold yellow]1/2[/bold yellow] floated between two halves of a great oak.
+
+[bold white]Step into the forest. The pieces are waiting.[/bold white]
+""",
     "counting_hills": """
 Puck landed on the first hill, which had a big stone [bold yellow]1[/bold yellow] on top.
 
@@ -147,6 +160,19 @@ The big hand moved. The little hand waited.
 }
 
 ZONE_COMPLETIONS = {
+    "fractions_forest": """
+[bold green]The forest glows as every tree becomes whole again![/bold green]
+
+The halves and quarters and thirds shimmer with golden light.
+
+[bold cyan]"You understand fractions now,"[/bold cyan] Puck says with delight.
+[bold cyan]"Top number, bottom number — what you have,
+and how many pieces there are.
+Half, quarter, third — the language of sharing
+and dividing the world fairly."[/bold cyan]
+
+[bold white]Fractions are yours. The world just got more precise![/bold white]
+""",
     "counting_hills": """
 [bold green]The hills are counted![/bold green]
 
@@ -261,6 +287,7 @@ things start, how long you have, and when to be ready."[/bold cyan]
 }
 
 BOSS_INTROS = {
+    "fractions_forest": "A ribbon hangs between two trees, glowing. [bold yellow]\"One last fraction puzzle — you'll need to think carefully, but everything you've learned will help you!\"[/bold yellow]",
     "counting_hills": "The biggest hill has a stone with [bold yellow]100[/bold yellow] on it. [bold yellow]\"Count all the way to here — without skipping!\"[/bold yellow]",
     "addition_meadow": "Two large groups of flowers merge in a big burst of color. [bold yellow]\"Bigger numbers now! Can you add them?\"[/bold yellow]",
     "subtraction_valley": "A large pile shrinks quickly. [bold yellow]\"How much is left when you take a big number away?\"[/bold yellow]",

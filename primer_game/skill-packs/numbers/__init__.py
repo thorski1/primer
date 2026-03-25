@@ -45,6 +45,7 @@ SKILL_PACK = SkillPack(
         "money_market": "coin_counter",
         "shapes_and_patterns": "pattern_spotter",
         "telling_time": "clockwork_reader",
+        "fractions_forest": "fraction_finder",
     },
     achievements={
         "hill_counter": ("Hill Counter", "Counted all the way to 100!"),
@@ -57,6 +58,7 @@ SKILL_PACK = SkillPack(
         "coin_counter": ("Coin Counter", "Counted every coin in the market!"),
         "pattern_spotter": ("Pattern Spotter", "Spotted shapes and patterns all through the garden!"),
         "clockwork_reader": ("Clockwork Reader", "Learned to read the Clockwork Tower!"),
+        "fraction_finder": ("Fraction Finder", "Explored the Fractions Forest and understood equal parts!"),
         "no_hints": ("Standing on Your Own", "Completed a zone without any hints!"),
         "speed_reader": ("Quick Thinker", "Answered a question in under 10 seconds!"),
     },

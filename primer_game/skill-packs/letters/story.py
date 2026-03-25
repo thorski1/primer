@@ -44,6 +44,20 @@ the letter Puck was pointing to.
 """
 
 ZONE_INTROS = {
+    "punctuation_plaza": """
+Puck pointed to a cheerful street where every sign was decorated
+with tiny dots, curls, and squiggles.
+
+[bold cyan]"These marks,"[/bold cyan] Puck said, [bold cyan]"are the traffic signals of writing.
+Without them, words would all rush into each other
+and no one would know where one thought ended
+and another began."[/bold cyan]
+
+A period glittered on the nearest sign. A question mark
+curled elegantly above a doorway.
+
+[bold white]Learn the marks. Learn what they mean.[/bold white]
+""",
     "letter_garden": """
 Puck flew to a beautiful garden, where each flower had a letter
 written on it in bright colors.
@@ -159,6 +173,20 @@ The curtain opened. A little story waited.
 }
 
 ZONE_COMPLETIONS = {
+    "punctuation_plaza": """
+[bold green]The plaza signs glow with every mark in place![/bold green]
+
+Periods, question marks, exclamation marks, commas —
+they all shine in their rightful spots.
+
+[bold cyan]"Now your sentences have voices,"[/bold cyan] Puck says happily.
+[bold cyan]"A period says [italic]I'm done.[/italic]
+A question mark says [italic]I'm wondering.[/italic]
+An exclamation mark says [italic]I feel it![/italic]
+And a comma says [italic]wait just a moment...[/italic]"[/bold cyan]
+
+[bold white]Punctuation is yours now, forever.[/bold white]
+""",
     "letter_garden": """
 [bold green]The Letter Garden glows![/bold green]
 
@@ -274,6 +302,7 @@ why it happened."[/bold cyan]
 }
 
 BOSS_INTROS = {
+    "punctuation_plaza": "The last sign on the street is blank at the end. [bold yellow]\"One sentence needs its mark — which one belongs there? You know this!\"[/bold yellow]",
     "letter_garden": "Puck floats to the tallest flower. [bold yellow]\"The hardest letters are waiting at the center of the garden. You're ready for them!\"[/bold yellow]",
     "vowel_pond": "The biggest fish surfaces. [bold yellow]\"This one can make both a short sound AND a long sound. Can you tell which is which?\"[/bold yellow]",
     "blend_bridge": "A giant block with three letters stands in the middle of the bridge. [bold yellow]\"Three letters, all blending together! Listen carefully and you'll hear all three.\"[/bold yellow]",

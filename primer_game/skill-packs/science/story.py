@@ -40,6 +40,19 @@ She was going to figure out how all of it worked.
 """
 
 ZONE_INTROS = {
+    "the_human_body": """
+Puck unfurled a glowing map that looked exactly like a person —
+every organ lit up in a different color.
+
+[bold cyan]"Your body,"[/bold cyan] Puck whispered, [bold cyan]"is the most amazing machine
+that has ever existed. It breathes, pumps, thinks,
+moves, heals — all at once, all the time,
+[italic]without you even having to ask it to.[/italic]"[/bold cyan]
+
+The glowing figure pulsed softly — a heartbeat.
+
+[bold white]Explore the map. Your body has stories to tell.[/bold white]
+""",
     "living_things": """
 [bold cyan]"First question,"[/bold cyan] Puck said. [bold cyan]"What's alive?"[/bold cyan]
 
@@ -168,6 +181,20 @@ there is — and you're part of it."[/bold cyan]
 }
 
 ZONE_COMPLETIONS = {
+    "the_human_body": """
+[bold green]The Body Map glows from head to toe![/bold green]
+
+Every organ lights up: the heart pumping, the lungs breathing,
+the brain sparkling, the muscles ready.
+
+[bold cyan]"You know yourself a little better now,"[/bold cyan] Puck says quietly.
+[bold cyan]"206 bones. A heart that beats 100,000 times a day.
+Lungs that breathe in what you need and breathe out
+what you don't. A brain running everything — even now,
+even in your sleep."[/bold cyan]
+
+[bold white]That machine is you. And it is extraordinary.[/bold white]
+""",
     "living_things": """
 [bold green]The garden glows![/bold green]
 
@@ -292,6 +319,7 @@ and how you work too."[/bold cyan]
 }
 
 BOSS_INTROS = {
+    "the_human_body": "The glowing figure on the map does a small jumping jack. [bold yellow]\"Final question — it's about taking care of that incredible body of yours. Think about what really helps!\"[/bold yellow]",
     "living_things": "Puck points to the tallest tree in the garden. [bold yellow]\"The hardest living things question is waiting at the top. Are you ready?\"[/bold yellow]",
     "sky_and_weather": "A big storm cloud gathers overhead. [bold yellow]\"This is the toughest sky question. Think carefully — you know this!\"[/bold yellow]",
     "body_basics": "A giant diagram of the body appears. [bold yellow]\"Final body question — it's a tricky one. But you've learned so much!\"[/bold yellow]",

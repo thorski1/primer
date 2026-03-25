@@ -45,6 +45,7 @@ SKILL_PACK = SkillPack(
         "reading_full_sentences": "true_reader",
         "word_building": "word_crafter",
         "story_time": "story_keeper",
+        "punctuation_plaza": "punctuation_pro",
     },
     achievements={
         "alphabet_keeper": ("Alphabet Keeper", "Learned every letter in the garden!"),
@@ -57,6 +58,7 @@ SKILL_PACK = SkillPack(
         "true_reader": ("True Reader", "Read full sentences and understood every one!"),
         "word_crafter": ("Word Crafter", "Snapped letters together to build real words!"),
         "story_keeper": ("Story Keeper", "Read stories and understood every one!"),
+        "punctuation_pro": ("Punctuation Pro", "Mastered the marks that give writing its voice!"),
         "no_hints": ("Standing on Your Own", "Completed a zone without any hints!"),
         "speed_reader": ("Speed Reader", "Answered a question in under 10 seconds!"),
     },

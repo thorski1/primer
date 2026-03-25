@@ -37,6 +37,22 @@ for everyone around you. And for you too."[/bold cyan]
 """
 
 ZONE_INTROS = {
+    "respecting_differences": """
+Puck stood at the center of a bridge made of planks —
+every single plank a different color.
+
+[bold cyan]"We are all different,"[/bold cyan] Puck said quietly.
+[bold cyan]"Different languages. Different holidays. Different abilities.
+Different ways of seeing the world."[/bold cyan]
+
+A pause. The bridge stretched out in both directions,
+every color of the rainbow underfoot.
+
+[bold cyan]"And that,"[/bold cyan] Puck said, [bold cyan]"is one of the most beautiful things
+about us."[/bold cyan]
+
+[bold white]Cross the bridge. Every plank belongs.[/bold white]
+""",
     "feelings_garden": """
 [bold cyan]"Before you can be kind to others,"[/bold cyan] Puck said,
 [bold cyan]"you need to understand [italic]feelings.[/italic]
@@ -162,6 +178,23 @@ And the more you practice it, the happier you become."[/bold cyan]
 }
 
 ZONE_COMPLETIONS = {
+    "respecting_differences": """
+[bold green]The Rainbow Bridge shines with every color![/bold green]
+
+Every plank glows — red, orange, yellow, green, blue, purple.
+The whole bridge hums with warmth.
+
+[bold cyan]"You understand now,"[/bold cyan] Puck says softly.
+[bold cyan]"Difference isn't something to be afraid of.
+It's something to be curious about.
+Something to celebrate."[/bold cyan]
+
+[bold cyan]"Empathy. Respect. Courage to speak up.
+These are the tools that make the world
+a little more fair — and a lot more wonderful."[/bold cyan]
+
+[bold white]The bridge holds. And you helped build it.[/bold white]
+""",
     "feelings_garden": """
 [bold green]The garden blooms![/bold green]
 
@@ -279,6 +312,7 @@ a little brighter for everyone around it."[/bold cyan]
 }
 
 BOSS_INTROS = {
+    "respecting_differences": "An unkind comment floats by on the bridge. [bold yellow]\"This is the bravest question. What do you do when you see something unfair? Your voice matters.\"[/bold yellow]",
     "feelings_garden": "A very complicated flower appears, wearing several feelings at once. [bold yellow]\"Sometimes people feel more than one thing. Can you figure out what this feeling is?\"[/bold yellow]",
     "kindness_actions": "A really tricky situation appears. [bold yellow]\"This one's harder than the others. What's the most genuinely kind thing to do here?\"[/bold yellow]",
     "being_a_good_friend": "Two friends are in a really hard situation together. [bold yellow]\"What does a truly good friend do in a moment like this?\"[/bold yellow]",
