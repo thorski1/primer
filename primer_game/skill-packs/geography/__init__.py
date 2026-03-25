@@ -36,6 +36,8 @@ SKILL_PACK = SkillPack(
         "maps_and_directions": "map_reader",
         "landforms": "landform_explorer",
         "world_wonders": "wonder_keeper",
+        "weather_and_climate": "climate_watcher",
+        "flags_and_symbols": "flag_reader",
     },
     achievements={
         "continent_keeper": ("Continent Keeper", "Named and located all seven continents!"),
@@ -44,6 +46,8 @@ SKILL_PACK = SkillPack(
         "map_reader": ("Map Reader", "Read a map like a true explorer!"),
         "landform_explorer": ("Landform Explorer", "Named mountains, rivers, and deserts from around the world!"),
         "wonder_keeper": ("Wonder Keeper", "Discovered the greatest wonders Earth has ever made!"),
+        "climate_watcher": ("Climate Watcher", "Explored climate zones, seasons, and the great monsoon rains!"),
+        "flag_reader": ("Flag Reader", "Recognised flags and national symbols from around the world!"),
         "no_hints": ("Standing on Your Own", "Completed a zone without any hints!"),
         "speed_reader": ("Quick Thinker", "Answered a question in under 10 seconds!"),
     },

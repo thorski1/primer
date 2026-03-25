@@ -135,6 +135,45 @@ in both directions, forever."[/bold cyan]
 
 [bold white]Step down. Explore below zero![/bold white]
 """,
+    "time_and_calendars": """
+The Academy's tallest tower stretched upward, its walls covered
+in clocks — grandfather clocks, pocket watches, digital displays,
+sundials — all ticking in perfect sync.
+
+[bold cyan]"Time,"[/bold cyan] Puck said, sitting on the hour hand of a giant clock,
+[bold cyan]"is something you use every single day, all your life.
+And yet most people never learn [italic]why[/italic] we have
+sixty seconds in a minute, or why some years have
+an extra day."[/bold cyan]
+
+The big clock face showed hands and numbers.
+A calendar page fluttered nearby.
+
+[bold cyan]"Clocks. Calendars. Elapsed time. Leap years.
+Once you understand time, you can plan, measure,
+and never be late again."[/bold cyan]
+
+[bold white]The Clock Tower is open. What time is it?[/bold white]
+""",
+    "patterns_and_sequences": """
+The final hall of the Academy was unlike the others.
+Numbers floated in spirals. Shapes arranged themselves
+in rows. A pinecone sat under a spotlight.
+
+[bold cyan]"Patterns,"[/bold cyan] Puck said quietly, [bold cyan]"are the heartbeat
+of mathematics. Numbers don't just sit there —
+they [italic]dance.[/italic] They repeat. They grow.
+They follow rules."[/bold cyan]
+
+Puck pointed to the pinecone.
+
+[bold cyan]"Did you know the spirals in a pinecone
+follow the same number sequence as galaxies?
+It's called the Fibonacci sequence —
+and you're about to discover it."[/bold cyan]
+
+[bold white]Enter the Pattern Palace. Find the rules![/bold white]
+""",
 }
 
 ZONE_COMPLETIONS = {

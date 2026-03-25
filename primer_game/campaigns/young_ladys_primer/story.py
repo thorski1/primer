@@ -199,6 +199,23 @@ These aren't harder — they're deeper. They answer bigger questions."[/bold cya
 
 [bold white]The Math Academy is ready. This is where thinking gets powerful![/bold white]
 """,
+    "history": """
+The Primer turned to its newest pages.
+
+Gold stars covered the margins — but in the center,
+a tiny hourglass turned slowly in place.
+
+[bold cyan]"History,"[/bold cyan] Puck said simply. [bold cyan]"The story of everyone
+who came before. The builders and the explorers. The inventors.
+The people who did terrible things — and the people who refused to let terrible things stand."[/bold cyan]
+
+Puck floated close.
+
+[bold cyan]"You are not separate from this story. You are its next chapter.
+But to know where you're going — you have to know where everyone has been."[/bold cyan]
+
+[bold white]The hourglass glows. History begins.[/bold white]
+""",
     "coding_basics": """
 The Primer's final chapter glowed with a special light —
 softer, more focused, like the glow of a screen in a quiet room.
@@ -307,6 +324,22 @@ That skill works in every subject, every job, every challenge.
 Mathematics is just the clearest form of [italic]careful thinking.[/italic]"[/bold cyan]
 
 [bold white]The Code Garden is next — and it grows from this very skill.[/bold white]
+""",
+    "history": """
+The hourglass settled. The last page of the history chapter turned.
+
+Ancient civilizations. Brave explorers. Brilliant inventors.
+The terrible wars and the remarkable people who helped end them.
+The American story — its promises, its failures, and its ongoing becoming.
+The leaders who changed the world through courage alone.
+
+[bold cyan]Puck settled on your shoulder. "You know all of this now.
+Every civilization. Every journey. Every invention.
+Every person who stood up when it was hard."[/bold cyan]
+
+A long pause.
+
+[bold cyan]"So let me ask you something: what do YOU want to add to that story?"[/bold cyan]
 """,
     "coding_basics": """
 The Code Garden is fully awake.

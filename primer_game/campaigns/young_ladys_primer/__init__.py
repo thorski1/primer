@@ -88,6 +88,14 @@ CAMPAIGN = Campaign(
             entry_summary=CHAPTER_ENTRY_SUMMARIES["math_advanced"],
         ),
         ChapterDef(
+            pack_name="history",
+            title="The Time Traveler's Primer",
+            recommended_age="8-11",
+            intro_bridge=CHAPTER_INTROS["history"],
+            outro_bridge=CHAPTER_OUTROS["history"],
+            entry_summary=CHAPTER_ENTRY_SUMMARIES.get("history", ""),
+        ),
+        ChapterDef(
             pack_name="coding_basics",
             title="The Code Garden",
             recommended_age="8-12",

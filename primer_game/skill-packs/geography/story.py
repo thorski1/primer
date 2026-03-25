@@ -120,6 +120,41 @@ Peru, the border between two great countries...
 
 [bold white]Let's visit the wonders of the world![/bold white]
 """,
+    "weather_and_climate": """
+Puck floated to a new section of the atlas — pages that shifted colour
+as you watched, from deep green to pale gold to icy white.
+
+[bold cyan]"Climate,"[/bold cyan] Puck said, [bold cyan]"is the long-term weather pattern
+of a place. Not just today's forecast — but what every year
+feels like: how hot, how cold, how wet, how dry."[/bold cyan]
+
+Four great bands of colour spread across the globe:
+[bold yellow]Tropical · Desert · Temperate · Polar[/bold yellow]
+
+[bold cyan]"And then there are the great rains — the monsoon —
+and the mystery of why we have four seasons at all.
+It all comes down to one thing: the tilt of the Earth."[/bold cyan]
+
+[bold white]Let's explore the weathers of the world![/bold white]
+""",
+    "flags_and_symbols": """
+Puck flew to a new page of the atlas where tiny flags fluttered
+on every country — hundreds of them, each one different.
+
+[bold cyan]"Flags,"[/bold cyan] Puck said, landing on one, [bold cyan]"are a country's
+hello to the world. Each one has a story: a colour chosen
+for a reason, a symbol with a meaning, a shape no other
+country shares."[/bold cyan]
+
+Flags swirled past — red leaves, rising suns, southern crosses,
+eagles, triangles...
+
+[bold cyan]"National animals are the same — chosen because they say
+something true about the land. A jaguar, an eagle, a kangaroo.
+Each one belongs to one place on Earth."[/bold cyan]
+
+[bold white]Let's read the language of flags![/bold white]
+""",
 }
 
 ZONE_COMPLETIONS = {
@@ -201,6 +236,38 @@ Puck closes the glowing atlas gently.
 [bold white]Explorer. Adventurer. World-knower.[/bold white]
 [bold white]That's you.[/bold white]
 """,
+    "weather_and_climate": """
+[bold green]The climate map glows in four beautiful bands![/bold green]
+
+Tropical green at the Equator. Desert gold across the dry belts.
+Temperate blue-green across the middle latitudes. Polar white
+at both ends of the world.
+
+[bold cyan]"You understand why the world's weather is the way it is,"[/bold cyan] Puck says.
+[bold cyan]"The tilt of the Earth. The rains that farmers pray for.
+The four seasons that turn like a wheel, year after year.
+This is geography [italic]and[/italic] science at the same time."[/bold cyan]
+
+The atlas turns to its brightest, most colourful pages: the flags...
+""",
+    "flags_and_symbols": """
+[bold green]The Hall of Flags rings with colour![/bold green]
+
+Red maple leaves, rising suns, Southern Crosses, bald eagles,
+double pennants — every flag understood, every symbol known.
+
+[bold cyan]"Flags and symbols,"[/bold cyan] Puck says softly, [bold cyan]"are how countries
+say who they are without using words.
+Now when you see a flag, you'll know its story."[/bold cyan]
+
+The atlas glows from cover to cover.
+
+[bold cyan]"You've done it."[/bold cyan] Puck's wings spread wide.
+[bold cyan]"Continents to oceans, capitals to landforms, wonders to weather
+to flags. The whole world, page by page. It's all yours."[/bold cyan]
+
+[bold white]World Explorer. Map Master. Flag Reader. That's you.[/bold white]
+""",
 }
 
 BOSS_INTROS = {
@@ -210,6 +277,8 @@ BOSS_INTROS = {
     "maps_and_directions": "Puck draws a long line straight down the center of the atlas. [bold yellow]\"This is the most important line on any map. It's where East meets West. What's it called?\"[/bold yellow]",
     "landforms": "A tiny triangle of land appears where a great river meets the sea. [bold yellow]\"Rivers drop their soil as they reach the ocean and build a special shape. What do we call it?\"[/bold yellow]",
     "world_wonders": "The atlas blazes gold. [bold yellow]\"One country has more UNESCO World Heritage Sites than any other. It's ancient, beautiful, and full of art. Which country is it?\"[/bold yellow]",
+    "weather_and_climate": "The climate map shows four great coloured bands across the globe. [bold yellow]\"One zone has four proper seasons — warm summers, cold winters, everything in between. It covers most of Europe and North America. Which climate zone is it?\"[/bold yellow]",
+    "flags_and_symbols": "A soaring bird of prey glides across the atlas page. [bold yellow]\"One great nation chose this bird as its national symbol — a bird found only in North America, meaning freedom and strength. Which country, and which bird?\"[/bold yellow]",
 }
 
 ACHIEVEMENT_DESCRIPTIONS = {
