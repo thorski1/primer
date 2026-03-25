@@ -19,6 +19,40 @@ and read full sentences in Sentence City.[/white]
 [bold cyan]"Words and numbers are the twin languages of the world.
 You're learning the second one now."[/bold cyan]
 """,
+    "geography": """
+[bold cyan]Puck opens the Primer to a page showing the whole round Earth.[/bold cyan]
+
+[white]Before this chapter: words were learned, numbers were mastered,
+the natural world was explored, and kindness was practiced.
+The Primer now opens its atlas pages — the world map glows with possibility.[/white]
+
+[bold cyan]"Seven continents. Five oceans. Hundreds of countries," Puck says.
+"The world is waiting to be known."[/bold cyan]
+""",
+    "math_advanced": """
+[bold cyan]Puck opens the Primer to a page covered in numbers and shapes.[/bold cyan]
+
+[white]A young learner has come far: letters and reading mastered,
+numbers and basic arithmetic understood, the world explored,
+kindness practiced, and now — the globe mapped.
+
+The Primer turns to harder mathematics.[/white]
+
+[bold cyan]"You already know addition and subtraction," Puck says.
+"Now we go further: multiplication, division, fractions, geometry.
+The full toolkit of mathematical thinking."[/bold cyan]
+""",
+    "coding_basics": """
+[bold cyan]Puck stands at the entrance to the Code Garden.[/bold cyan]
+
+[white]Words, numbers, science, kindness, geography, and mathematics —
+all of it learned. The Primer now opens its final chapter:
+how computers think, and how to give them instructions.[/white]
+
+[bold cyan]"This isn't about memorizing commands," Puck says.
+"It's about learning to think in steps.
+To break a problem into pieces. To teach a machine what you want."[/bold cyan]
+""",
     "science": """
 [bold cyan]Puck opens the Primer to a page full of color and light.[/bold cyan]
 
@@ -140,6 +174,47 @@ How to be the kind of person that others are glad to know."[/bold cyan]
 
 [bold white]The kindness chapter is waiting. This one matters most.[/bold white]
 """,
+    "geography": """
+The Primer opened to a new page — and there was the whole world.
+
+Oceans and mountains. City lights at night. Desert sands and Arctic ice.
+The great rivers. The tallest peaks. The smallest island nations.
+
+[bold cyan]"The world is very large,"[/bold cyan] Puck said. [bold cyan]"But knowing [italic]where[/italic]
+things are — that's the beginning of understanding [italic]why[/italic] the world
+is the way it is."[/bold cyan]
+
+[bold white]The Atlas of Wonders is open. Let's explore![/bold white]
+""",
+    "math_advanced": """
+[bold cyan]"You know how to count,"[/bold cyan] Puck said, [bold cyan]"and how to add and subtract.
+Now we go further."[/bold cyan]
+
+The Primer opened to the Math Academy — a grand building full of
+number puzzles, geometry shapes floating in the air, and clocks
+showing fractions of time.
+
+[bold cyan]"Multiplication. Division. Fractions. Decimals. Geometry.
+These aren't harder — they're deeper. They answer bigger questions."[/bold cyan]
+
+[bold white]The Math Academy is ready. This is where thinking gets powerful![/bold white]
+""",
+    "coding_basics": """
+The Primer's final chapter glowed with a special light —
+softer, more focused, like the glow of a screen in a quiet room.
+
+[bold cyan]"This,"[/bold cyan] Puck said, [bold cyan]"is the chapter about [italic]instructions.[/italic]
+How computers work. How programs are written. Not the buttons and apps —
+the ideas underneath."[/bold cyan]
+
+Puck turned to look at you directly.
+
+[bold cyan]"Loops. Choices. Variables. Functions.
+These are the shapes that all programs are made of.
+Learn them here, and you'll understand [italic]every[/italic] program you ever meet."[/bold cyan]
+
+[bold white]The Code Garden is ready. Let's grow some ideas![/bold white]
+""",
 }
 
 CHAPTER_OUTROS = {
@@ -199,6 +274,55 @@ A long pause.
 
 [bold cyan]"Those aren't small things.
 Those are [italic]everything.[/italic]"[/bold cyan]
+
+[bold white]But the world is big — and the Primer has more pages.[/bold white]
+""",
+    "geography": """
+The atlas closes softly.
+
+Every continent, every ocean — named and known.
+Capital cities memorized. Maps read with confidence.
+Mountains, rivers, and deserts placed in their proper homes.
+The wonders of the world, understood and celebrated.
+
+[bold cyan]"Do you feel it?"[/bold cyan] Puck says.
+
+[bold cyan]"That feeling that the world is [italic]smaller[/italic] now — not because it got smaller,
+but because [italic]you[/italic] got bigger. You know where things are.
+You know the shape of the Earth. That's not nothing — that's geography."[/bold cyan]
+
+[bold white]Next: the Math Academy awaits. Numbers, patterns, and problem-solving.[/bold white]
+""",
+    "math_advanced": """
+The Academy gates close behind you, golden light trailing in the air.
+
+Multiplication mastered. Division understood. Word problems solved
+step by step, with patience and logic. Geometry drawn and measured.
+Decimals and fractions — the in-between numbers — finally making sense.
+Even negative numbers, the ones that live below zero.
+
+[bold cyan]"You are a mathematician,"[/bold cyan] Puck says simply.
+[bold cyan]"Not because you're perfect — because you know how to think through problems.
+That skill works in every subject, every job, every challenge.
+Mathematics is just the clearest form of [italic]careful thinking.[/italic]"[/bold cyan]
+
+[bold white]The Code Garden is next — and it grows from this very skill.[/bold white]
+""",
+    "coding_basics": """
+The Code Garden is fully awake.
+
+Every machine in it has instructions. Every loop is doing useful work.
+Every function is named and ready to be called. The program at the heart
+of the garden runs cleanly, without error, from start to finish.
+
+[bold cyan]"You understand how computers think,"[/bold cyan] Puck says softly.
+[bold cyan]"You know what a program is. You know how to break a problem into steps.
+You know what a loop does. What a function does. What a variable remembers."[/bold cyan]
+
+Puck glows warm gold.
+
+[bold cyan]"Those are not just coding ideas. Those are [italic]thinking[/italic] ideas.
+You will use them for the rest of your life."[/bold cyan]
 """,
 }
 
