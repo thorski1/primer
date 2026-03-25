@@ -1,0 +1,6 @@
+title: The Young Lady's Illustrated Primer
+description: A terminal RPG for children that teaches reading, math, science, history, geography, coding, and kindness
+url: https://thorski1.github.io/primer
+theme: jekyll-theme-minimal
+plugins:
+  - jekyll-seo-tag

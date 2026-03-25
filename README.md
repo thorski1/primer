@@ -26,6 +26,8 @@ When you open it, a small glowing creature floats up from between the pages.
 
 A terminal adventure for young learners. Seven chapters. One companion. A whole world to explore.
 
+> **Tags:** educational game for kids, learning game, children's educational app, learn to read, math for kids, coding for kids, history for kids, terminal game for children, Neal Stephenson Diamond Age
+
 ---
 
 ## What's Inside
