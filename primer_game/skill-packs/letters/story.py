@@ -131,6 +131,31 @@ comes alive in your mind."[/bold cyan]
 
 [bold white]Read carefully. Every word is a clue.[/bold white]
 """,
+    "word_building": """
+Puck flew to a cozy little workbench covered in letter tiles.
+
+[bold cyan]"Here's where the magic really happens,"[/bold cyan] Puck said with a grin.
+[bold cyan]"Take a letter here, snap it onto a piece there — and suddenly
+you have a [italic]word![/italic] A real thing with a real meaning."[/bold cyan]
+
+A little [bold yellow]S[/bold yellow] tile glowed invitingly on the bench.
+
+[bold white]Snap the letters together. What words can you build?[/bold white]
+""",
+    "story_time": """
+The Primer's pages began to glow, and a tiny stage rose up
+from the center of the book — red curtains, a little spotlight,
+everything.
+
+[bold cyan]"Welcome to Story Time Theater!"[/bold cyan] Puck announced, doing a small bow.
+[bold cyan]"A story is more than just words on a page. It's a picture
+in your mind — characters, places, things happening.
+Read carefully, and you'll know everything."[/bold cyan]
+
+The curtain opened. A little story waited.
+
+[bold white]Read every word. The answers are in there![/bold white]
+""",
 }
 
 ZONE_COMPLETIONS = {
@@ -221,6 +246,31 @@ You're a reader — truly and completely."[/bold cyan]
 
 [bold white]Every book in the world is waiting for you now.[/bold white]
 """,
+    "word_building": """
+[bold green]The workshop sparks with new words![/bold green]
+
+Letter tiles float up from the bench and arrange themselves
+into a glowing banner of words — SUN, HAT, BIG, MAT, PLOP, SAT.
+
+[bold cyan]"Look at all those words,"[/bold cyan] Puck says, a little misty-eyed.
+[bold cyan]"You built every single one. Letters into words —
+that's the first step of all writing, all reading,
+all stories ever told."[/bold cyan]
+
+[bold white]The theater stage is ready. A story is waiting![/bold white]
+""",
+    "story_time": """
+[bold green]The curtain falls to wild applause![/bold green]
+
+The tiny stage is bright with the warmth of all the stories told.
+
+[bold cyan]"Do you feel that?"[/bold cyan] Puck asks quietly. [bold cyan]"That's what it feels like
+to truly understand what you read. Not just the words —
+but the [italic]meaning[/italic] behind them. Who was there, what they did,
+why it happened."[/bold cyan]
+
+[bold white]You are a reader. A true, real, wonderful reader.[/bold white]
+""",
 }
 
 BOSS_INTROS = {
@@ -232,4 +282,6 @@ BOSS_INTROS = {
     "rhyming_river": "Puck hovers over a ripple where two words float side by side. [bold yellow]\"Can you complete the rhyme? Think about the ending sound!\"[/bold yellow]",
     "sight_word_station": "The last sign at the station flickers. [bold yellow]\"This sentence is full of sight words — read it and prove you know them all!\"[/bold yellow]",
     "reading_full_sentences": "A little framed story hangs on the reading room wall. [bold yellow]\"Read every sentence. Then answer the question — the answer is in there somewhere!\"[/bold yellow]",
+    "word_building": "A pile of letter tiles on the workbench begins to glow. [bold yellow]\"The trickiest word of all — every letter has to go in just the right place!\"[/bold yellow]",
+    "story_time": "The spotlight on the tiny stage brightens and a longer story appears. [bold yellow]\"Read the whole thing carefully — then I'll ask you the most important question of all!\"[/bold yellow]",
 }

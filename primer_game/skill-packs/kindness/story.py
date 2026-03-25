@@ -124,6 +124,41 @@ while you're feeling them."[/bold cyan]
 
 [bold white]What do you do when feelings get really big?[/bold white]
 """,
+    "friendship_bridge": """
+Puck led the way across a glowing bridge
+stretching over a quiet stream.
+
+The air was warm. Fireflies drifted below.
+
+[bold cyan]"A good friend,"[/bold cyan] Puck said quietly,
+[bold cyan]"is one of the greatest things you can be.
+Not just someone to play with —
+someone who shows up, keeps your secrets,
+sticks up for you, and says sorry when they've hurt you."[/bold cyan]
+
+She smiled at Nell.
+
+[bold cyan]"You already know how to be that friend.
+Let's make sure."[/bold cyan]
+
+[bold white]What does a truly good friend do?[/bold white]
+""",
+    "gratitude_practice": """
+Puck opened a small book made of flower petals.
+Each page shimmered with color.
+
+[bold cyan]"When we notice what we're thankful for,"[/bold cyan] she said,
+[bold cyan]"the whole world gets a little brighter."[/bold cyan]
+
+Nell looked around — at the soft glow of the Primer,
+at the garden all around them.
+
+[bold cyan]"Gratitude isn't something you feel when everything is perfect.
+It's something you practice every day, with whatever is here.
+And the more you practice it, the happier you become."[/bold cyan]
+
+[bold white]What are you grateful for?[/bold white]
+""",
 }
 
 ZONE_COMPLETIONS = {
@@ -211,6 +246,36 @@ They're part of being alive and caring about things.
 And now you know how to move through them —
 with grace, and with kindness toward yourself."[/bold cyan]
 """,
+    "friendship_bridge": """
+[bold green]The Friendship Bridge shimmers with warm golden light![/bold green]
+
+[bold cyan]"You know what a real friend does now,"[/bold cyan] Puck says.
+[bold cyan]"Ask. Listen. Compromise. Keep secrets.
+Stay loyal. Help through mistakes.
+And when you've hurt someone — mean it when you say sorry."[/bold cyan]
+
+A pause, and then:
+
+[bold cyan]"You are already becoming that friend.
+I've seen it."[/bold cyan]
+""",
+    "gratitude_practice": """
+[bold green]The Gratitude Garden blooms all around you![/bold green]
+
+The petals of Puck's book flutter gently in the breeze.
+
+[bold cyan]"Grateful for what you have.
+Kind when you receive.
+Saying thank you — and meaning it.
+Knowing that gratitude makes [italic]you[/italic] feel better too."[/bold cyan]
+
+Puck closes the petal-book softly.
+
+[bold cyan]"These aren't small things.
+A thankful heart is a happy heart —
+and a happy heart makes the whole world
+a little brighter for everyone around it."[/bold cyan]
+""",
 }
 
 BOSS_INTROS = {
@@ -221,4 +286,6 @@ BOSS_INTROS = {
     "listening_skills": "A friend is quieter than usual and hasn't said anything is wrong. [bold yellow]\"This is the hardest listening challenge. No one told you there was a problem. What do you do?\"[/bold yellow]",
     "helping_community": "A single warm smile is all you have to give. [bold yellow]\"Can something that costs nothing really change someone's day? Think about what kindness truly is.\"[/bold yellow]",
     "handling_hard_feelings": "Two people are hurting each other. One of them is having a terrible day. [bold yellow]\"Does feeling bad make it okay to act mean? This is the hardest feelings question of all.\"[/bold yellow]",
+    "friendship_bridge": "A friend has been hurt by your words. [bold yellow]\"Saying sorry is one thing. But what does a real apology actually look like? This is the most important friendship question.\"[/bold yellow]",
+    "gratitude_practice": "Puck asks you to look around at your life right now. [bold yellow]\"Can you find something to be truly grateful for, even in an ordinary moment? This is the heart of gratitude.\"[/bold yellow]",
 }

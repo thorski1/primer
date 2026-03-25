@@ -118,6 +118,32 @@ big quarters.
 
 [bold white]Learn the coins. Count your treasure![/bold white]
 """,
+    "shapes_and_patterns": """
+Puck led the way through a little gate into the most beautiful garden.
+
+Flowers grew in triangles and circles. The stone path was laid in a
+perfect repeating pattern — square, round, square, round, all the way
+to the fountain.
+
+[bold cyan]"Shapes and patterns are hiding everywhere,"[/bold cyan] Puck said happily.
+[bold cyan]"In tiles, in flowers, in windows, in fences. Once your eye
+knows what to look for — you'll see them [italic]everywhere.[/italic]"[/bold cyan]
+
+[bold white]Look closely. Name the shapes. Finish the patterns.[/bold white]
+""",
+    "telling_time": """
+Puck pointed up at a tall stone tower at the edge of the kingdom.
+At the very top was the most magnificent clock — gold hands, bright
+numbers, tick-tocking in the sunshine.
+
+[bold cyan]"Learning to tell time,"[/bold cyan] Puck said, [bold cyan]"is like learning
+a secret language that everyone uses. Once you can read
+a clock, you always know where you are in your day."[/bold cyan]
+
+The big hand moved. The little hand waited.
+
+[bold white]Read the clock. Know your time.[/bold white]
+""",
 }
 
 ZONE_COMPLETIONS = {
@@ -208,6 +234,30 @@ The whole kingdom of numbers is yours now."[/bold cyan]
 
 [bold white]Every coin, every number, every pattern — you've learned them all.[/bold white]
 """,
+    "shapes_and_patterns": """
+[bold green]The garden blooms with every shape![/bold green]
+
+Triangles, squares, circles, and rectangles glow in the sunshine.
+The path's pattern stretches perfectly into the distance.
+
+[bold cyan]"You see them now, don't you?"[/bold cyan] Puck says softly. [bold cyan]"Shapes
+and patterns in everything around you. The world is full
+of mathematics, just waiting to be noticed."[/bold cyan]
+
+[bold white]The Clockwork Tower is ahead — time to learn the time![/bold white]
+""",
+    "telling_time": """
+[bold green]The Clockwork Tower chimes![/bold green]
+
+The great golden bell rings, and the sound rolls across
+the whole kingdom. You read the clock — perfectly.
+
+[bold cyan]"There it is,"[/bold cyan] Puck says proudly. [bold cyan]"You can tell the time now.
+That means you're in charge of your own day. You know when
+things start, how long you have, and when to be ready."[/bold cyan]
+
+[bold white]That is one of the most useful things you will ever learn.[/bold white]
+""",
 }
 
 BOSS_INTROS = {
@@ -219,4 +269,6 @@ BOSS_INTROS = {
     "skip_counting_grove": "The tallest tree in the grove glows with an even number. [bold yellow]\"Is it a multiple of 2? Think carefully!\"[/bold yellow]",
     "measurement_meadow": "Puck holds up two containers side by side. [bold yellow]\"Which one holds more? Think about the units!\"[/bold yellow]",
     "money_market": "A price tag flutters in the breeze. [bold yellow]\"Can you figure out the change? Subtract carefully!\"[/bold yellow]",
+    "shapes_and_patterns": "The flowers in the center of the garden arrange themselves into a long pattern. [bold yellow]\"The trickiest pattern of all — look carefully and find what comes next!\"[/bold yellow]",
+    "telling_time": "The clock tower's hands begin to spin. [bold yellow]\"One last tricky time to figure out — think carefully and you'll get it!\"[/bold yellow]",
 }

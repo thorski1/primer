@@ -135,6 +135,36 @@ And here's the amazing part:"[/bold cyan] Puck paused for effect.
 
 [bold white]Let's find out what's solid, what's liquid, and what's gas![/bold white]
 """,
+    "weather_watch": """
+Puck took Nell's hand and led her up a tall, winding staircase.
+
+At the top, the whole sky stretched out in every direction.
+Clouds drifted. The wind stirred. A distant rumble.
+
+[bold cyan]"The sky is a story that's always changing,"[/bold cyan] Puck said softly.
+[bold cyan]"Every cloud, every gust, every snowflake follows rules —
+and once you know the rules, you can read
+what the sky is telling you."[/bold cyan]
+
+Nell watched a dark cloud rolling in from the west.
+
+[bold white]What is the sky saying today?[/bold white]
+""",
+    "animal_world": """
+The Primer's pages began to rustle, as if something
+were moving inside them. Leaves appeared.
+Then sounds — chirping, rustling, a distant splash.
+
+Puck grinned. [bold cyan]"Every creature has something amazing about it.
+The way a dolphin breathes. The way a frog
+lives in two worlds. The way a caterpillar
+becomes something completely different."[/bold cyan]
+
+[bold cyan]"The animal kingdom is one of the most wonderful things
+there is — and you're part of it."[/bold cyan]
+
+[bold white]What do you know about the creatures we share this world with?[/bold white]
+""",
 }
 
 ZONE_COMPLETIONS = {
@@ -231,6 +261,34 @@ And now you understand how."[/bold cyan]
 
 [bold white]That's the science of the world all around you![/bold white]
 """,
+    "weather_watch": """
+[bold green]The watchtower glows in the afternoon light![/bold green]
+
+Nell looks out at the sky — the same sky as before,
+but somehow richer now.
+
+[bold cyan]"You can read it,"[/bold cyan] Puck says. [bold cyan]"Dark clouds bring rain.
+Wind is moving air. Winter brings snow.
+A rainbow needs both sun and rain."[/bold cyan]
+
+[bold cyan]"The sky has always been telling its story.
+Now you know how to listen."[/bold cyan]
+""",
+    "animal_world": """
+[bold green]The pages of the Animal Kingdom settle with a gentle hush.[/bold green]
+
+[bold cyan]"Herbivores. Mammals. Amphibians.
+Metamorphosis. Cold-blooded. Warm-blooded."[/bold cyan]
+
+Puck looks at Nell with sparkling eyes.
+
+[bold cyan]"You share this world with millions of other creatures,
+each one remarkable in its own way.
+And now you understand a little more about how they work —
+and how you work too."[/bold cyan]
+
+[bold white]The animal kingdom is yours to explore![/bold white]
+""",
 }
 
 BOSS_INTROS = {
@@ -241,4 +299,6 @@ BOSS_INTROS = {
     "simple_machines": "A mysterious screw glints in the lamplight. [bold yellow]\"Every civilization used this one. It looks simple but it's hiding a brilliant secret. Think it through!\"[/bold yellow]",
     "earth_and_space": "The night sky fills with thousands of stars. [bold yellow]\"What are all those tiny lights, really? This is the question that will change how you see the night sky forever.\"[/bold yellow]",
     "matter_and_energy": "A puddle is slowly disappearing on a warm day. [bold yellow]\"The water is going somewhere. Where? This is the final mystery of the Matter Lab!\"[/bold yellow]",
+    "weather_watch": "A strange sky appears — clouds, temperature, possibilities. [bold yellow]\"This is the toughest weather question. Think about what happens to water when it gets very, very cold!\"[/bold yellow]",
+    "animal_world": "Two animals stand side by side — one warm-blooded, one cold-blooded. [bold yellow]\"What's really the difference between them? This is the big animal question. You can do it!\"[/bold yellow]",
 }
