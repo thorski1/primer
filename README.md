@@ -44,7 +44,7 @@ A terminal adventure for young learners. Nine chapters. One companion. A whole w
 | 8 | **The Art Studio** | Colors, shapes, famous artwork, art elements, famous artists | 7-11 |
 | 9 | **The Code Garden** | What coding is, loops, conditionals, variables, functions | 8-12 |
 
-**600+ challenges** across 81+ zones. Every challenge is multiple-choice or fill-in-the-blank, designed for short focused sessions. Progress saves automatically.
+**630+ challenges** across 87+ zones. Every challenge is multiple-choice or fill-in-the-blank, designed for short focused sessions. Progress saves automatically.
 
 ---
 
