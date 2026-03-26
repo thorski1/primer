@@ -155,6 +155,20 @@ Each one belongs to one place on Earth."[/bold cyan]
 
 [bold white]Let's read the language of flags![/bold white]
 """,
+    "peoples_and_cultures": """
+The final page of the atlas was different from all the others.
+
+It didn't show mountains or oceans or borders.
+It showed [bold yellow]faces[/bold yellow] — thousands of faces from every corner of the world.
+
+[bold cyan]"Eight billion people,"[/bold cyan] Puck said quietly,
+[bold cyan]"speak 7,000 languages. They eat different foods,
+celebrate different festivals, tell different stories.
+And yet — everywhere you go — people love their children,
+tell jokes, sing songs, and watch the same sun set."[/bold cyan]
+
+[bold white]The atlas glows its warmest yet. Let's meet the people of Earth.[/bold white]
+""",
 }
 
 ZONE_COMPLETIONS = {
@@ -259,14 +273,20 @@ double pennants — every flag understood, every symbol known.
 [bold cyan]"Flags and symbols,"[/bold cyan] Puck says softly, [bold cyan]"are how countries
 say who they are without using words.
 Now when you see a flag, you'll know its story."[/bold cyan]
+""",
+    "peoples_and_cultures": """
+[bold green]Eight billion faces, all known![/bold green]
 
-The atlas glows from cover to cover.
+Languages, populations, festivals, traditions — the people
+of Earth explored from Carnival in Brazil to origami in Japan,
+from Mandarin speakers to the 840 languages of Papua New Guinea.
 
 [bold cyan]"You've done it."[/bold cyan] Puck's wings spread wide.
-[bold cyan]"Continents to oceans, capitals to landforms, wonders to weather
-to flags. The whole world, page by page. It's all yours."[/bold cyan]
+[bold cyan]"Continents to oceans, capitals to landforms, wonders to weather,
+flags to the faces of Earth. The whole world, page by page.
+It's all yours."[/bold cyan]
 
-[bold white]World Explorer. Map Master. Flag Reader. That's you.[/bold white]
+[bold white]World Explorer. Map Master. Culture Bridge. That's you.[/bold white]
 """,
 }
 
@@ -279,6 +299,7 @@ BOSS_INTROS = {
     "world_wonders": "The atlas blazes gold. [bold yellow]\"One country has more UNESCO World Heritage Sites than any other. It's ancient, beautiful, and full of art. Which country is it?\"[/bold yellow]",
     "weather_and_climate": "The climate map shows four great coloured bands across the globe. [bold yellow]\"One zone has four proper seasons — warm summers, cold winters, everything in between. It covers most of Europe and North America. Which climate zone is it?\"[/bold yellow]",
     "flags_and_symbols": "A soaring bird of prey glides across the atlas page. [bold yellow]\"One great nation chose this bird as its national symbol — a bird found only in North America, meaning freedom and strength. Which country, and which bird?\"[/bold yellow]",
+    "peoples_and_cultures": "Puck holds up a tiny globe with thousands of tiny dots of light — each one a different language. [bold yellow]\"One small country near Australia has over 840 different languages. Can you name it? The most linguistically rich place on Earth!\"[/bold yellow]",
 }
 
 ACHIEVEMENT_DESCRIPTIONS = {

@@ -174,6 +174,24 @@ and you're about to discover it."[/bold cyan]
 
 [bold white]Enter the Pattern Palace. Find the rules![/bold white]
 """,
+    "fractions_and_ratios": """
+Deep in the Fraction Forest, the trees were each divided
+into different numbers of equal pieces.
+
+One tree split into 2 halves.
+Another into 4 quarters.
+A third into 8 eighths.
+
+[bold cyan]"They look different,"[/bold cyan] Puck said, sitting on a branch,
+[bold cyan]"but half of a tree is the same amount of tree
+whether you call it 1/2, 2/4, or 4/8.
+That's the magic of fractions — same value, different names."[/bold cyan]
+
+Somewhere deeper in the forest, a recipe card fluttered past
+with ratios for the most delicious cake imaginable.
+
+[bold white]Into the Fraction Forest! Parts, wholes, and ratios await.[/bold white]
+""",
 }
 
 ZONE_COMPLETIONS = {
@@ -249,7 +267,21 @@ The full picture.
 every integer — above zero, at zero, and below zero.
 Most people never truly picture it. You do."[/bold cyan]
 
-[bold white]The Math Academy is conquered. You've revealed numbers' deepest secrets.[/bold white]
+The Fraction Forest glimmers in the distance...
+""",
+    "fractions_and_ratios": """
+[bold green]The Fraction Forest is fully explored![/bold green]
+
+Every tree divided perfectly. Equivalents matched.
+Numerators added. Denominators held steady.
+Ratios scaled without losing their balance.
+
+[bold cyan]"You've done it,"[/bold cyan] Puck says, wings spread wide.
+[bold cyan]"The Math Academy: multiplication, division, word problems,
+geometry, decimals, negatives, time, patterns — and now fractions.
+You've revealed numbers' deepest secrets."[/bold cyan]
+
+[bold white]The Math Academy is conquered. Numbers hold no more mysteries.[/bold white]
 """,
 }
 
@@ -260,6 +292,7 @@ BOSS_INTROS = {
     "geometry": "A triangle hovers in the center of the lab, rotating slowly. [bold yellow]\"You've done rectangles and squares — but what's the area of a triangle? Do you know the secret formula?\"[/bold yellow]",
     "decimals_percents": "A price tag flutters down from the ceiling: $20, with 25% OFF. [bold yellow]\"If the toy is twenty-five percent off, what do you actually pay? Work it out!\"[/bold yellow]",
     "negative_numbers": "The thermometer on the wall reads -4°C and the temperature is rising. [bold yellow]\"Nine degrees warmer than minus four — what temperature is that? Cross zero carefully!\"[/bold yellow]",
+    "fractions_and_ratios": "A pizza sits on the counter, cut into 8 equal slices. Puck grins. [bold yellow]\"You have 3/8. Your friend gives you 2/8 more. You eat 1/8. How much is left? And what does it simplify to?\"[/bold yellow]",
 }
 
 ACHIEVEMENT_DESCRIPTIONS = {
