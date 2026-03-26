@@ -39,6 +39,8 @@ SKILL_PACK = SkillPack(
         "art_styles_through_history": "time_traveler_artist",
         "music_and_rhythm": "rhythm_keeper",
         "photography_and_film": "lens_master",
+        "dance_and_theater": "stage_star",
+        "architecture_and_design": "master_builder",
     },
     achievements={
         "color_mixer": ("Color Mixer", "Mastered primary colors, secondary colors, and color mixing!"),
@@ -50,6 +52,8 @@ SKILL_PACK = SkillPack(
         "time_traveler_artist": ("Time Traveler", "Journeyed from cave paintings to modern street art!"),
         "rhythm_keeper": ("Rhythm Keeper", "Discovered music, notes, instruments, and legendary composers!"),
         "lens_master": ("Lens Master", "Explored photography, pixels, film, and the art of the camera!"),
+        "stage_star": ("Stage Star", "Explored dance, theater, and the performing arts!"),
+        "master_builder": ("Master Builder", "Discovered architecture, design, and the art of building!"),
         "no_hints": ("Standing on Your Own", "Completed a zone without any hints!"),
         "speed_reader": ("Quick Thinker", "Answered a question in under 10 seconds!"),
     },

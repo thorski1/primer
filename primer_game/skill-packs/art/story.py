@@ -89,6 +89,22 @@ ZONE_INTROS = {
         "Photography changed everything: how we see ourselves, "
         "how we remember history, how we tell stories.'[/bold yellow]"
     ),
+    "dance_and_theater": (
+        "[bold cyan]THE STAGE[/bold cyan]\n\n"
+        "[bold yellow]The curtain rises. Puck sits on the edge of the stage, "
+        "feet dangling over the footlights. "
+        "'Art doesn't just live in galleries or concert halls,' Puck says. "
+        "'Sometimes it lives in the body — in movement, in gesture, in a voice "
+        "filling a silent theater. Dance and theater are as old as fire.'[/bold yellow]"
+    ),
+    "architecture_and_design": (
+        "[bold cyan]THE BLUEPRINT ROOM[/bold cyan]\n\n"
+        "[bold yellow]The walls of the Art Studio shift and expand into something like a drafting room — "
+        "blueprints pinned everywhere, tiny models of bridges, towers, domes, and arches. "
+        "Puck floats among them, tracing a finger along a drawing of the Eiffel Tower. "
+        "'Every great building began as a dream,' Puck says quietly. "
+        "'And then someone had to do the math.'[/bold yellow]"
+    ),
 }
 
 ZONE_COMPLETIONS = {
@@ -142,6 +158,23 @@ ZONE_COMPLETIONS = {
         "Pixels, frames, composition, history's first photographs — you understand how images work! "
         "[bold yellow]'Every photo you take from now on — think about the rule of thirds. "
         "Think about the light. Think about the story you are telling.'[/bold yellow]"
+    ),
+    "dance_and_theater": (
+        "[bold green]ZONE COMPLETE — THE STAGE![/bold green]\n\n"
+        "Ballet, hip-hop, Greek masks, musicals, Indian classical dance — "
+        "the performing arts are yours to explore! "
+        "[bold yellow]'The body is an instrument. The stage is a canvas. "
+        "And a story told live, in the same room as the audience, "
+        "is magic that no screen can quite copy.'[/bold yellow]"
+    ),
+    "architecture_and_design": (
+        "[bold green]ZONE COMPLETE — THE BLUEPRINT ROOM![/bold green]\n\n"
+        "Pyramids, the Eiffel Tower, suspension bridges, the Sagrada Família — "
+        "you understand how great buildings come to be! "
+        "[bold yellow]'Every building you walk into from now on, "
+        "look at the shapes that hold it up. "
+        "Someone dreamed them, drew them, and built them. "
+        "And now you know how.'[/bold yellow]"
     ),
 }
 
@@ -199,5 +232,21 @@ BOSS_INTROS = {
         "[bold yellow]'Exposure, pixels, frames per second, composition rules, the history of cameras. "
         "From the first cave painting to the latest digital photo — "
         "what does it mean to truly SEE and capture a moment?'[/bold yellow]"
+    ),
+    "dance_and_theater": (
+        "[bold red]BOSS CHALLENGE — THE FINAL CURTAIN[/bold red]\n\n"
+        "[bold yellow]'Ballet or hip-hop? Tragedy or comedy? Mudra or musical? "
+        "Tell me the story of performing arts — from ancient Greek masks "
+        "to a Broadway stage to a street corner in New York. "
+        "The audience is waiting.'[/bold yellow]"
+    ),
+    "architecture_and_design": (
+        "[bold red]BOSS CHALLENGE — THE GRAND DESIGN[/bold red]\n\n"
+        "[bold yellow]'You are the architect. You have one challenge: "
+        "explain why the triangle is stronger than a rectangle, "
+        "name two buildings that prove great design follows function, "
+        "and tell me what the Sagrada Família, the Pyramids, "
+        "and the Golden Gate Bridge have in common. "
+        "Build your answer as if it will stand for a thousand years.'[/bold yellow]"
     ),
 }
