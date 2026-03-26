@@ -91,6 +91,23 @@ ZONE_INTROS = {
         "Scientists looked at the world — and figured out how it actually works. "
         "Let's meet the minds who changed everything.'[/bold yellow]"
     ),
+    "rights_and_revolutions": (
+        "[bold cyan]THE FREEDOM ROAD[/bold cyan]\n\n"
+        "Torches, marches, peaceful protests, bold speeches — the page fills with "
+        "images of ordinary people doing extraordinary things.\n"
+        "[bold yellow]'History isn't just made by kings and generals. "
+        "It's made by people who stood up and said: This is not fair. "
+        "This must change. And then they did something about it.'[/bold yellow]"
+    ),
+    "women_in_history": (
+        "[bold cyan]HIDDEN FIGURES[/bold cyan]\n\n"
+        "Puck opened a page that was mostly blank — but as you looked, "
+        "names began to appear, one by one. "
+        "Women who had been overlooked. Women who had changed everything. Women whose stories waited to be found.\n"
+        "[bold yellow]'History has two halves,' Puck said quietly. "
+        "'For a long time, only one was being told. "
+        "Let's find the other one.'[/bold yellow]"
+    ),
 }
 
 ZONE_COMPLETIONS = {
@@ -142,6 +159,22 @@ ZONE_COMPLETIONS = {
         "[bold yellow]'Science isn't done,' Puck says. 'It never is. "
         "Maybe the next name on this list... is yours.'[/bold yellow]"
     ),
+    "rights_and_revolutions": (
+        "[bold green]ZONE COMPLETE — THE FREEDOM ROAD![/bold green]\n\n"
+        "The French Revolution, Gandhi's Salt March, Rosa Parks, Mandela, the suffragettes — "
+        "ordinary people who changed the world! "
+        "[bold yellow]'Every one of them was told they couldn't win,' Puck says softly. "
+        "'Every one of them proved the doubters wrong. "
+        "And every one of them started by simply deciding to try.'[/bold yellow]"
+    ),
+    "women_in_history": (
+        "[bold green]ZONE COMPLETE — HIDDEN NO MORE![/bold green]\n\n"
+        "Cleopatra, Curie, Tubman, Lovelace, Malala — and the thousands more whose stories "
+        "are still being discovered! "
+        "[bold yellow]Puck smiled, and the blank pages of the Primer glowed. "
+        "'Half the story is back where it belongs. "
+        "History is richer, truer, and more inspiring with all of it.'[/bold yellow]"
+    ),
 }
 
 BOSS_INTROS = {
@@ -183,5 +216,17 @@ BOSS_INTROS = {
         "[bold red]BOSS CHALLENGE — SCIENCE HALL OF FAME[/bold red]\n\n"
         "[bold yellow]'Newton to Johnson, Darwin to Curie — I describe a discovery, you name the scientist. "
         "These minds changed everything. Let them live in yours!'[/bold yellow]"
+    ),
+    "rights_and_revolutions": (
+        "[bold red]BOSS CHALLENGE — THE COURAGE TEST[/bold red]\n\n"
+        "[bold yellow]'Rosa Parks, Gandhi, Mandela, the suffragettes — ordinary people who changed the world. "
+        "I will describe a struggle for justice. You tell me who fought it and what they believed. "
+        "These are the stories that should never be forgotten.'[/bold yellow]"
+    ),
+    "women_in_history": (
+        "[bold red]BOSS CHALLENGE — HALF THE STORY[/bold red]\n\n"
+        "[bold yellow]'Cleopatra to Malala. Ada Lovelace to Harriet Tubman. "
+        "These women changed the world — and the world didn't always notice. "
+        "Show me you noticed. Show me you remember. Show me their work was not in vain.'[/bold yellow]"
     ),
 }

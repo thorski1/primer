@@ -40,6 +40,8 @@ SKILL_PACK = SkillPack(
         "ancient_wonders":          "wonder_seeker",
         "indigenous_peoples":       "first_peoples_scholar",
         "science_history":          "science_historian",
+        "rights_and_revolutions":  "rights_champion",
+        "women_in_history":        "hidden_no_more",
     },
     achievements={
         "civilization_keeper":    ("Civilization Keeper", "Traveled through Egypt, Greece, Rome, and Mesopotamia!"),
@@ -51,6 +53,8 @@ SKILL_PACK = SkillPack(
         "wonder_seeker":          ("Wonder Seeker", "Explored the Seven Wonders and the greatest ancient structures!"),
         "first_peoples_scholar":  ("First Peoples Scholar", "Honored the Indigenous peoples of every continent!"),
         "science_historian":      ("Science Historian", "Remembered Newton, Curie, Einstein, and the hidden figures!"),
+        "rights_champion":        ("Rights Champion", "Learned how ordinary people changed the world through courage!"),
+        "hidden_no_more":         ("Hidden No More", "Honored the women who changed history but were often left out of it!"),
         "no_hints":               ("Standing on Your Own", "Completed a zone without any hints!"),
         "speed_reader":           ("Quick Thinker", "Answered a question in under 10 seconds!"),
     },
