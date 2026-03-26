@@ -44,7 +44,7 @@ A terminal adventure for young learners. Nine chapters. One companion. A whole w
 | 8 | **The Art Studio** | Colors, shapes, famous artwork, art elements, famous artists | 7-11 |
 | 9 | **The Code Garden** | What coding is, loops, conditionals, variables, functions | 8-12 |
 
-**500+ challenges** across 75+ zones. Every challenge is multiple-choice or fill-in-the-blank, designed for short focused sessions. Progress saves automatically.
+**600+ challenges** across 81+ zones. Every challenge is multiple-choice or fill-in-the-blank, designed for short focused sessions. Progress saves automatically.
 
 ---
 
@@ -143,6 +143,7 @@ Puck offers hints when you're stuck. Every wrong answer is just a step toward th
 | Feature | Description |
 |---------|-------------|
 | **Daily Challenge** | One special challenge each day with bonus XP |
+| **Timed Drill** | 5/10/15-minute blitz — great for revision before school |
 | **Bookmarks** | Save any challenge to revisit later |
 | **Zone Preview** | See what's coming before entering a zone |
 | **Speed Records** | Personal bests tracked per challenge |
