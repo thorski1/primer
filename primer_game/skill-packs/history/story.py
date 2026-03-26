@@ -70,6 +70,27 @@ ZONE_INTROS = {
         "They became powerful through courage. "
         "And because of them, the world is better.'[/bold yellow]"
     ),
+    "ancient_wonders": (
+        "[bold cyan]THE WONDERS CHAPTER[/bold cyan]\n\n"
+        "Tiny golden images shimmer on the page — a pyramid, a lighthouse, a colossal statue.\n"
+        "[bold yellow]'Long before cranes and computers and electricity, humans built things "
+        "so incredible that people still talk about them thousands of years later. "
+        "Let's visit the most extraordinary structures ever made.'[/bold yellow]"
+    ),
+    "indigenous_peoples": (
+        "[bold cyan]THE FIRST PEOPLES[/bold cyan]\n\n"
+        "The page fills with images from every continent — feathers, carved wood, stars, hands.\n"
+        "[bold yellow]'Before explorers arrived, before empires formed, people lived everywhere on Earth — "
+        "with languages, stories, science, and art. "
+        "These are the first peoples of the world. Their stories are among the most important of all.'[/bold yellow]"
+    ),
+    "science_history": (
+        "[bold cyan]THE SCIENTISTS[/bold cyan]\n\n"
+        "Equations, telescopes, test tubes, and satellites float across the page.\n"
+        "[bold yellow]'Some people changed history with armies. Others changed it with an idea. "
+        "Scientists looked at the world — and figured out how it actually works. "
+        "Let's meet the minds who changed everything.'[/bold yellow]"
+    ),
 }
 
 ZONE_COMPLETIONS = {
@@ -103,6 +124,24 @@ ZONE_COMPLETIONS = {
         "The great leaders remembered and celebrated. "
         "[bold yellow]Puck glows gold. 'One day, someone will be learning about the change YOU made. I believe that.'[/bold yellow]"
     ),
+    "ancient_wonders": (
+        "[bold green]ZONE COMPLETE — THE WONDERS CHAPTER![/bold green]\n\n"
+        "Pyramids, lighthouses, colossal statues, the Great Wall — the ancient world explored! "
+        "[bold yellow]'These wonders remind us that humans have always been capable of extraordinary things. "
+        "And so are you.'[/bold yellow]"
+    ),
+    "indigenous_peoples": (
+        "[bold green]ZONE COMPLETE — THE FIRST PEOPLES![/bold green]\n\n"
+        "Aboriginal Australians, the Maya, the Iroquois, the Maori, and more — honored and remembered! "
+        "[bold yellow]Puck is quiet for a moment. 'These stories were almost lost. "
+        "You carrying them forward means they survive.'[/bold yellow]"
+    ),
+    "science_history": (
+        "[bold green]ZONE COMPLETE — THE SCIENTISTS![/bold green]\n\n"
+        "Newton, Darwin, Curie, Einstein, Franklin, and Johnson — the minds who changed the world! "
+        "[bold yellow]'Science isn't done,' Puck says. 'It never is. "
+        "Maybe the next name on this list... is yours.'[/bold yellow]"
+    ),
 }
 
 BOSS_INTROS = {
@@ -129,5 +168,20 @@ BOSS_INTROS = {
     "world_leaders_and_change": (
         "[bold red]BOSS CHALLENGE — THE COMMON THREAD[/bold red]\n\n"
         "[bold yellow]'Puck asks the deepest question: what connects Gandhi, Mandela, Malala, Roosevelt, and King?'[/bold yellow]"
+    ),
+    "ancient_wonders": (
+        "[bold red]BOSS CHALLENGE — WONDER MATCH[/bold red]\n\n"
+        "[bold yellow]'The wonders are all mixed up! Can you match each structure to where it stood "
+        "and what made it remarkable? The ancient world is testing you!'[/bold yellow]"
+    ),
+    "indigenous_peoples": (
+        "[bold red]BOSS CHALLENGE — FIRST PEOPLES[/bold red]\n\n"
+        "[bold yellow]'Can you match each people to their homeland and their great achievement? "
+        "These stories matter — show me you remember them!'[/bold yellow]"
+    ),
+    "science_history": (
+        "[bold red]BOSS CHALLENGE — SCIENCE HALL OF FAME[/bold red]\n\n"
+        "[bold yellow]'Newton to Johnson, Darwin to Curie — I describe a discovery, you name the scientist. "
+        "These minds changed everything. Let them live in yours!'[/bold yellow]"
     ),
 }

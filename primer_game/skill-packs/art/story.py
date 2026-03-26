@@ -68,6 +68,27 @@ ZONE_INTROS = {
         "'A genius in Italy. A woman in Mexico. A boy from Brooklyn. "
         "They didn't just make pictures — they changed how the world saw itself.'[/bold yellow]"
     ),
+    "art_styles_through_history": (
+        "[bold cyan]THE TIME GALLERY[/bold cyan]\n\n"
+        "[bold yellow]'Art has been changing for 40,000 years,' Puck says, "
+        "floating past paintings that seem to stretch back through time. "
+        "'Cave walls. Cathedral ceilings. Soup cans. Melting clocks. "
+        "Each era invented something new — and left it for us to find.'[/bold yellow]"
+    ),
+    "music_and_rhythm": (
+        "[bold cyan]THE MUSIC ROOM[/bold cyan]\n\n"
+        "[bold yellow]'Close your eyes,' Puck says. A faint melody drifts through the air. "
+        "'Art isn't just what you SEE. It's what you hear. "
+        "Music is color for your ears — rhythm, melody, harmony, all painting "
+        "pictures you can only feel.'[/bold yellow]"
+    ),
+    "photography_and_film": (
+        "[bold cyan]THE DARKROOM[/bold cyan]\n\n"
+        "[bold yellow]'Imagine,' Puck says, 'being the first person to capture "
+        "a real moment in time — to freeze it forever on paper. "
+        "Photography changed everything: how we see ourselves, "
+        "how we remember history, how we tell stories.'[/bold yellow]"
+    ),
 }
 
 ZONE_COMPLETIONS = {
@@ -103,6 +124,24 @@ ZONE_COMPLETIONS = {
         "Da Vinci, Kahlo, Monet, O'Keeffe, Picasso, Basquiat — and now you. "
         "[bold yellow]'Everyone who ever made art started somewhere. "
         "Maybe this is where your story starts.'[/bold yellow]"
+    ),
+    "art_styles_through_history": (
+        "[bold green]ZONE COMPLETE — THE TIME GALLERY![/bold green]\n\n"
+        "Cave art, Renaissance, Baroque, Abstract, Pop Art, Surrealism — "
+        "40,000 years of human creativity, explored! "
+        "[bold yellow]'You can walk into any museum now and know when and why things were made.'[/bold yellow]"
+    ),
+    "music_and_rhythm": (
+        "[bold green]ZONE COMPLETE — THE MUSIC ROOM![/bold green]\n\n"
+        "Notes, beats, instruments, Mozart, Beethoven, jazz — your ears are open! "
+        "[bold yellow]'Music is the art that lives in time itself. "
+        "Now every song you hear has a little more meaning.'[/bold yellow]"
+    ),
+    "photography_and_film": (
+        "[bold green]ZONE COMPLETE — THE DARKROOM![/bold green]\n\n"
+        "Pixels, frames, composition, history's first photographs — you understand how images work! "
+        "[bold yellow]'Every photo you take from now on — think about the rule of thirds. "
+        "Think about the light. Think about the story you are telling.'[/bold yellow]"
     ),
 }
 
@@ -142,5 +181,23 @@ BOSS_INTROS = {
         "[bold yellow]'I will describe a style — you match it to an artist. "
         "Da Vinci to Basquiat. Every artist we met, every style we studied. "
         "Let's see if they stayed with you.'[/bold yellow]"
+    ),
+    "art_styles_through_history": (
+        "[bold red]BOSS CHALLENGE — ART THROUGH TIME[/bold red]\n\n"
+        "[bold yellow]'Cave art. Renaissance. Impressionism. Cubism. Pop Art. Surrealism. "
+        "I'll name a style — you tell me when it happened and what made it special. "
+        "40,000 years of creativity, all in your head now!'[/bold yellow]"
+    ),
+    "music_and_rhythm": (
+        "[bold red]BOSS CHALLENGE — THE CONCERT HALL[/bold red]\n\n"
+        "[bold yellow]'Notes, tempos, instrument families, and the greatest composers in history. "
+        "I'll play music detective — can you name the clues? "
+        "Show me you truly listened.'[/bold yellow]"
+    ),
+    "photography_and_film": (
+        "[bold red]BOSS CHALLENGE — BEHIND THE LENS[/bold red]\n\n"
+        "[bold yellow]'Exposure, pixels, frames per second, composition rules, the history of cameras. "
+        "From the first cave painting to the latest digital photo — "
+        "what does it mean to truly SEE and capture a moment?'[/bold yellow]"
     ),
 }

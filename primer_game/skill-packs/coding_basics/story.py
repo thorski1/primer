@@ -62,6 +62,27 @@ ZONE_INTROS = {
         "Real coders combine sequences, loops, conditionals, variables, and functions "
         "to build things that have never existed before. Let's invent!'[/bold yellow]"
     ),
+    "debugging": (
+        "[bold cyan]THE BUG LAB[/bold cyan]\n\n"
+        "Puck holds up a magnifying glass. [bold yellow]'Every programmer — even the best ones — "
+        "writes bugs. It's not a sign you're bad at coding. It's just part of the job! "
+        "The real skill is finding them, understanding them, and squashing them. "
+        "Today: you become a Bug Hunter!'[/bold yellow]"
+    ),
+    "data_and_lists": (
+        "[bold cyan]THE DATA VAULT[/bold cyan]\n\n"
+        "[bold yellow]'Programs don't just DO things — they STORE things. "
+        "Numbers, names, true/false switches, whole lists of items... "
+        "every piece of information a program remembers has a type and a home. "
+        "Let's explore how programs organize their world!'[/bold yellow]"
+    ),
+    "the_internet": (
+        "[bold cyan]THE NETWORK WEB[/bold cyan]\n\n"
+        "Puck spreads tiny wings wide. [bold yellow]'Imagine billions of computers, "
+        "all whispering to each other across cables under oceans, through satellites, "
+        "bouncing signals around the entire planet in less than a second. "
+        "That is the internet — and it runs on code. Let's understand it!'[/bold yellow]"
+    ),
 }
 
 ZONE_COMPLETIONS = {
@@ -96,6 +117,24 @@ ZONE_COMPLETIONS = {
         "The Code Garden is fully awake! "
         "[bold yellow]'You did it! You're a CODE GARDENER!'[/bold yellow]"
     ),
+    "debugging": (
+        "[bold green]ZONE COMPLETE — THE BUG LAB![/bold green]\n\n"
+        "Syntax errors, logic errors, print debugging, systematic thinking — the bugs don't stand a chance! "
+        "[bold yellow]'Every professional programmer debugs every single day. "
+        "Now you know how!'[/bold yellow]"
+    ),
+    "data_and_lists": (
+        "[bold green]ZONE COMPLETE — THE DATA VAULT![/bold green]\n\n"
+        "Data, lists, booleans, sorting, zero-based indexing — the vault is open! "
+        "[bold yellow]'You now understand how programs store and organize everything they know. "
+        "That is half of what real programming is!'[/bold yellow]"
+    ),
+    "the_internet": (
+        "[bold green]ZONE COMPLETE — THE NETWORK WEB![/bold green]\n\n"
+        "Servers, HTML, HTTPS, algorithms, phishing — you're internet-literate! "
+        "[bold yellow]'The internet is humanity's greatest invention. "
+        "Now you understand how it works — and how to stay safe on it.'[/bold yellow]"
+    ),
 }
 
 BOSS_INTROS = {
@@ -129,5 +168,23 @@ BOSS_INTROS = {
         "[bold yellow]'The final challenge combines EVERYTHING. "
         "A loop, a conditional, variables, and a function all working together. "
         "Think it through — you CAN do this!'[/bold yellow]"
+    ),
+    "debugging": (
+        "[bold red]BOSS CHALLENGE — THE BIG BUG[/bold red]\n\n"
+        "[bold yellow]'A program runs but gives the wrong answer. "
+        "Is it a syntax error, a logic error, or something else? "
+        "Put on your detective hat — and find the bug!'[/bold yellow]"
+    ),
+    "data_and_lists": (
+        "[bold red]BOSS CHALLENGE — THE INVENTORY[/bold red]\n\n"
+        "[bold yellow]'A game character needs to store items, track a score, "
+        "and remember if the door is open. "
+        "What data types do you need? What structure? Show me you know!'[/bold yellow]"
+    ),
+    "the_internet": (
+        "[bold red]BOSS CHALLENGE — DIGITAL CITIZEN[/bold red]\n\n"
+        "[bold yellow]'A suspicious email. A website without HTTPS. "
+        "A request for your password. "
+        "You know how the internet works — now show me you know how to stay SAFE on it!'[/bold yellow]"
     ),
 }
