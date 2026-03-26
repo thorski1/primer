@@ -1,0 +1,702 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Young Lady's Illustrated Primer — A Terminal Adventure for Young Learners</title>
+  <meta name="description" content="A terminal educational game for children. Nine chapters. One companion named Puck. Phonics, math, science, history, art, geography, kindness, and coding. Free, pip install.">
+  <style>
+    :root {
+      --bg: #06091a;
+      --bg2: #090d20;
+      --bg3: #0d1228;
+      --gold: #ffd700;
+      --gold-dim: #b8960c;
+      --cyan: #7dd3fc;
+      --purple: #c084fc;
+      --green: #86efac;
+      --pink: #f9a8d4;
+      --text: #e8eaf6;
+      --text-dim: #8892b0;
+      --star: #ffd700;
+    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: Georgia, 'Times New Roman', serif;
+      line-height: 1.7;
+    }
+    a { color: var(--cyan); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+
+    /* STARS */
+    .stars-bg {
+      position: fixed;
+      inset: 0;
+      background: radial-gradient(ellipse at 20% 50%, rgba(100,80,200,0.08) 0%, transparent 60%),
+                  radial-gradient(ellipse at 80% 20%, rgba(120,60,200,0.06) 0%, transparent 50%);
+      pointer-events: none;
+      z-index: 0;
+    }
+
+    /* NAV */
+    nav {
+      border-bottom: 1px solid rgba(255,215,0,0.1);
+      padding: 1rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background: rgba(6,9,26,0.95);
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      backdrop-filter: blur(8px);
+    }
+    .nav-brand { color: var(--gold); font-size: 0.95rem; letter-spacing: 1px; }
+    .nav-links { display: flex; gap: 2rem; font-size: 0.85rem; font-family: 'Courier New', monospace; }
+    .nav-links a { color: var(--text-dim); }
+    .nav-links a:hover { color: var(--gold); text-decoration: none; }
+
+    /* HERO */
+    .hero {
+      text-align: center;
+      padding: 5rem 2rem 4rem;
+      max-width: 800px;
+      margin: 0 auto;
+      position: relative;
+      z-index: 1;
+    }
+    .stars-row {
+      font-size: 1.2rem;
+      letter-spacing: 8px;
+      color: var(--gold);
+      opacity: 0.5;
+      margin-bottom: 1.5rem;
+    }
+    .ascii-logo {
+      font-family: 'Courier New', monospace;
+      color: var(--gold);
+      font-size: clamp(0.4rem, 1vw, 0.65rem);
+      line-height: 1.3;
+      white-space: pre;
+      display: block;
+      margin: 0 auto 2rem;
+      opacity: 0.9;
+    }
+    .hero-quote {
+      font-style: italic;
+      color: var(--text-dim);
+      font-size: clamp(0.85rem, 2vw, 1rem);
+      margin-bottom: 0.5rem;
+      line-height: 1.8;
+    }
+    .hero-quote-attr {
+      font-size: 0.75rem;
+      color: rgba(255,215,0,0.4);
+      margin-bottom: 2.5rem;
+      font-family: 'Courier New', monospace;
+    }
+    .puck-intro {
+      background: linear-gradient(135deg, rgba(13,18,40,0.9), rgba(9,13,32,0.9));
+      border: 1px solid rgba(255,215,0,0.2);
+      border-radius: 12px;
+      padding: 2rem;
+      max-width: 580px;
+      margin: 0 auto 3rem;
+      text-align: left;
+    }
+    .puck-name {
+      font-family: 'Courier New', monospace;
+      color: var(--purple);
+      font-size: 0.7rem;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      margin-bottom: 0.75rem;
+    }
+    .puck-says {
+      font-size: clamp(0.9rem, 2vw, 1.05rem);
+      color: var(--text);
+      line-height: 1.8;
+    }
+    .puck-says strong { color: var(--gold); }
+
+    /* INSTALL */
+    .install-box {
+      background: rgba(9,13,32,0.8);
+      border: 1px solid rgba(255,215,0,0.2);
+      border-radius: 8px;
+      padding: 1.5rem 2rem;
+      max-width: 420px;
+      margin: 0 auto 1rem;
+      font-family: 'Courier New', monospace;
+    }
+    .install-label {
+      font-size: 0.65rem;
+      color: rgba(255,215,0,0.5);
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      margin-bottom: 0.75rem;
+    }
+    .install-cmd { color: var(--green); font-size: 1rem; }
+    .install-cmd span { color: var(--text-dim); }
+    .install-note { font-size: 0.7rem; color: var(--text-dim); margin-top: 0.5rem; }
+
+    /* STATS */
+    .stats-bar {
+      display: flex;
+      justify-content: center;
+      gap: 0;
+      margin: 3rem auto;
+      max-width: 650px;
+      border: 1px solid rgba(255,215,0,0.15);
+      border-radius: 8px;
+      overflow: hidden;
+      position: relative;
+      z-index: 1;
+    }
+    .stat {
+      flex: 1;
+      text-align: center;
+      padding: 1.25rem 1rem;
+      border-right: 1px solid rgba(255,215,0,0.1);
+    }
+    .stat:last-child { border-right: none; }
+    .stat-number {
+      font-family: 'Courier New', monospace;
+      font-size: clamp(1.4rem, 3vw, 2rem);
+      font-weight: bold;
+      color: var(--gold);
+      display: block;
+    }
+    .stat-label {
+      font-size: 0.65rem;
+      color: var(--text-dim);
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      margin-top: 0.25rem;
+      font-family: 'Courier New', monospace;
+    }
+
+    /* DIVIDER */
+    .divider {
+      border: none;
+      border-top: 1px solid rgba(255,215,0,0.08);
+      max-width: 960px;
+      margin: 0 auto;
+    }
+
+    /* SECTION */
+    section {
+      max-width: 960px;
+      margin: 0 auto;
+      padding: 4rem 2rem;
+      position: relative;
+      z-index: 1;
+    }
+    .section-header { margin-bottom: 2.5rem; }
+    .section-label {
+      font-family: 'Courier New', monospace;
+      font-size: 0.65rem;
+      color: rgba(255,215,0,0.5);
+      text-transform: uppercase;
+      letter-spacing: 3px;
+      margin-bottom: 0.5rem;
+    }
+    .section-title {
+      font-size: clamp(1.3rem, 3vw, 1.9rem);
+      color: var(--text);
+      font-weight: normal;
+    }
+
+    /* CHAPTERS */
+    .chapters-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+      gap: 1.25rem;
+    }
+    .chapter-card {
+      background: linear-gradient(135deg, rgba(13,18,40,0.9), rgba(9,13,32,0.9));
+      border: 1px solid rgba(255,215,0,0.12);
+      border-radius: 10px;
+      padding: 1.5rem;
+      transition: border-color 0.2s, transform 0.2s;
+    }
+    .chapter-card:hover {
+      border-color: rgba(255,215,0,0.3);
+      transform: translateY(-2px);
+    }
+    .chapter-num {
+      font-family: 'Courier New', monospace;
+      font-size: 0.6rem;
+      color: rgba(255,215,0,0.35);
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      margin-bottom: 0.5rem;
+    }
+    .chapter-world {
+      font-size: 1.1rem;
+      color: var(--gold);
+      margin-bottom: 0.3rem;
+    }
+    .chapter-topic {
+      font-family: 'Courier New', monospace;
+      font-size: 0.75rem;
+      color: var(--cyan);
+      margin-bottom: 0.6rem;
+      font-weight: bold;
+    }
+    .chapter-desc {
+      font-size: 0.85rem;
+      color: var(--text-dim);
+      line-height: 1.7;
+    }
+    .chapter-ages {
+      margin-top: 0.75rem;
+      font-family: 'Courier New', monospace;
+      font-size: 0.65rem;
+      color: rgba(255,215,0,0.3);
+    }
+
+    /* FEATURES */
+    .features-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+      gap: 1.25rem;
+    }
+    .feature-card {
+      background: rgba(9,13,32,0.8);
+      border: 1px solid rgba(255,215,0,0.1);
+      border-radius: 10px;
+      padding: 1.5rem;
+    }
+    .feature-icon { font-size: 1.4rem; margin-bottom: 0.75rem; }
+    .feature-title { font-size: 0.95rem; color: var(--text); margin-bottom: 0.4rem; }
+    .feature-desc { font-size: 0.8rem; color: var(--text-dim); line-height: 1.6; }
+
+    /* TERMINAL */
+    .terminal {
+      background: #030510;
+      border: 1px solid rgba(255,215,0,0.15);
+      border-radius: 10px;
+      overflow: hidden;
+      max-width: 640px;
+      margin: 0 auto;
+      font-family: 'Courier New', monospace;
+      font-size: clamp(0.7rem, 1.5vw, 0.85rem);
+    }
+    .terminal-bar {
+      background: rgba(13,18,40,0.9);
+      padding: 0.6rem 1rem;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      border-bottom: 1px solid rgba(255,215,0,0.1);
+    }
+    .dot { width: 10px; height: 10px; border-radius: 50%; }
+    .dot-r { background: #ff5f56; }
+    .dot-y { background: #ffbd2e; }
+    .dot-g { background: #27c93f; }
+    .terminal-title { font-size: 0.65rem; color: var(--text-dim); margin-left: 0.5rem; }
+    .terminal-body { padding: 1.5rem; line-height: 2; }
+    .t-puck { color: var(--purple); font-weight: bold; }
+    .t-gold { color: var(--gold); }
+    .t-green { color: var(--green); }
+    .t-dim { color: var(--text-dim); }
+    .t-right { color: var(--green); font-weight: bold; }
+    .t-xp { color: var(--gold); font-size: 0.75rem; }
+
+    /* PARENT SECTION */
+    .parent-box {
+      background: linear-gradient(135deg, rgba(13,18,40,0.9), rgba(9,13,32,0.9));
+      border: 1px solid rgba(255,215,0,0.15);
+      border-radius: 12px;
+      padding: 2.5rem;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 2rem;
+    }
+    .parent-item { }
+    .parent-icon { font-size: 1.5rem; margin-bottom: 0.75rem; }
+    .parent-title { font-size: 1rem; color: var(--text); margin-bottom: 0.4rem; }
+    .parent-desc { font-size: 0.85rem; color: var(--text-dim); line-height: 1.7; }
+
+    /* INSTALL SECTION */
+    .install-panel {
+      background: #030510;
+      border: 1px solid rgba(255,215,0,0.15);
+      border-radius: 10px;
+      padding: 1.75rem;
+      font-family: 'Courier New', monospace;
+    }
+    .install-line { margin-bottom: 1.25rem; }
+    .install-line:last-child { margin-bottom: 0; }
+    .install-step {
+      font-size: 0.65rem;
+      color: rgba(255,215,0,0.4);
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      margin-bottom: 0.3rem;
+    }
+    .install-code {
+      color: var(--green);
+      font-size: 0.9rem;
+      background: rgba(134,239,172,0.05);
+      border-left: 2px solid rgba(255,215,0,0.3);
+      padding: 0.4rem 0.75rem;
+      border-radius: 0 4px 4px 0;
+    }
+
+    /* LEVELS */
+    .levels-grid {
+      display: flex;
+      gap: 1rem;
+      flex-wrap: wrap;
+    }
+    .level-badge {
+      background: rgba(9,13,32,0.8);
+      border: 1px solid rgba(255,215,0,0.15);
+      border-radius: 8px;
+      padding: 0.6rem 1.2rem;
+    }
+    .level-num { font-family: 'Courier New', monospace; font-size: 0.6rem; color: var(--text-dim); }
+    .level-name { color: var(--gold); font-size: 0.9rem; }
+
+    /* FOOTER */
+    footer {
+      border-top: 1px solid rgba(255,215,0,0.08);
+      padding: 2rem;
+      text-align: center;
+      font-size: 0.8rem;
+      color: var(--text-dim);
+      font-family: 'Courier New', monospace;
+      position: relative;
+      z-index: 1;
+    }
+    footer a { color: var(--text-dim); }
+    footer a:hover { color: var(--gold); text-decoration: none; }
+
+    @media (max-width: 600px) {
+      .nav-links { display: none; }
+      .stats-bar { flex-direction: column; }
+      .stat { border-right: none; border-bottom: 1px solid rgba(255,215,0,0.1); }
+      .stat:last-child { border-bottom: none; }
+      .parent-box { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+<div class="stars-bg"></div>
+
+<nav>
+  <div class="nav-brand">✦ The Young Lady's Illustrated Primer ✦</div>
+  <div class="nav-links">
+    <a href="#chapters">Chapters</a>
+    <a href="#parents">For Parents</a>
+    <a href="#install">Install</a>
+    <a href="https://github.com/thorski1/primer">GitHub</a>
+    <a href="https://pypi.org/project/primer-quest/">PyPI</a>
+  </div>
+</nav>
+
+<div class="hero">
+  <div class="stars-row">✦ · ✦ · · ✦ · ✦ · · ✦</div>
+  <pre class="ascii-logo">____________ ________  ___ ___________
+| ___ \ ___ \_   _|  \/  ||  ___| ___ \
+| |_/ / |_/ / | | | .  . || |__ | |_/ /
+|  __/|    /  | | | |\/| ||  __||    /
+| |   | |\ \ _| |_| |  | || |___| |\ \
+\_|   \_| \_|\___/\_|  |_/\____/\_| \_|</pre>
+
+  <p class="hero-quote">
+    "The book would be her guardian, her teacher, and her best friend.<br>
+    It would be everything she needed. Whenever she needed it."
+  </p>
+  <p class="hero-quote-attr">— Neal Stephenson, <em>The Diamond Age</em></p>
+
+  <div class="puck-intro">
+    <div class="puck-name">✦ Puck speaks</div>
+    <p class="puck-says">
+      The cover is midnight blue, with tiny gold stars that sparkle when you tilt it.<br>
+      When you open it, a small glowing creature floats up from between the pages.<br><br>
+      <strong>"Hello,"</strong> it says. <strong>"My name is Puck.<br>
+      And this book — <em>this</em> book — is for you."</strong>
+    </p>
+  </div>
+
+  <div class="install-box">
+    <div class="install-label">Quick Install</div>
+    <div class="install-cmd"><span>$</span> pip install primer-quest</div>
+    <div class="install-cmd" style="margin-top:0.4rem"><span>$</span> primer</div>
+    <div class="install-note">Python 3.10+ &nbsp;·&nbsp; Mac, Linux, Windows &nbsp;·&nbsp; Free forever</div>
+  </div>
+</div>
+
+<div class="stats-bar">
+  <div class="stat"><span class="stat-number">500+</span><div class="stat-label">Challenges</div></div>
+  <div class="stat"><span class="stat-number">9</span><div class="stat-label">Chapters</div></div>
+  <div class="stat"><span class="stat-number">75+</span><div class="stat-label">Zones</div></div>
+  <div class="stat"><span class="stat-number">Ages 5–12</span><div class="stat-label">For Young Learners</div></div>
+</div>
+
+<hr class="divider">
+
+<section id="chapters">
+  <div class="section-header">
+    <div class="section-label">The Nine Chapters</div>
+    <h2 class="section-title">A whole world inside the Primer</h2>
+  </div>
+  <div class="chapters-grid">
+    <div class="chapter-card">
+      <div class="chapter-num">Chapter One</div>
+      <div class="chapter-world">The Letter Garden</div>
+      <div class="chapter-topic">Phonics &amp; Reading</div>
+      <div class="chapter-desc">Vowels, consonants, blends, sight words, and building sentences — the building blocks of reading.</div>
+      <div class="chapter-ages">✦ Best for ages 5–7</div>
+    </div>
+    <div class="chapter-card">
+      <div class="chapter-num">Chapter Two</div>
+      <div class="chapter-world">The Counting Kingdom</div>
+      <div class="chapter-topic">Numbers &amp; Math</div>
+      <div class="chapter-desc">Counting, addition, subtraction, shapes, time, money, patterns — the joy of numbers.</div>
+      <div class="chapter-ages">✦ Best for ages 6–8</div>
+    </div>
+    <div class="chapter-card">
+      <div class="chapter-num">Chapter Three</div>
+      <div class="chapter-world">The World of Wondering</div>
+      <div class="chapter-topic">Science</div>
+      <div class="chapter-desc">Living things, weather, the human body, simple machines, earth and space — curiosity about the world.</div>
+      <div class="chapter-ages">✦ Best for ages 7–10</div>
+    </div>
+    <div class="chapter-card">
+      <div class="chapter-num">Chapter Four</div>
+      <div class="chapter-world">The Art of Being Kind</div>
+      <div class="chapter-topic">Kindness &amp; Character</div>
+      <div class="chapter-desc">Feelings, friendship, listening, handling hard emotions, and why kindness matters.</div>
+      <div class="chapter-ages">✦ Best for ages 6+</div>
+    </div>
+    <div class="chapter-card">
+      <div class="chapter-num">Chapter Five</div>
+      <div class="chapter-world">The Atlas of Wonders</div>
+      <div class="chapter-topic">Geography</div>
+      <div class="chapter-desc">Continents, oceans, capitals, maps, landforms, and the wonders of our planet.</div>
+      <div class="chapter-ages">✦ Best for ages 7–10</div>
+    </div>
+    <div class="chapter-card">
+      <div class="chapter-num">Chapter Six</div>
+      <div class="chapter-world">The Math Academy</div>
+      <div class="chapter-topic">Advanced Math</div>
+      <div class="chapter-desc">Multiplication, division, fractions, decimals, geometry, and negative numbers.</div>
+      <div class="chapter-ages">✦ Best for ages 8–11</div>
+    </div>
+    <div class="chapter-card">
+      <div class="chapter-num">Chapter Seven</div>
+      <div class="chapter-world">The Time Traveler's Primer</div>
+      <div class="chapter-topic">History</div>
+      <div class="chapter-desc">Ancient civilizations, great explorers, famous inventors, the World Wars, American history, and leaders who changed the world.</div>
+      <div class="chapter-ages">✦ Best for ages 8–11</div>
+    </div>
+    <div class="chapter-card">
+      <div class="chapter-num">Chapter Eight</div>
+      <div class="chapter-world">The Art Studio</div>
+      <div class="chapter-topic">Art</div>
+      <div class="chapter-desc">Colors, shapes, art tools, famous paintings and sculptures, elements of art, and celebrated artists.</div>
+      <div class="chapter-ages">✦ Best for ages 7–11</div>
+    </div>
+    <div class="chapter-card">
+      <div class="chapter-num">Chapter Nine</div>
+      <div class="chapter-world">The Code Garden</div>
+      <div class="chapter-topic">Coding Basics</div>
+      <div class="chapter-desc">What code is, loops, conditionals, variables, functions, and how computers think.</div>
+      <div class="chapter-ages">✦ Best for ages 8–12</div>
+    </div>
+  </div>
+</section>
+
+<hr class="divider">
+
+<section>
+  <div class="section-header">
+    <div class="section-label">A Glimpse Inside</div>
+    <h2 class="section-title">What it feels like</h2>
+  </div>
+  <div class="terminal">
+    <div class="terminal-bar">
+      <div class="dot dot-r"></div>
+      <div class="dot dot-y"></div>
+      <div class="dot dot-g"></div>
+      <div class="terminal-title">primer — The Young Lady's Illustrated Primer</div>
+    </div>
+    <div class="terminal-body">
+      <div class="t-dim">✦ · · ✦ · · ✦ · · ✦ · · ✦</div>
+      <br>
+      <div class="t-puck">Puck says:</div>
+      <div class="t-gold">"Welcome to The Letter Garden! 🌸</div>
+      <div class="t-gold"> This is where letters grow into words,</div>
+      <div class="t-gold"> and words grow into stories."</div>
+      <br>
+      <div class="t-dim">────────────────────────────────────────</div>
+      <div class="t-gold">Challenge 3 of 34 &nbsp;·&nbsp; Zone: Vowel Pond</div>
+      <br>
+      <div class="t-dim">Every word has a vowel. Which letters are vowels?</div>
+      <br>
+      <div class="t-dim">  a) B, C, D, F, G</div>
+      <div class="t-dim">  b) A, E, I, O, U</div>
+      <div class="t-dim">  c) X, Y, Z and sometimes Q</div>
+      <div class="t-dim">  d) Only the letter A</div>
+      <br>
+      <div class="t-puck">Your answer &gt;</div> <span class="t-gold">b</span>
+      <br>
+      <div class="t-right">✓ That's right! 🌟</div>
+      <div class="t-dim">A, E, I, O, U are the vowels. Every word needs at least one!</div>
+      <div class="t-xp">✦ +10 XP &nbsp;·&nbsp; Streak: 5</div>
+      <br>
+      <div class="t-puck">Puck claps!</div>
+      <div class="t-gold">"You're doing wonderfully. The letters are singing!"</div>
+      <br>
+      <div class="t-dim">[h] Hint &nbsp;[b] Bookmark &nbsp;[?] Help &nbsp;[s] Skip &nbsp;[q] Menu</div>
+    </div>
+  </div>
+</section>
+
+<hr class="divider">
+
+<section>
+  <div class="section-header">
+    <div class="section-label">Features</div>
+    <h2 class="section-title">Designed for young learners</h2>
+  </div>
+  <div class="features-grid">
+    <div class="feature-card">
+      <div class="feature-icon">✨</div>
+      <div class="feature-title">Puck, Your Companion</div>
+      <div class="feature-desc">Puck guides every lesson with warmth and encouragement. Wrong answers are just steps toward the right one.</div>
+    </div>
+    <div class="feature-card">
+      <div class="feature-icon">🎯</div>
+      <div class="feature-title">Placement Quiz</div>
+      <div class="feature-desc">Puck asks a few questions at the start to find the best chapter to begin — not too easy, not too hard.</div>
+    </div>
+    <div class="feature-card">
+      <div class="feature-icon">📅</div>
+      <div class="feature-title">Daily Challenge</div>
+      <div class="feature-desc">One special challenge each day with bonus XP. Short sessions that build a habit of learning.</div>
+    </div>
+    <div class="feature-card">
+      <div class="feature-icon">⭐</div>
+      <div class="feature-title">Star Ratings</div>
+      <div class="feature-desc">Zones earn 1-3 stars. Revisit any zone to earn a perfect score and see how much you've grown.</div>
+    </div>
+    <div class="feature-card">
+      <div class="feature-icon">🔖</div>
+      <div class="feature-title">Bookmarks</div>
+      <div class="feature-desc">Save any challenge to revisit later with [b]. Great for things worth remembering.</div>
+    </div>
+    <div class="feature-card">
+      <div class="feature-icon">🏅</div>
+      <div class="feature-title">Completion Certificate</div>
+      <div class="feature-desc">Finish the full campaign and receive a beautiful ASCII completion certificate to print and keep.</div>
+    </div>
+    <div class="feature-card">
+      <div class="feature-icon">💾</div>
+      <div class="feature-title">Auto-Save</div>
+      <div class="feature-desc">Progress saves automatically between every session. Pick up exactly where you left off.</div>
+    </div>
+    <div class="feature-card">
+      <div class="feature-icon">🔄</div>
+      <div class="feature-title">Auto-Updates</div>
+      <div class="feature-desc">New chapters and challenges delivered automatically. The Primer grows with your child.</div>
+    </div>
+  </div>
+</section>
+
+<hr class="divider">
+
+<section>
+  <div class="section-header">
+    <div class="section-label">Puck's Titles</div>
+    <h2 class="section-title">Growing through the Primer</h2>
+  </div>
+  <div class="levels-grid">
+    <div class="level-badge"><div class="level-num">Early Levels</div><div class="level-name">Seedling</div></div>
+    <div class="level-badge"><div class="level-num">Growing</div><div class="level-name">Sprout</div></div>
+    <div class="level-badge"><div class="level-num">Blooming</div><div class="level-name">Bloom</div></div>
+    <div class="level-badge"><div class="level-num">Shining</div><div class="level-name">Star</div></div>
+    <div class="level-badge"><div class="level-num">Wondering</div><div class="level-name">Wonder</div></div>
+    <div class="level-badge"><div class="level-num">Mastery</div><div class="level-name">Sage</div></div>
+  </div>
+</section>
+
+<hr class="divider">
+
+<section id="parents">
+  <div class="section-header">
+    <div class="section-label">For Grown-Ups</div>
+    <h2 class="section-title">A note for parents</h2>
+  </div>
+  <div class="parent-box">
+    <div class="parent-item">
+      <div class="parent-icon">⏱️</div>
+      <div class="parent-title">Short, focused sessions</div>
+      <div class="parent-desc">Each zone takes 5–15 minutes. The Primer is designed for daily short sessions, not long marathons. Perfect before or after school.</div>
+    </div>
+    <div class="parent-item">
+      <div class="parent-icon">👨‍👧</div>
+      <div class="parent-title">Read it together</div>
+      <div class="parent-desc">The Primer works as a solo adventure or as a shared experience — read the lessons together, discuss the questions, celebrate every right answer.</div>
+    </div>
+    <div class="parent-item">
+      <div class="parent-icon">🌱</div>
+      <div class="parent-title">Age-appropriate throughout</div>
+      <div class="parent-desc">Every challenge is carefully designed for its age range. The Primer celebrates curiosity, kindness, and growth — no frustration, only encouragement.</div>
+    </div>
+    <div class="parent-item">
+      <div class="parent-icon">📖</div>
+      <div class="parent-title">Inspired by The Diamond Age</div>
+      <div class="parent-desc">Inspired by the Primer from Neal Stephenson's novel — an AI companion that grows with the child and teaches everything she needs to become who she's meant to be.</div>
+    </div>
+  </div>
+</section>
+
+<hr class="divider">
+
+<section id="install">
+  <div class="section-header">
+    <div class="section-label">Begin the Adventure</div>
+    <h2 class="section-title">Open the Primer</h2>
+  </div>
+  <div class="install-panel">
+    <div class="install-line">
+      <div class="install-step">1. Install</div>
+      <div class="install-code">pip install primer-quest</div>
+    </div>
+    <div class="install-line">
+      <div class="install-step">2. Begin the full story with Puck</div>
+      <div class="install-code">primer</div>
+    </div>
+    <div class="install-line">
+      <div class="install-step">Or open a single chapter</div>
+      <div class="install-code">letters-quest &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# The Letter Garden<br>numbers-quest &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# The Counting Kingdom<br>science-quest &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# The World of Wondering<br>kindness-quest &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# The Art of Being Kind<br>geography-quest &nbsp;&nbsp;&nbsp;&nbsp;# The Atlas of Wonders<br>history-quest &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# The Time Traveler's Primer<br>art-quest &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# The Art Studio<br>coding-basics-quest  # The Code Garden</div>
+    </div>
+    <div class="install-line" style="margin-top:1rem;">
+      <div class="install-step">One-liner installer (no pip required)</div>
+      <div class="install-code">curl -sSL https://raw.githubusercontent.com/thorski1/primer/main/install.sh | bash</div>
+    </div>
+  </div>
+  <p style="margin-top:1rem; font-size:0.8rem; color:var(--text-dim); font-family:'Courier New',monospace;">
+    Requires Python 3.10+ &nbsp;·&nbsp; Mac / Linux / Windows &nbsp;·&nbsp; 80+ column terminal recommended
+  </p>
+</section>
+
+<footer>
+  <div style="font-size:1.2rem; margin-bottom:0.75rem; letter-spacing:6px; opacity:0.4;">✦ · ✦ · ✦</div>
+  <p>
+    Built on <a href="https://github.com/thorski1/quest-engine">Quest Engine</a> &nbsp;·&nbsp;
+    <a href="https://github.com/thorski1/primer">GitHub</a> &nbsp;·&nbsp;
+    <a href="https://pypi.org/project/primer-quest/">PyPI</a>
+  </p>
+  <p style="margin-top:0.5rem; opacity:0.6;">Inspired by the Primer from Neal Stephenson's <em>The Diamond Age</em>.</p>
+</footer>
+
+</body>
+</html>
