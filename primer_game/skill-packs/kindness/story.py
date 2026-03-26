@@ -175,6 +175,29 @@ And the more you practice it, the happier you become."[/bold cyan]
 
 [bold white]What are you grateful for?[/bold white]
 """,
+    "digital_kindness": """
+[bold cyan]THE GLOWING SCREEN[/bold cyan]
+
+Puck perched on the edge of a glowing tablet, wings folded thoughtfully.
+
+[bold cyan]"There's a whole world inside these screens,"[/bold cyan] Puck said.
+[bold cyan]"Billions of people. Billions of messages, every single day."[/bold cyan]
+
+The screen scrolled with messages — some kind, some not so kind.
+
+[bold cyan]"Everything we've learned in the Kindness Garden — about listening,
+about how words feel, about standing up for people —
+all of it works online too.
+[italic]Maybe even more so.[/italic]"[/bold cyan]
+
+Puck looked at you seriously.
+
+[bold cyan]"Because online, one unkind word can reach a thousand people.
+But one kind word can reach a thousand people too.
+You get to choose which kind of message you send."[/bold cyan]
+
+[bold white]Use your powers for good.[/bold white]
+""",
 }
 
 ZONE_COMPLETIONS = {
@@ -309,6 +332,25 @@ A thankful heart is a happy heart —
 and a happy heart makes the whole world
 a little brighter for everyone around it."[/bold cyan]
 """,
+    "digital_kindness": """
+[bold green]The Glowing Screen shines with kindness![/bold green]
+
+Every message on the screen is warm, helpful, and real.
+
+[bold cyan]"You know the T.H.I.N.K. check.
+You know the difference between a bystander and an upstander.
+You know that words on a screen are still real words —
+felt by real people."[/bold cyan]
+
+Puck smiled.
+
+[bold cyan]"Online or offline, kindness is always the same thing:
+seeing someone, caring about them,
+and choosing to treat them the way
+you'd want to be treated."[/bold cyan]
+
+[bold white]The Kindness Garden is complete. You carry it with you everywhere.[/bold white]
+""",
 }
 
 BOSS_INTROS = {
@@ -322,4 +364,5 @@ BOSS_INTROS = {
     "handling_hard_feelings": "Two people are hurting each other. One of them is having a terrible day. [bold yellow]\"Does feeling bad make it okay to act mean? This is the hardest feelings question of all.\"[/bold yellow]",
     "friendship_bridge": "A friend has been hurt by your words. [bold yellow]\"Saying sorry is one thing. But what does a real apology actually look like? This is the most important friendship question.\"[/bold yellow]",
     "gratitude_practice": "Puck asks you to look around at your life right now. [bold yellow]\"Can you find something to be truly grateful for, even in an ordinary moment? This is the heart of gratitude.\"[/bold yellow]",
+    "digital_kindness": "A message appears on a glowing screen. It's unkind. A friend is hurting. [bold yellow]\"This is the final test of digital kindness. What does a true upstander do right now?\"[/bold yellow]",
 }

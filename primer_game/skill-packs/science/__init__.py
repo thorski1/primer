@@ -38,6 +38,8 @@ SKILL_PACK = SkillPack(
         "matter_and_energy": "matter_explorer",
         "weather_watch": "weather_watcher",
         "animal_world": "animal_explorer",
+        "the_human_body": "body_scientist",
+        "ecosystems_and_food_chains": "ecosystem_keeper",
     },
     achievements={
         "life_watcher": ("Life Watcher", "Discovered what makes things alive!"),
@@ -49,6 +51,8 @@ SKILL_PACK = SkillPack(
         "matter_explorer": ("Matter Explorer", "Explored the three states of matter and how they transform!"),
         "weather_watcher": ("Weather Watcher", "Read the sky and understood clouds, wind, seasons, and storms!"),
         "animal_explorer": ("Animal Explorer", "Explored the animal kingdom and discovered what makes each creature amazing!"),
+        "body_scientist": ("Body Scientist", "Mastered the organs, systems, and science of the human body!"),
+        "ecosystem_keeper": ("Ecosystem Keeper", "Understood how every living thing depends on every other!"),
         "no_hints": ("Standing on Your Own", "Completed a zone without any hints!"),
         "speed_reader": ("Quick Thinker", "Answered a question in under 10 seconds!"),
     },

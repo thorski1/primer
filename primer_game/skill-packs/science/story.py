@@ -178,6 +178,31 @@ there is — and you're part of it."[/bold cyan]
 
 [bold white]What do you know about the creatures we share this world with?[/bold white]
 """,
+    "ecosystems_and_food_chains": """
+[bold cyan]THE WEB OF LIFE[/bold cyan]
+
+Puck spread out across a patch of grass at the edge of the forest,
+watching a butterfly land on a flower, a bird watching the butterfly,
+a fox watching from the shadows.
+
+[bold cyan]"See it?"[/bold cyan] Puck said quietly.
+[bold cyan]"Everything is watching everything else.
+Everything is eating, being eaten, growing, decomposing.
+The grass becomes a rabbit, the rabbit becomes a fox,
+the fox becomes the soil, the soil becomes the grass."[/bold cyan]
+
+The butterfly flew away. The bird watched it go.
+
+[bold cyan]"A chain. A web. A circle.
+None of it works without all of it.
+And when one piece breaks —"[/bold cyan]
+
+Puck snapped a small twig.
+
+[bold cyan]"— everything feels it."[/bold cyan]
+
+[bold white]The web of life is waiting for you to understand it.[/bold white]
+""",
 }
 
 ZONE_COMPLETIONS = {
@@ -316,6 +341,25 @@ and how you work too."[/bold cyan]
 
 [bold white]The animal kingdom is yours to explore![/bold white]
 """,
+    "ecosystems_and_food_chains": """
+[bold green]The Web of Life is fully mapped![/bold green]
+
+Producers, herbivores, carnivores, decomposers —
+every link in the chain understood.
+
+[bold cyan]"You know something now that most adults don't really think about,"[/bold cyan]
+Puck said.
+[bold cyan]"That everything is connected. That removing one thread
+can unravel the whole web.
+That a wolf can change a river."[/bold cyan]
+
+Puck smiled.
+
+[bold cyan]"That's not just science.
+That's wisdom."[/bold cyan]
+
+[bold white]The World of Wondering is yours. The web of life holds you too.[/bold white]
+""",
 }
 
 BOSS_INTROS = {
@@ -329,4 +373,5 @@ BOSS_INTROS = {
     "matter_and_energy": "A puddle is slowly disappearing on a warm day. [bold yellow]\"The water is going somewhere. Where? This is the final mystery of the Matter Lab!\"[/bold yellow]",
     "weather_watch": "A strange sky appears — clouds, temperature, possibilities. [bold yellow]\"This is the toughest weather question. Think about what happens to water when it gets very, very cold!\"[/bold yellow]",
     "animal_world": "Two animals stand side by side — one warm-blooded, one cold-blooded. [bold yellow]\"What's really the difference between them? This is the big animal question. You can do it!\"[/bold yellow]",
+    "ecosystems_and_food_chains": "A food web stretches across the whole lab — arrows connecting wolves to deer to grass to soil and back again. [bold yellow]\"This is the biggest question of all: what happens when one piece of the web breaks? Think through the whole chain!\"[/bold yellow]",
 }

@@ -38,6 +38,8 @@ SKILL_PACK = SkillPack(
         "handling_hard_feelings": "feelings_champion",
         "friendship_bridge": "bridge_builder",
         "gratitude_practice": "gratitude_keeper",
+        "respecting_differences": "difference_celebrator",
+        "digital_kindness": "digital_guardian",
     },
     achievements={
         "feeling_finder": ("Feeling Finder", "Named and understood every emotion!"),
@@ -49,6 +51,8 @@ SKILL_PACK = SkillPack(
         "feelings_champion": ("Feelings Champion", "Handled the biggest feelings with courage and kindness!"),
         "bridge_builder": ("Bridge Builder", "Learned the deepest skills of true friendship!"),
         "gratitude_keeper": ("Gratitude Keeper", "Discovered the power of a thankful heart!"),
+        "difference_celebrator": ("Difference Celebrator", "Learned to see every person's uniqueness as a gift!"),
+        "digital_guardian": ("Digital Guardian", "Mastered kindness and safety in the online world!"),
         "no_hints": ("Standing on Your Own", "Completed a zone without any hints!"),
         "speed_reader": ("Quick Thinker", "Answered a question in under 10 seconds!"),
     },
