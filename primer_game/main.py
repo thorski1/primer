@@ -29,6 +29,11 @@ _PACKS_DIR = str(_HERE / "skill-packs")   # primer_game/skill-packs/
 
 _WEB = "--web" in sys.argv
 
+PRIMER_PACKS = [
+    "letters", "numbers", "science", "kindness", "geography",
+    "math_advanced", "history", "art", "coding_basics",
+]
+
 
 def _web(pack_name: str, port: int = 8080):
     """Launch the web interface for *pack_name*."""
@@ -38,8 +43,8 @@ def _web(pack_name: str, port: int = 8080):
 
 def main_primer():
     if _WEB:
-        # Web mode: run the first pack as entry point (math_advanced for demo)
-        _web("math_advanced")
+        from engine.web.hub import serve_hub
+        serve_hub(PRIMER_PACKS, port=8080, packs_dir=_PACKS_DIR)
         return
     check_and_prompt(_PACKAGE)
     run_campaign("young_ladys_primer")
