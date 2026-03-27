@@ -83,6 +83,22 @@ ZONE_INTROS = {
         "bouncing signals around the entire planet in less than a second. "
         "That is the internet — and it runs on code. Let's understand it!'[/bold yellow]"
     ),
+    "artificial_intelligence": (
+        "[bold yellow]◈  THE THINKING MACHINE  ◈[/bold yellow]\n\n"
+        "[bold cyan]Puck holds up a tiny glowing brain.[/bold cyan]\n\n"
+        "[bold yellow]'Have you ever wondered how your tablet knows which song you might like?"
+        " Or how a computer can recognise your face? That's AI — Artificial Intelligence!"
+        " Computers learning from MILLIONS of examples to spot patterns."
+        " Let's find out how — and when to trust it!'[/bold yellow]"
+    ),
+    "algorithms_all_around": (
+        "[bold yellow]◈  THE ALGORITHM ARCADE  ◈[/bold yellow]\n\n"
+        "[bold cyan]Puck stands at a tiny arcade machine full of gears.[/bold cyan]\n\n"
+        "[bold yellow]'Did you know that a recipe is an algorithm?"
+        " Or directions to school? Or the way a GPS finds the fastest route?"
+        " Algorithms are step-by-step instructions for solving problems —"
+        " and they're EVERYWHERE. Let's find them!'[/bold yellow]"
+    ),
 }
 
 ZONE_COMPLETIONS = {
@@ -135,6 +151,20 @@ ZONE_COMPLETIONS = {
         "[bold yellow]'The internet is humanity's greatest invention. "
         "Now you understand how it works — and how to stay safe on it.'[/bold yellow]"
     ),
+    "artificial_intelligence": (
+        "[bold green]ZONE COMPLETE — THE THINKING MACHINE![/bold green]\n\n"
+        "Training data, bias, AI in daily life, what AI can and can't do — you understand it! "
+        "[bold yellow]Puck does a little robot dance.[/bold yellow] "
+        "[bold yellow]'AI is an incredible tool — and now YOU know how to think about it critically. "
+        "That makes you wiser than a lot of grown-ups!'[/bold yellow]"
+    ),
+    "algorithms_all_around": (
+        "[bold green]ZONE COMPLETE — THE ALGORITHM ARCADE![/bold green]\n\n"
+        "Step-by-step instructions, sorting, searching, GPS — algorithms decoded! "
+        "[bold yellow]Puck stamps a tiny gold star on the atlas.[/bold yellow] "
+        "[bold yellow]'You just finished the Code Garden! Every zone, every concept — "
+        "you now think like a computer scientist. That is genuinely amazing!'[/bold yellow]"
+    ),
 }
 
 BOSS_INTROS = {
@@ -186,5 +216,17 @@ BOSS_INTROS = {
         "[bold yellow]'A suspicious email. A website without HTTPS. "
         "A request for your password. "
         "You know how the internet works — now show me you know how to stay SAFE on it!'[/bold yellow]"
+    ),
+    "artificial_intelligence": (
+        "[bold red]BOSS CHALLENGE — THE AI DETECTIVE[/bold red]\n\n"
+        "[bold yellow]'An AI is used to decide who passes an exam by watching their face."
+        " Is that fair? Could it make mistakes? What should a human do?"
+        " You understand AI now — show me you can think about when to trust it!'[/bold yellow]"
+    ),
+    "algorithms_all_around": (
+        "[bold red]BOSS CHALLENGE — DESIGN YOUR ALGORITHM[/bold red]\n\n"
+        "[bold yellow]'You need to find the BIGGEST number in a list of 1,000 numbers."
+        " There are no shortcuts — you must check every single one."
+        " What is your step-by-step plan? Think carefully — this is algorithmic thinking!'[/bold yellow]"
     ),
 }

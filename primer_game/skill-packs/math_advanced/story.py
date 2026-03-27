@@ -192,6 +192,40 @@ with ratios for the most delicious cake imaginable.
 
 [bold white]Into the Fraction Forest! Parts, wholes, and ratios await.[/bold white]
 """,
+    "probability_and_chance": """
+[bold yellow]◈  THE CHANCE CHAMBER  ◈[/bold yellow]
+
+[bold cyan]Puck steps into a room filled with dice, coins, spinners, and colourful bags of balls.[/bold cyan]
+
+[bold yellow]"What if I told you we could MEASURE chance?"[/bold yellow]
+
+A coin flips in the air — heads? tails? A die rolls across the floor.
+A ball gets pulled from a bag without looking.
+
+[bold cyan]Puck catches the coin and holds it up:
+"Every one of these has a probability. A fraction. A number between 0 and 1.
+Zero means impossible. One means certain. And everything in between
+tells you exactly how likely something is."[/bold cyan]
+
+[bold white]Into the Chance Chamber! Dice, coins, and the science of likelihood await![/bold white]
+""",
+    "algebra_intro": """
+[bold yellow]◈  THE VARIABLE VAULT  ◈[/bold yellow]
+
+[bold cyan]Puck opens a heavy vault door. Inside, symbols float in the air — x, y, n, a.[/bold cyan]
+
+[bold yellow]"These aren't just letters. They're mystery numbers waiting to be solved."[/bold yellow]
+
+An equation appears on the vault wall: x + 5 = 12.
+The x glows softly, asking to be found.
+
+[bold cyan]Puck pulls out a tiny balance scale:
+"Think of every equation as a balance. Both sides are always equal.
+Whatever you do to one side, you do to the other.
+That's the whole secret of algebra — and it's simpler than it looks."[/bold cyan]
+
+[bold white]Into the Variable Vault! Unknowns, equations, and the art of solving await![/bold white]
+""",
 }
 
 ZONE_COMPLETIONS = {
@@ -276,12 +310,32 @@ Every tree divided perfectly. Equivalents matched.
 Numerators added. Denominators held steady.
 Ratios scaled without losing their balance.
 
+[bold cyan]"Two more rooms remain,"[/bold cyan] Puck says.
+[bold cyan]"Chance. And the unknown. Let's go."[/bold cyan]
+""",
+    "probability_and_chance": """
+[bold green]The Chance Chamber is solved![/bold green]
+
+Impossible and certain. Fractions as probability.
+Equally likely outcomes. The complement rule.
+
+[bold cyan]Puck holds up a die and a coin:[/bold cyan]
+[bold cyan]"You can measure chance now. That's a superpower."[/bold cyan]
+
+The Variable Vault glows in the distance...
+""",
+    "algebra_intro": """
+[bold green]The Variable Vault is cracked![/bold green]
+
+Variables. Equations. Balance scales. Two-step solutions.
+
 [bold cyan]"You've done it,"[/bold cyan] Puck says, wings spread wide.
 [bold cyan]"The Math Academy: multiplication, division, word problems,
-geometry, decimals, negatives, time, patterns — and now fractions.
-You've revealed numbers' deepest secrets."[/bold cyan]
+geometry, decimals, negatives, time, patterns, fractions,
+probability — and now algebra.
+You understand numbers in every form they take."[/bold cyan]
 
-[bold white]The Math Academy is conquered. Numbers hold no more mysteries.[/bold white]
+[bold white]The Math Academy is fully conquered. Numbers hold no more mysteries.[/bold white]
 """,
 }
 
@@ -293,6 +347,8 @@ BOSS_INTROS = {
     "decimals_percents": "A price tag flutters down from the ceiling: $20, with 25% OFF. [bold yellow]\"If the toy is twenty-five percent off, what do you actually pay? Work it out!\"[/bold yellow]",
     "negative_numbers": "The thermometer on the wall reads -4°C and the temperature is rising. [bold yellow]\"Nine degrees warmer than minus four — what temperature is that? Cross zero carefully!\"[/bold yellow]",
     "fractions_and_ratios": "A pizza sits on the counter, cut into 8 equal slices. Puck grins. [bold yellow]\"You have 3/8. Your friend gives you 2/8 more. You eat 1/8. How much is left? And what does it simplify to?\"[/bold yellow]",
+    "probability_and_chance": "Puck holds up a bag with balls in three colours. [bold yellow]\"2 red, 3 blue, 5 green. What is the probability of picking one that is NOT red? Use the complement method if you know it!\"[/bold yellow]",
+    "algebra_intro": "A glowing equation appears: 2x + 4 = 14. [bold yellow]\"Two steps. Subtract first, then divide. Show me x — and don't forget to CHECK your answer!\"[/bold yellow]",
 }
 
 ACHIEVEMENT_DESCRIPTIONS = {
