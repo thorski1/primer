@@ -23,53 +23,93 @@ from engine.main import run, run_campaign          # noqa: E402
 from engine.updater import check_and_prompt        # noqa: E402
 
 _PACKAGE = "primer-quest"
+_PACKS_DIR = str(_HERE / "primer_game" / "skill-packs")
+
+_WEB = "--web" in sys.argv
+
+
+def _web(pack_name: str, port: int = 8080):
+    """Launch the web interface for *pack_name*."""
+    from engine.web.server import serve
+    serve(pack_name, port=port, packs_dir=_PACKS_DIR)
 
 
 def main_primer():
+    if _WEB:
+        # Web mode: run the first pack as entry point (math_advanced for demo)
+        _web("math_advanced")
+        return
     check_and_prompt(_PACKAGE)
     run_campaign("young_ladys_primer")
 
 
 def main_letters():
+    if _WEB:
+        _web("letters")
+        return
     check_and_prompt(_PACKAGE)
     run("letters")
 
 
 def main_numbers():
+    if _WEB:
+        _web("numbers")
+        return
     check_and_prompt(_PACKAGE)
     run("numbers")
 
 
 def main_science():
+    if _WEB:
+        _web("science")
+        return
     check_and_prompt(_PACKAGE)
     run("science")
 
 
 def main_kindness():
+    if _WEB:
+        _web("kindness")
+        return
     check_and_prompt(_PACKAGE)
     run("kindness")
 
 
 def main_geography():
+    if _WEB:
+        _web("geography")
+        return
     check_and_prompt(_PACKAGE)
     run("geography")
 
 
 def main_math_advanced():
+    if _WEB:
+        _web("math_advanced")
+        return
     check_and_prompt(_PACKAGE)
     run("math_advanced")
 
 
 def main_history():
+    if _WEB:
+        _web("history")
+        return
     check_and_prompt(_PACKAGE)
     run("history")
 
 
 def main_art():
+    if _WEB:
+        _web("art")
+        return
     check_and_prompt(_PACKAGE)
     run("art")
 
 
 def main_coding_basics():
+    if _WEB:
+        _web("coding_basics")
+        return
     check_and_prompt(_PACKAGE)
     run("coding_basics")
