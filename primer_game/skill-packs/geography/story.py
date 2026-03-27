@@ -169,6 +169,35 @@ tell jokes, sing songs, and watch the same sun set."[/bold cyan]
 
 [bold white]The atlas glows its warmest yet. Let's meet the people of Earth.[/bold white]
 """,
+    "rivers_and_lakes": """
+Puck traced a glowing blue line across the atlas with one wing.
+
+[bold cyan]"Rivers,"[/bold cyan] Puck said, [bold cyan]"are the veins of the world.
+They carry fresh water from the mountains to the sea,
+feeding every plant and animal and city along the way."[/bold cyan]
+
+The Nile glowed in Africa. The Amazon shimmered in South America.
+Lake Baikal sparkled deep in Russia.
+
+[bold cyan]"Every great civilisation in history was born beside a river.
+Let's discover the world's greatest rivers and lakes!"[/bold cyan]
+
+[bold white]Where will the water take us?[/bold white]
+""",
+    "animals_and_habitats": """
+Puck opened the very last section of the atlas — and it was alive.
+
+Tiny animals moved across every page: a polar bear in the white north,
+a toucan in the green south, a camel crossing gold sand, a whale
+diving through dark blue deep.
+
+[bold cyan]"A habitat,"[/bold cyan] Puck said warmly, [bold cyan]"is home.
+Every animal on Earth has a habitat — the place where it finds
+everything it needs: food, water, shelter, and the right temperature.
+And each one has its own amazing adaptations."[/bold cyan]
+
+[bold white]Let's explore where animals live all over the world![/bold white]
+""",
 }
 
 ZONE_COMPLETIONS = {
@@ -281,12 +310,36 @@ Languages, populations, festivals, traditions — the people
 of Earth explored from Carnival in Brazil to origami in Japan,
 from Mandarin speakers to the 840 languages of Papua New Guinea.
 
-[bold cyan]"You've done it."[/bold cyan] Puck's wings spread wide.
-[bold cyan]"Continents to oceans, capitals to landforms, wonders to weather,
-flags to the faces of Earth. The whole world, page by page.
-It's all yours."[/bold cyan]
+[bold cyan]"You've learned so much,"[/bold cyan] Puck says.
+[bold cyan]"But the atlas still has two more pages — the waters that flow
+through the land, and the wild creatures that call it home."[/bold cyan]
 
-[bold white]World Explorer. Map Master. Culture Bridge. That's you.[/bold white]
+A ribbon of blue light flows across the map. The rivers are calling...
+""",
+    "rivers_and_lakes": """
+[bold green]The rivers glow — great blue ribbons across the world![/bold green]
+
+The Nile winding north to the sea. The Amazon rushing east
+through green shadow. Lake Baikal shining deep in Russia's heart.
+
+[bold cyan]"Rivers,"[/bold cyan] Puck says softly, [bold cyan]"are the veins of the world.
+Every great civilisation was born beside one.
+Now you know the greatest of them all."[/bold cyan]
+
+The atlas rustles to its final page — the animals are waiting...
+""",
+    "animals_and_habitats": """
+[bold green]The whole world glows — and every corner is full of life![/bold green]
+
+Arctic bears and desert camels, rainforest toucans and ocean whales,
+migrating terns crossing the sky from pole to pole.
+
+[bold cyan]"You've done it."[/bold cyan] Puck's wings spread wide.
+[bold cyan]"Continents, oceans, capitals, maps, landforms, wonders,
+weather, flags, peoples, rivers, animals —
+the whole world, page by page. It's all yours."[/bold cyan]
+
+[bold white]World Explorer. Map Master. Habitat Guide. That's you.[/bold white]
 """,
 }
 
@@ -300,6 +353,8 @@ BOSS_INTROS = {
     "weather_and_climate": "The climate map shows four great coloured bands across the globe. [bold yellow]\"One zone has four proper seasons — warm summers, cold winters, everything in between. It covers most of Europe and North America. Which climate zone is it?\"[/bold yellow]",
     "flags_and_symbols": "A soaring bird of prey glides across the atlas page. [bold yellow]\"One great nation chose this bird as its national symbol — a bird found only in North America, meaning freedom and strength. Which country, and which bird?\"[/bold yellow]",
     "peoples_and_cultures": "Puck holds up a tiny globe with thousands of tiny dots of light — each one a different language. [bold yellow]\"One small country near Australia has over 840 different languages. Can you name it? The most linguistically rich place on Earth!\"[/bold yellow]",
+    "rivers_and_lakes": "Puck points to the deepest spot on the map of Russia — a shimmering dark blue. [bold yellow]\"This lake is the deepest in the world — deeper than five Empire State Buildings! It holds 20% of all the fresh water on Earth. Which lake is it?\"[/bold yellow]",
+    "animals_and_habitats": "A tiny bird appears on the atlas page, drawing a line from the very top of the world all the way to the very bottom. [bold yellow]\"This small seabird makes the longest journey of any animal on Earth — 70,000 kilometres every year! What is it called?\"[/bold yellow]",
 }
 
 ACHIEVEMENT_DESCRIPTIONS = {

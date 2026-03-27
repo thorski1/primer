@@ -39,6 +39,8 @@ SKILL_PACK = SkillPack(
         "weather_and_climate": "climate_watcher",
         "flags_and_symbols": "flag_reader",
         "peoples_and_cultures": "culture_bridge",
+        "rivers_and_lakes": "river_keeper",
+        "animals_and_habitats": "habitat_explorer",
     },
     achievements={
         "continent_keeper":  ("Continent Keeper", "Named and located all seven continents!"),
@@ -50,6 +52,8 @@ SKILL_PACK = SkillPack(
         "climate_watcher":   ("Climate Watcher", "Explored climate zones, seasons, and the great monsoon rains!"),
         "flag_reader":       ("Flag Reader", "Recognised flags and national symbols from around the world!"),
         "culture_bridge":    ("Culture Bridge", "Explored languages, populations, and cultures across every continent!"),
+        "river_keeper":      ("River Keeper", "Explored the world's greatest rivers and lakes!"),
+        "habitat_explorer":  ("Habitat Explorer", "Discovered where animals live all around the world!"),
         "no_hints":          ("Standing on Your Own", "Completed a zone without any hints!"),
         "speed_reader":      ("Quick Thinker", "Answered a question in under 10 seconds!"),
     },
