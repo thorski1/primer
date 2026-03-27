@@ -15,15 +15,17 @@ if hasattr(sys.stdout, "reconfigure"):
 if hasattr(sys.stderr, "reconfigure"):
     sys.stderr.reconfigure(encoding="utf-8", errors="replace")
 
-_HERE = Path(__file__).parent.parent
-os.environ.setdefault("QUEST_SKILL_PACKS_DIR", str(_HERE / "primer_game" / "skill-packs"))
-os.environ.setdefault("QUEST_CAMPAIGNS_DIR", str(_HERE / "primer_game" / "campaigns"))
+# _HERE is the primer_game/ package directory — works both in development
+# (repo/primer_game/) and when installed via uv/pip (site-packages/primer_game/).
+_HERE = Path(__file__).parent
+os.environ.setdefault("QUEST_SKILL_PACKS_DIR", str(_HERE / "skill-packs"))
+os.environ.setdefault("QUEST_CAMPAIGNS_DIR", str(_HERE / "campaigns"))
 
 from engine.main import run, run_campaign          # noqa: E402
 from engine.updater import check_and_prompt        # noqa: E402
 
 _PACKAGE = "primer-quest"
-_PACKS_DIR = str(_HERE / "primer_game" / "skill-packs")
+_PACKS_DIR = str(_HERE / "skill-packs")   # primer_game/skill-packs/
 
 _WEB = "--web" in sys.argv
 
