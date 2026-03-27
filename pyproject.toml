@@ -4,8 +4,8 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "primer-quest"
-version = "1.9.1"
-description = "A terminal adventure for young learners — phonics, math, science, kindness, geography, history, art, and coding."
+version = "1.10.0"
+description = "A terminal adventure for young learners — phonics, math, science, kindness, geography, history, art, coding, and space."
 readme = "README.md"
 requires-python = ">=3.10"
 license = { text = "MIT" }
@@ -52,6 +52,7 @@ math-advanced-quest  = "primer_game.main:main_math_advanced"
 history-quest        = "primer_game.main:main_history"
 art-quest            = "primer_game.main:main_art"
 coding-basics-quest  = "primer_game.main:main_coding_basics"
+space-quest          = "primer_game.main:main_space"
 
 [tool.setuptools.packages.find]
 where   = ["."]

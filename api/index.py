@@ -1,5 +1,5 @@
 """
-Vercel entrypoint for The Young Lady's Illustrated Primer — serves all 9 chapters via the hub.
+Vercel entrypoint for The Young Lady's Illustrated Primer — serves all 10 chapters via the hub.
 
 Vercel routes all HTTP traffic here via vercel.json.
 
@@ -7,7 +7,7 @@ Vercel routes all HTTP traffic here via vercel.json.
     /letters/       → The Letter Garden
     /numbers/       → The Counting Kingdom
     /science/       → The World of Wondering
-    ... and so on for all 9 chapters.
+    ... and so on for all 10 chapters.
 
 To serve only a single chapter, set QUEST_PACK in Vercel's Environment
 Variables dashboard (e.g. QUEST_PACK=letters). Leave unset for the full hub.
@@ -30,7 +30,7 @@ from engine.skill_pack import load_skill_pack  # noqa: E402
 
 _PRIMER_PACKS = [
     "letters", "numbers", "science", "kindness", "geography",
-    "math_advanced", "history", "art", "coding_basics",
+    "math_advanced", "history", "art", "coding_basics", "space",
 ]
 
 _single_pack = os.environ.get("QUEST_PACK", "")
@@ -41,7 +41,7 @@ if _single_pack:
     _skill_pack = load_skill_pack(_single_pack, packs_dir=_PACKS_DIR)
     app = create_app(_skill_pack)
 else:
-    # Hub mode (default): serve all 9 chapters.
+    # Hub mode (default): serve all 10 chapters.
     from engine.web.hub import create_hub_app  # noqa: E402
     _packs = [load_skill_pack(p, packs_dir=_PACKS_DIR) for p in _PRIMER_PACKS]
     app = create_hub_app(_packs)
