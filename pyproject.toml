@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "primer-quest"
-version = "1.16.0"
+version = "1.17.0"
 description = "A terminal adventure for young learners — phonics, math, science, kindness, geography, history, art, coding, and space."
 readme = "README.md"
 requires-python = ">=3.10"
@@ -59,6 +59,7 @@ words-quest          = "primer_game.main:main_words"
 cooking-quest        = "primer_game.main:main_cooking"
 body-quest           = "primer_game.main:main_body"
 money-quest          = "primer_game.main:main_money"
+environment-quest    = "primer_game.main:main_environment"
 
 [tool.setuptools.packages.find]
 where   = ["."]
