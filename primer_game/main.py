@@ -32,7 +32,7 @@ _WEB = "--web" in sys.argv
 PRIMER_PACKS = [
     "letters", "numbers", "science", "kindness", "geography",
     "math_advanced", "history", "art", "coding_basics", "space",
-    "music", "animals", "words", "cooking", "body", "money", "environment",
+    "music", "animals", "words", "cooking", "body", "money", "environment", "thinking",
 ]
 
 
@@ -185,3 +185,11 @@ def main_environment():
         return
     check_and_prompt(_PACKAGE)
     run("environment")
+
+
+def main_thinking():
+    if _WEB:
+        _web("thinking")
+        return
+    check_and_prompt(_PACKAGE)
+    run("thinking")
