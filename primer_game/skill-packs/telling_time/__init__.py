@@ -17,10 +17,10 @@ BANNER_ASCII = r"""
 """
 
 SKILL_PACK = SkillPack(
-    id="time",
+    id="telling_time",
     title="The Clock Tower",
     subtitle="◈  With Puck's Help, Time Makes Sense  ◈",
-    save_file_name="time_quest",
+    save_file_name="telling_time_quest",
     intro_story=INTRO_STORY,
     quit_message="The Clock Tower falls quiet. Your place is saved — time will wait for you!",
     name_prompt="[bold cyan]What's your name?[/bold cyan]",

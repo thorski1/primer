@@ -61,7 +61,7 @@ body-quest           = "primer_game.main:main_body"
 money-quest          = "primer_game.main:main_money"
 environment-quest    = "primer_game.main:main_environment"
 thinking-quest       = "primer_game.main:main_thinking"
-time-quest           = "primer_game.main:main_time"
+telling-time-quest   = "primer_game.main:main_telling_time"
 inventions-quest     = "primer_game.main:main_inventions"
 oceans-quest          = "primer_game.main:main_oceans"
 
