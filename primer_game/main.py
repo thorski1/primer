@@ -32,7 +32,7 @@ _WEB = "--web" in sys.argv
 PRIMER_PACKS = [
     "letters", "numbers", "science", "kindness", "geography",
     "math_advanced", "history", "art", "coding_basics", "space",
-    "music", "animals", "words", "cooking", "body", "money", "environment", "thinking", "telling_time", "inventions", "oceans",
+    "music", "animals", "words", "cooking", "body", "money", "environment", "thinking", "telling_time", "inventions", "oceans", "civics",
 ]
 
 
@@ -217,3 +217,11 @@ def main_oceans():
         return
     check_and_prompt(_PACKAGE)
     run("oceans")
+
+
+def main_civics():
+    if _WEB:
+        _web("civics")
+        return
+    check_and_prompt(_PACKAGE)
+    run("civics")
