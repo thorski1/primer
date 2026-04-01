@@ -32,7 +32,7 @@ _WEB = "--web" in sys.argv
 PRIMER_PACKS = [
     "letters", "numbers", "science", "kindness", "geography",
     "math_advanced", "history", "art", "coding_basics", "space",
-    "music", "animals", "words", "cooking", "body", "money", "environment", "thinking", "telling_time", "inventions", "oceans", "civics", "emotions", "measurement", "safety", "dinosaurs", "weather", "maps", "famous_people",
+    "music", "animals", "words", "cooking", "body", "money", "environment", "thinking", "telling_time", "inventions", "oceans", "civics", "emotions", "measurement", "safety", "dinosaurs", "weather", "maps", "famous_people", "religions",
 ]
 
 
@@ -281,3 +281,11 @@ def main_famous_people():
         return
     check_and_prompt(_PACKAGE)
     run("famous_people")
+
+
+def main_religions():
+    if _WEB:
+        _web("religions")
+        return
+    check_and_prompt(_PACKAGE)
+    run("religions")
