@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "primer-quest"
-version = "1.30.0"
+version = "1.31.0"
 description = "A terminal adventure for young learners — phonics, math, science, kindness, geography, history, art, coding, and space."
 readme = "README.md"
 requires-python = ">=3.10"
@@ -73,6 +73,7 @@ weather-quest         = "primer_game.main:main_weather"
 maps-quest            = "primer_game.main:main_maps"
 famous-people-quest   = "primer_game.main:main_famous_people"
 religions-quest       = "primer_game.main:main_religions"
+planets-quest         = "primer_game.main:main_planets"
 
 [tool.setuptools.packages.find]
 where   = ["."]
