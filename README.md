@@ -23,11 +23,11 @@ The cover is midnight blue, with tiny gold stars that sparkle when you tilt it. 
 
 **"Hello,"** it says. **"My name is Puck. And this book — *this* book — is for you."**
 
-A terminal and web adventure for young learners. Sixteen chapters. One companion. A whole world to explore.
+A terminal and web adventure for young learners. Thirty-five chapters. One companion. A whole world to explore.
 
-**16 chapters. 893 challenges. Ages 5-12. Guided by Puck.**
+**35 chapters. 1,664 challenges. Ages 5-12. Guided by Puck.**
 
-`v1.16.0` · Python 3.10+ · MIT License
+`v1.35.0` · Python 3.10+ · MIT License
 
 ---
 
@@ -51,6 +51,25 @@ A terminal and web adventure for young learners. Sixteen chapters. One companion
 | 14 | `cooking-quest` | **The Kitchen Adventure** | Food groups, vitamins, labels, kitchen safety, world foods | 7-10 |
 | 15 | `body-quest` | **The Body Explorer** | Bones, muscles, heart, lungs, brain, digestion, exercise | 7-10 |
 | 16 | `money-quest` | **The Treasure Chest** | Story of money, earning, saving, spending, banks, entrepreneurship | 7-10 |
+| 17 | `environment-quest` | **The Green Guardian** | Ecosystems, recycling, climate, conservation, renewable energy | 7-10 |
+| 18 | `thinking-quest` | **The Thinking Cap** | Critical thinking, problem solving, creative reasoning | 7-10 |
+| 19 | `telling-time-quest` | **The Clock Tower** | Analog clocks, digital time, calendars, time zones | 6-9 |
+| 20 | `inventions-quest` | **The Inventor's Lab** | Great inventions, inventors, how things work | 8-11 |
+| 21 | `oceans-quest` | **The Deep Blue** | Ocean zones, marine life, coral reefs, ocean conservation | 7-10 |
+| 22 | `civics-quest` | **The Town Hall** | Government, voting, laws, community, rights & responsibilities | 8-11 |
+| 23 | `emotions-quest` | **The Feeling Factory** | Emotions, empathy, coping strategies, self-awareness | 6-10 |
+| 24 | `measurement-quest` | **The Measuring Room** | Length, weight, volume, temperature, metric vs imperial | 7-10 |
+| 25 | `safety-quest` | **The Safety Patrol** | Fire safety, road safety, internet safety, first aid | 6-10 |
+| 26 | `dinosaurs-quest` | **The Fossil Dig** | Dinosaur types, fossils, extinction, paleontology | 6-10 |
+| 27 | `weather-quest` | **The Weather Station** | Cloud types, storms, seasons, water cycle, climate | 7-10 |
+| 28 | `maps-quest` | **The Map Room** | Map reading, compass, scale, latitude/longitude | 7-10 |
+| 29 | `famous-people-quest` | **The Hall of Heroes** | Historical figures, scientists, leaders, artists | 8-11 |
+| 30 | `religions-quest` | **The Book of Many Voices** | World religions, traditions, celebrations, values | 8-12 |
+| 31 | `planets-quest` | **The Solar System Deep Dive** | Planets, moons, asteroids, space missions | 7-10 |
+| 32 | `logic-quest` | **The Puzzle Palace** | Patterns, sequences, logic puzzles, brain teasers | 7-12 |
+| 33 | `shapes-quest` | **The Shape Shifter's Garden** | 2D/3D shapes, colors, symmetry, geometry in nature | 5-9 |
+| 34 | `sports-quest` | **The Arena of Champions** | Ball sports, Olympics, fitness, track & field | 7-10 |
+| 35 | `simple-machines-quest` | **The Inventor's Workshop** | Levers, pulleys, wheels, inclined planes | 7-10 |
 
 Every challenge is multiple-choice or fill-in-the-blank, designed for short focused sessions. Progress saves automatically.
 
