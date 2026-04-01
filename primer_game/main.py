@@ -33,6 +33,7 @@ PRIMER_PACKS = [
     "letters", "numbers", "science", "kindness", "geography",
     "math_advanced", "history", "art", "coding_basics", "space",
     "music", "animals", "words", "cooking", "body", "money", "environment", "thinking", "telling_time", "inventions", "oceans", "civics", "emotions", "measurement", "safety", "dinosaurs", "weather", "maps", "famous_people", "religions", "planets",
+    "logic", "shapes", "sports", "simple_machines",
 ]
 
 
@@ -297,3 +298,35 @@ def main_planets():
         return
     check_and_prompt(_PACKAGE)
     run("planets")
+
+
+def main_logic():
+    if _WEB:
+        _web("logic")
+        return
+    check_and_prompt(_PACKAGE)
+    run("logic")
+
+
+def main_shapes():
+    if _WEB:
+        _web("shapes")
+        return
+    check_and_prompt(_PACKAGE)
+    run("shapes")
+
+
+def main_sports():
+    if _WEB:
+        _web("sports")
+        return
+    check_and_prompt(_PACKAGE)
+    run("sports")
+
+
+def main_simple_machines():
+    if _WEB:
+        _web("simple_machines")
+        return
+    check_and_prompt(_PACKAGE)
+    run("simple_machines")
