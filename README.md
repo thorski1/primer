@@ -25,9 +25,9 @@ The cover is midnight blue, with tiny gold stars that sparkle when you tilt it. 
 
 A terminal and web adventure for young learners. Thirty-five chapters. One companion. A whole world to explore.
 
-**35 chapters. 1,664 challenges. Ages 5-12. Guided by Puck.**
+**40 chapters. 1,864 challenges. Ages 5-12. Guided by Puck.**
 
-`v1.35.0` · Python 3.10+ · MIT License
+`v1.40.0` · Python 3.10+ · MIT License
 
 ---
 
