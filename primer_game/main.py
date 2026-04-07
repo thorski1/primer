@@ -33,7 +33,7 @@ PRIMER_PACKS = [
     "letters", "numbers", "science", "kindness", "geography",
     "math_advanced", "history", "art", "coding_basics", "space",
     "music", "animals", "words", "cooking", "body", "money", "environment", "thinking", "telling_time", "inventions", "oceans", "civics", "emotions", "measurement", "safety", "dinosaurs", "weather", "maps", "famous_people", "religions", "planets",
-    "logic", "shapes", "sports", "simple_machines", "reading", "writing", "cultures", "health", "basic_math", "electricity", "plants", "insects", "astronomy", "robotics", "countries", "brain", "python_kids", "ocean_explore", "earth_science", "music_adv",
+    "logic", "shapes", "sports", "simple_machines", "reading", "writing", "cultures", "health", "basic_math", "electricity", "plants", "insects", "astronomy", "robotics", "countries", "brain", "python_kids", "ocean_explore", "earth_science", "music_adv", "mythology",
 ]
 
 
